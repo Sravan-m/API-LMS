@@ -1,0 +1,46 @@
+[{
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Pointers and Addresses",
+      "text": "Read the Chapter - 5 from the textbook The C Programming Language - Second Edition (Page Number: 93 - 95)"
+    }],
+    "activity_name": "Pointers and Addresses",
+    "module_id": 7
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate" : false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "What is the unary operator that gives the address of the variable?"
+            },
+            {
+              "correct": true,
+              "option": "A program that acts an intermediary between the user of a computer and the computer hardware."
+            },
+            {
+              "correct": false,
+              "option": "It’s a hardware that is an interface between the user and computer software."
+            },
+            {
+              "correct": false,
+              "option": "A program that acts an intermediary between the user of a computer and the computer applications."
+            }
+          ],
+          "questionText": [{
+            "text": "What is the unary operator that gives the address of the variable?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Pointers and Addresses"
+    }],
+    "activity_name": "Quiz on Pointers and Addresses",
+    "module_id": 7
+  }
+ ]

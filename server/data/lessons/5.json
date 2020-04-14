@@ -1,0 +1,1814 @@
+[{
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Statements and Blocks, if-else, else-if and Switch",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 55 - 60)"
+    }],
+    "activity_name": "Statements and Blocks, if-else, else-if and Switch",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": ": (colon)"
+            },
+            {
+              "correct": false,
+              "option": "No character is required."
+            },
+            {
+              "correct": true,
+              "option": "; (Semicolon)"
+            },
+            {
+              "correct": false,
+              "option": "//"
+            }
+          ],
+          "questionText": [{
+            "text": "In C, which of the following is the statement terminator."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "{ }"
+            },
+            {
+              "correct": false,
+              "option": "( )"
+            },
+            {
+              "correct": false,
+              "option": "; START and END"
+            },
+            {
+              "correct": false,
+              "option": "Alignment just like in python"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are used for grouping declarations and statements together into a compound statement."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "When the expression in the if is evaluated to true"
+            },
+            {
+              "correct": true,
+              "option": "When the expression in the if is evaluated to false"
+            },
+            {
+              "correct": false,
+              "option": "Irrespective of whether the expression is evaluated to true or false, the statement2 gets executed."
+            },
+            {
+              "correct": false,
+              "option": "Executing statement1 followed by statement2"
+            }
+          ],
+          "questionText": [{
+              "text": "In the below if-else syntax when will the else block (statement2) gets executed."
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-33.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "return"
+            },
+            {
+              "correct": false,
+              "option": "exit"
+            },
+            {
+              "correct": false,
+              "option": "Terminate"
+            },
+            {
+              "correct": true,
+              "option": "break"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is generally used to come out of the switch statement after executing a particular case block."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Prints the value 11."
+            },
+            {
+              "correct": false,
+              "option": "Prints the value 10 from if block."
+            },
+            {
+              "correct": false,
+              "option": "Prints the value 10 from else block."
+            },
+            {
+              "correct": true,
+              "option": "Compiler throws an error message to the user."
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-34.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Integer valued constants"
+            },
+            {
+              "correct": true,
+              "option": "Constant expressions"
+            },
+            {
+              "correct": false,
+              "option": "Floating valued constants"
+            },
+            {
+              "correct": false,
+              "option": "Labels are optional"
+            }
+          ],
+          "questionText": [{
+            "text": "Each case is labelled in switch by"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Zero"
+            },
+            {
+              "correct": false,
+              "option": "One"
+            },
+            {
+              "correct": false,
+              "option": "Zero Default"
+            },
+            {
+              "correct": true,
+              "option": "Default"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-35.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "One"
+            },
+            {
+              "correct": false,
+              "option": "Three"
+            },
+            {
+              "correct": true,
+              "option": "Default"
+            },
+            {
+              "correct": false,
+              "option": "Compiler Error"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-14.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-14.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Statements and Blocks, if-else, else-if and Switch"
+    }],
+    "activity_name": "Quiz on Statements and Blocks, if-else, else-if and Switch",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Loops while and for and do - while",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 60 - 64)"
+    }],
+    "activity_name": "Loops while and for and do - while",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Prints the values to the screen from 0 to 19 on the screen"
+            },
+            {
+              "correct": true,
+              "option": "Prints 20 after the loop is executed."
+            },
+            {
+              "correct": false,
+              "option": "Compiler throws an error message to the user."
+            },
+            {
+              "correct": false,
+              "option": "Prints 19 after the loop is execute."
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-15.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-15.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The loop keeps running for long time."
+            },
+            {
+              "correct": false,
+              "option": "The loop will terminate after definite number of times."
+            },
+            {
+              "correct": false,
+              "option": "The compiler will throw an error message to the user about the syntax of the for loop"
+            },
+            {
+              "correct": false,
+              "option": "It executes the for loop once and terminates."
+            }
+          ],
+          "questionText": [{
+            "text": "There are three expressions with the for loop and expr1 specifies the initialization, expr2 specifies the conditional or relational expression and expr3 specifies the increment or decrement expressions. If the expr2 is not specified, how many times the for loop gets executed. (Let's assume there are no break and return statements in the loop)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The loop will continue its execution if the characters that are read are space, new line character and tab."
+            },
+            {
+              "correct": false,
+              "option": "It runs in an infinite loop"
+            },
+            {
+              "correct": false,
+              "option": "The compiler throws an error message."
+            },
+            {
+              "correct": true,
+              "option": "The loop will terminate only if the character that is read is not a whitespace character."
+            }
+          ],
+          "questionText": [{
+            "text": "What does the following statement does?<br>while ((c. getchar()) == \" \" || c == '\n' || c == '\t');"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "It simply reverses the characters in the variable s which is a string."
+            },
+            {
+              "correct": false,
+              "option": "The Compiler throws an error message"
+            },
+            {
+              "correct": false,
+              "option": "It takes the character from the s and converts that to int and keeps back into the character array."
+            },
+            {
+              "correct": true,
+              "option": "It swaps the first with last, second with last but one and continues till all the characters are swapped."
+            }
+          ],
+          "questionText": [{
+              "text": "What does the following code snippets does?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-16.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-16.png"
+              }
+            },
+            {
+              "text": "Note: strlen is a function defined in string.h to find the length of the string<br>Note: fun is a function that takes a character array (String)<br>Note: The function fun is not returning any thing. It's a void function."
+            }
+          ],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The statement block will executes at least once and then iterate based on the condition."
+            },
+            {
+              "correct": false,
+              "option": "First it checks for the condition and then it start iterating the loop."
+            },
+            {
+              "correct": false,
+              "option": "do-while is very similar to while."
+            },
+            {
+              "correct": true,
+              "option": "The loop will terminate with a semicolon (;)"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following statements are true about do-while"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "10, 8, 6, 4, 2"
+            },
+            {
+              "correct": false,
+              "option": "10, 8, 6, 4, 2, 0"
+            },
+            {
+              "correct": true,
+              "option": "Infinite Loop"
+            },
+            {
+              "correct": false,
+              "option": "Compiler error"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-17.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-17.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Runtime error"
+            },
+            {
+              "correct": false,
+              "option": "Compiler error"
+            },
+            {
+              "correct": false,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "1"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-18.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-18.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "In while loop<br>After while loop"
+            },
+            {
+              "correct": false,
+              "option": "Compiler error"
+            },
+            {
+              "correct": false,
+              "option": "After loop"
+            },
+            {
+              "correct": false,
+              "option": "Infinite loop"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-19.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-19.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "100"
+            },
+            {
+              "correct": true,
+              "option": "101"
+            },
+            {
+              "correct": false,
+              "option": "99"
+            },
+            {
+              "correct": false,
+              "option": "98"
+            }
+          ],
+          "questionText": [{
+              "text": "How many times does the condition n < 100 executes?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-20.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-20.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Loops while and for and do - while"
+    }],
+    "activity_name": "Quiz on Loops while and for and do - while",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Break, Continue and Goto Labels",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number:64 - 66)"
+    }],
+    "activity_name": "Break, Continue and Goto Labels",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Returns the number of whitespace characters at the beginning of the string."
+            },
+            {
+              "correct": true,
+              "option": "Returns the index of the first character (which is not a whitespace character) that is appeared in the string. If not returns the length of the string."
+            },
+            {
+              "correct": false,
+              "option": "Compiler Error"
+            },
+            {
+              "correct": false,
+              "option": "Returns the number of whitespace characters at the end of the string."
+            }
+          ],
+          "questionText": [{
+              "text": "What does the following function do?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-21.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-21.png"
+              }
+            }
+          ],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Finding the sum of all the positive integers in the array."
+            },
+            {
+              "correct": false,
+              "option": "Finding the count of negative values in the array."
+            },
+            {
+              "correct": false,
+              "option": "Finding the sum of all the values in the array."
+            },
+            {
+              "correct": false,
+              "option": "Compiler error."
+            }
+          ],
+          "questionText": [{
+              "text": "What does the following function do?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-22.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-22.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }, {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Break cannot be used in do-while loop"
+            },
+            {
+              "correct": true,
+              "option": "Break is optional with default case in switch"
+            },
+            {
+              "correct": true,
+              "option": "Break can be used in for and while"
+            },
+            {
+              "correct": false,
+              "option": "Break can be used as alternative to the goto statement."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is true for break statement."
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "return"
+            },
+            {
+              "correct": false,
+              "option": "continue"
+            },
+            {
+              "correct": true,
+              "option": "break"
+            },
+            {
+              "correct": false,
+              "option": "label"
+            }
+          ],
+          "questionText": [{
+            "text": "Which keyword is used to come out of a loop only for that iteration?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Break, Continue and Goto Labels"
+    }],
+    "activity_name": "Quiz on Break, Continue and Goto Labels",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Basics of functions",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 67 - 71)"
+    }],
+    "activity_name": "Basics of functions",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "int"
+            },
+            {
+              "correct": false,
+              "option": "float"
+            },
+            {
+              "correct": false,
+              "option": "double"
+            },
+            {
+              "correct": false,
+              "option": "Char"
+            }
+          ],
+          "questionText": [{
+            "text": "What is the default return type if it is not specified as part of the function definition and declaration."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "a, d is valid"
+            },
+            {
+              "correct": true,
+              "option": "a, b are valid."
+            },
+            {
+              "correct": false,
+              "option": "a, b, d are valid."
+            },
+            {
+              "correct": false,
+              "option": "c, d are valid"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following function declarations are valid?<br>a. int fun(int, float);<br>b. char fun(char s[]);<br>c. char 1_fun(char ch);<br>d. double !fun();"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "return"
+            },
+            {
+              "correct": false,
+              "option": "break"
+            },
+            {
+              "correct": false,
+              "option": "continue"
+            },
+            {
+              "correct": false,
+              "option": "Goto"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is used to give back the value from a function to the calling function."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "fun2()"
+            },
+            {
+              "correct": false,
+              "option": "fun1()"
+            },
+            {
+              "correct": true,
+              "option": "main()"
+            },
+            {
+              "correct": false,
+              "option": "fun3()"
+            }
+          ],
+          "questionText": [{
+              "text": "Based on the following code snippet, to which function it returns to, after executing the fun1() function from main()."
+            },
+            {
+              "image": {
+                "imagename": "ICS-23.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-23.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "10 : 20 10 : 20"
+            },
+            {
+              "correct": true,
+              "option": "20 : 10 10 : 20"
+            },
+            {
+              "correct": false,
+              "option": "20 : 10 20 : 10"
+            },
+            {
+              "correct": false,
+              "option": "10 : 20 20 : 10"
+            }
+          ],
+          "questionText": [{
+              "text": "What are the values of a and b in swap after executing the three statements and in main() function after executing the swap function."
+            },
+            {
+              "image": {
+                "imagename": "ICS-24.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-24.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Basics of functions"
+    }],
+    "activity_name": "Quiz on Basics of functions",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Functions returning non-integers",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 71 - 73)"
+    }],
+    "activity_name": "Functions returning non-integers",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The function can return variable’s value that are of type double."
+            },
+            {
+              "correct": true,
+              "option": "The function can returns double constants"
+            },
+            {
+              "correct": false,
+              "option": "The function can return characters"
+            },
+            {
+              "correct": true,
+              "option": "The function can return integer constants"
+            }
+          ],
+          "questionText": [{
+            "text": "If the return type of the some function is double, which of the following are valid."
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Compiler error"
+            },
+            {
+              "correct": true,
+              "option": "The sum and atof are both declared as double. The atof function can return double."
+            },
+            {
+              "correct": false,
+              "option": "The sum is declared as double and the function atof is declared as void function."
+            },
+            {
+              "correct": false,
+              "option": "The sum is declared as double and the function atof returns char array."
+            }
+          ],
+          "questionText": [{
+            "text": "The declaration <br>double sum, atof(char s[]); specifies"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Functions returning non-integers"
+    }],
+    "activity_name": "Quiz on Functions returning non-integers",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "External variables",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 73-79)"
+    }],
+    "activity_name": "External variables",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Automatic variables."
+            },
+            {
+              "correct": false,
+              "option": "Static variables inside a function"
+            },
+            {
+              "correct": true,
+              "option": "External variables"
+            },
+            {
+              "correct": false,
+              "option": "Register variables."
+            }
+          ],
+          "questionText": [{
+            "text": "What kind of variables should be used so that those variables can be used by all the functions"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "1"
+            },
+            {
+              "correct": false,
+              "option": "Garbage value"
+            },
+            {
+              "correct": false,
+              "option": "char '0'"
+            }
+          ],
+          "questionText": [{
+            "text": "External variables of type int are by default initialized to"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on External variables"
+    }],
+    "activity_name": "Quiz on External variables",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Scope rules",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 80 - 81)"
+    }],
+    "activity_name": "Scope rules",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "automatic variables"
+            },
+            {
+              "correct": false,
+              "option": "static variables"
+            },
+            {
+              "correct": false,
+              "option": "register variables"
+            },
+            {
+              "correct": false,
+              "option": "external variables"
+            }
+          ],
+          "questionText": [{
+            "text": "All local variables that are declared inside a function are"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Till the end of the execution of the program"
+            },
+            {
+              "correct": false,
+              "option": "Within a specific function"
+            },
+            {
+              "correct": true,
+              "option": "Till the program terminates"
+            },
+            {
+              "correct": false,
+              "option": "Within the main function."
+            }
+          ],
+          "questionText": [{
+            "text": "The lifetime of external variables is: (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "automatic variables"
+            },
+            {
+              "correct": false,
+              "option": "static variables"
+            },
+            {
+              "correct": false,
+              "option": "register variables"
+            },
+            {
+              "correct": true,
+              "option": "external variables"
+            }
+          ],
+          "questionText": [{
+            "text": "If a variable should be accessed by across multiple files. Those variables should be declared as:"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Scope rules"
+    }],
+    "activity_name": "Quiz on Scope rules",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Header files",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 81 - 82)"
+    }],
+    "activity_name": "Header files",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Stack.c"
+            },
+            {
+              "correct": false,
+              "option": "Getop.c"
+            },
+            {
+              "correct": false,
+              "option": "Getch.c"
+            },
+            {
+              "correct": false,
+              "option": "Main.c"
+            }
+          ],
+          "questionText": [{
+            "text": "Refer to the diagram given in page number 82 of the textbook, where actually the stack functions has been defined."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Reads the characters from the standard input."
+            },
+            {
+              "correct": false,
+              "option": "Performs stack operations."
+            },
+            {
+              "correct": true,
+              "option": "Get next operator on numeric operand"
+            },
+            {
+              "correct": false,
+              "option": "Writes the characters to the output."
+            }
+          ],
+          "questionText": [{
+            "text": "Refer to the diagram given in page number 82 of the textbook, What is the purpose of the getop.c"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Header files"
+    }],
+    "activity_name": "Quiz on Header files",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Static and Register Variables",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 83 - 84)"
+    }],
+    "activity_name": "Static and Register Variables",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "These functions can access across multiple files just like as normal (non-static) functions."
+            },
+            {
+              "correct": false,
+              "option": "These functions can only access static variables."
+            },
+            {
+              "correct": true,
+              "option": "It’s name is invisible outside of the file in which it is declared."
+            },
+            {
+              "correct": false,
+              "option": "The compiler will throw an error if the function is declared as static."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is correct if a function is declared as static."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The compiler will throw an error if the variable is declared as static."
+            },
+            {
+              "correct": true,
+              "option": "These variables are local to a particular function that provides private, permanent storage within a single function."
+            },
+            {
+              "correct": false,
+              "option": "The function should also be declared as static."
+            },
+            {
+              "correct": false,
+              "option": "These variables can be accessed by any where during the program execution."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is true if a variable inside a function is declared as static"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "These variables can only be accessed static functions."
+            },
+            {
+              "correct": false,
+              "option": "These variables can access across multiple files just like as external variables."
+            },
+            {
+              "correct": false,
+              "option": "The compiler will throw an error if the external variables are declared as static."
+            },
+            {
+              "correct": true,
+              "option": "These variables can only be accessed within the same file that they are declared and can’t be accessed anywhere in the program."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is valid if the external global variables are declared as static."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Automatic variables"
+            },
+            {
+              "correct": false,
+              "option": "External variables"
+            },
+            {
+              "correct": true,
+              "option": "Formal parameters of a function"
+            },
+            {
+              "correct": false,
+              "option": "External static variables."
+            }
+          ],
+          "questionText": [{
+            "text": "The register declarations can only be applied to which of the following? (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Stack"
+            },
+            {
+              "correct": false,
+              "option": "Heap"
+            },
+            {
+              "correct": true,
+              "option": "Registers"
+            },
+            {
+              "correct": false,
+              "option": "Main Memory"
+            }
+          ],
+          "questionText": [{
+            "text": "Register variables are stored in?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "1"
+            },
+            {
+              "correct": true,
+              "option": "Garbage value"
+            },
+            {
+              "correct": false,
+              "option": "The compiler throws an error message if there is no initialization after declaring the variable."
+            }
+          ],
+          "questionText": [{
+            "text": "What is the default value of the int register variables? (Mark all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Excess declarations are harmless"
+            },
+            {
+              "correct": false,
+              "option": "It is possible to take the address of the register variable."
+            },
+            {
+              "correct": true,
+              "option": "Only certain data types are allowed to declare a variable as register variable."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are true with respect to register variables. (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "2 3 4 5"
+            },
+            {
+              "correct": false,
+              "option": "1 2 3 4"
+            },
+            {
+              "correct": false,
+              "option": "2 2 2 2"
+            },
+            {
+              "correct": false,
+              "option": "0 1 2 3"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-25.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-25.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Static and Register Variables"
+    }],
+    "activity_name": "Quiz on Static and Register Variables",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Block structure and Initialization",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 84 - 86)"
+    }],
+    "activity_name": "Block structure and Initialization",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Automatic variables"
+            },
+            {
+              "correct": true,
+              "option": "Static variables"
+            },
+            {
+              "correct": false,
+              "option": "Register variables"
+            },
+            {
+              "correct": true,
+              "option": "External variables."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the variables of int type are initialized to 0?"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "4 garbage values as the count is not initialized."
+            },
+            {
+              "correct": true,
+              "option": " 1 2 3 4"
+            },
+            {
+              "correct": false,
+              "option": "0 1 2 3"
+            },
+            {
+              "correct": false,
+              "option": "2 3 4 5"
+            },
+            {
+              "correct": false,
+              "option": "1 1 1 1"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-26.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-26.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "4 garbage values as the count is not initialized."
+            },
+            {
+              "correct": false,
+              "option": " 1 2 3 4"
+            },
+            {
+              "correct": false,
+              "option": "0 1 2 3"
+            },
+            {
+              "correct": false,
+              "option": "2 3 4 5"
+            },
+            {
+              "correct": true,
+              "option": "1 1 1 1"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-27.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-27.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "char word[] = {\"H\", \"e\", \"l\", \"l\", \"o\", \"0\"};"
+            },
+            {
+              "correct": false,
+              "option": "char word[] = {\"H\", \"e\", \"\", \"l\", \"o\"};"
+            },
+            {
+              "correct": true,
+              "option": "char word[] = {'H', 'e', 'l', 'l', 'o', '\\0'};"
+            },
+            {
+              "correct": false,
+              "option": "char word[] = {'H', 'e', 'l', 'l', 'o'};"
+            }
+          ],
+          "questionText": [{
+            "text": "Character array are special case of initialization, which of the following option is a longer notation for char word[] = \"Hello\";"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Block structure and Initialization"
+    }],
+    "activity_name": "Quiz on Block structure and Initialization",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Recursion",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 86 - 88)"
+    }],
+    "activity_name": "Recursion",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Base case"
+            },
+            {
+              "correct": true,
+              "option": "Termination Condition"
+            },
+            {
+              "correct": false,
+              "option": "No condition required to terminate"
+            },
+            {
+              "correct": false,
+              "option": "Best case"
+            }
+          ],
+          "questionText": [{
+            "text": "Character array are special case of initialization, which of the following option is a longer notation for char word[] = \"Hello\";"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Prints numbers from 10 to 1"
+            },
+            {
+              "correct": false,
+              "option": "Prints numbers from 1 to 10"
+            },
+            {
+              "correct": false,
+              "option": "Prints numbers from 10 to 0"
+            },
+            {
+              "correct": false,
+              "option": "Prints numbers from 0 to 10"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-28.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-28.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Prints numbers from 10 to 1"
+            },
+            {
+              "correct": true,
+              "option": "Prints numbers from 1 to 10"
+            },
+            {
+              "correct": false,
+              "option": "Prints numbers from 10 to 0"
+            },
+            {
+              "correct": false,
+              "option": "Prints numbers from 0 to 10"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-29.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-29.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "9"
+            },
+            {
+              "correct": false,
+              "option": "8"
+            },
+            {
+              "correct": true,
+              "option": "10"
+            },
+            {
+              "correct": false,
+              "option": "7"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-30.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-30.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Recursion"
+    }],
+    "activity_name": "Quiz on Recursion",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "The C Preprocessor",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 88 - 92)"
+    }],
+    "activity_name": "The C Preprocessor",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "#include"
+            },
+            {
+              "correct": true,
+              "option": "#define"
+            },
+            {
+              "correct": false,
+              "option": "#if"
+            },
+            {
+              "correct": false,
+              "option": "#endif"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is used to replace a token by an arbitrary sequence of characters."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "30, 40"
+            },
+            {
+              "correct": false,
+              "option": "30, 50"
+            },
+            {
+              "correct": true,
+              "option": "20, 40"
+            },
+            {
+              "correct": false,
+              "option": "50, 50"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following C code snippet?"
+            },
+            {
+              "image": {
+                "imagename": "ICS-31.png",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-31.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }, {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The arguments will be added and the results will be sent as arguments."
+            },
+            {
+              "correct": true,
+              "option": "The arguments as expressions will be substituted and the expressions are evaluated."
+            },
+            {
+              "correct": false,
+              "option": "Compiler error."
+            }
+          ],
+          "questionText": [{
+            "text": "Based on the code snippet used in second question, which of the following is true with respect to last printf statement in passing of arguments."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on The C Preprocessor"
+    }],
+    "activity_name": "Quiz on The C Preprocessor",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Write the c function strrindex (s, t), which returns the position of the rightmost occurrence of t in s, or - 1 if there is none. Test your function against the test cases. Build your own test cases.<br>Write a c function strrindex (s, t), which returns the position of the rightmost occurrence of t in s, or - 1 if there is none. Test your function against the test cases. Build your own test cases."
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-1"
+    }],
+    "activity_name": "Assignment-1",
+    "module_id": 5
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Refer to the C function atof that converts string to float. Extend atof to handle scientific notation of the form 123.45e-6 where a floating-point number may be followed by e or E and an optionally signed exponent."
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-2"
+    }],
+    "activity_name": "Assignment-2",
+    "module_id": 5
+  }
+]

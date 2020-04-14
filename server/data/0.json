@@ -1,0 +1,249 @@
+[{
+    "activities": [
+      "A tutorial introduction and Getting Started",
+      "A tutorial introduction and Getting Started - Quiz",
+      "Variables and Arithmetic Expressions",
+      "Variables and Arithmetic Expressions - Quiz",
+      "The For Statement",
+      "The For Statement - Quiz",
+      "Symbolic Constants",
+      "Symbolic Constants - Quiz",
+      "Character input and output",
+      "Character input and output - Quiz",
+      "Arrays",
+      "Arrays - Quiz",
+      "Functions",
+      "Functions - Quiz",
+      "Arguments - Call by value",
+      "Arguments - Call by value - Quiz",
+      "Character Arrays",
+      "Character Arrays - Quiz",
+      "External variables and scope",
+      "External variables and scope - Quiz",
+      "Assignment-1",
+      "Assignment-2"
+    ],
+    "desc": "<b>Module Overview:</b><br><br>The aim of this module is to show the essential elements of the language in writing the basic programs but without bogged down in details, rules and exceptions. We want to get you as quickly as possible to the point where you can write useful programs, and to do that we have to concentrate on the basics: variables and constants, arithmetic, control flow, functions, and the rudiments of input and output. We are intentionally leaving out of this chapter features of C that are important for writing bigger programs. <br>In any case, experienced programmers should be able to extrapolate from the material in this chapter 'to their own programming needs. Beginners should supplement it by writing small, similar programs of their own<br><br><b>Learning Objectives:</b><ol><li>Identify the purpose of core elements of the programming.</li><li>Explain the input reading and output formatting that can be done using input and output statements.</li><li>Learn how to repeat a set of statements using for loop.</li><li>Learn the scope of variables based on their declaration and the storage classes.</li><li>Identify which part of the code can be modularise to improve readability.</li></ol>",
+    "id": 1,
+    "name": "Tutorial Introduction"
+  },
+  {
+    "activities": [
+      "Variables",
+      "Variables - Quiz",
+      "Data types and sizes",
+      "Data types and sizes - Quiz",
+      "Constants",
+      "Constants - Quiz",
+      "Declarations",
+      "Declarations - Quiz",
+      "Arithmetic Operators",
+      "Relational and Logical Operators",
+      "Type Conversions",
+      "Operators and Type conversions - Quiz",
+      "Increment and Decrement Operators",
+      "Increment and Decrement Operators - Quiz",
+      "Bitwise operators",
+      "Bitwise operators - Quiz",
+      "Assignment operators and Expressions",
+      "Conditional Expressions",
+      "Precedence and order of evaluations",
+      "Operators, Expressions and Precedence - Quiz",
+      "Assignment-1",
+      "Assignment-2"
+    ],
+    "desc": "<b>Module Overview</b><br><br>This module introduces to various core elements of the programming. Variables and constants are the basic data objects manipulated in a program. Declarations list the variables to be used, and state what type they have and perhaps what their initial values are. Operators specify what is to be done to them. Expressions combine variables and constants to produce new values. The type of an object determines the set of values it can have and what operations can be performed on it.<br><br><ol><li>Define and declare variables.</li><li>Define constants>/li><li>Perform arithmetic operations</li><li>Make use of different operators such as relational and conditional operators, increment and decrement operators, bitwise operators</li><li>Evaluate expressions and its order of precedence</li></ol>",
+    "id": 2,
+    "name": "Data types, Variables, Constants, Operators"
+  },
+  {
+    "activities": [
+      "Bits Bytes and Integers Part - 1.1",
+      "Bits Bytes and Integers Part - 1.1 Quiz",
+      "Bits Bytes and Integers Part - 1.2",
+      "Bits Bytes and Integers Part - 1.2 Quiz",
+      "Bits Bytes and Integers Part - 1.3",
+      "Bits Bytes and Integers Part - 1.3 - Quiz",
+      "Data Lab - Code Camp"
+    ],
+    "desc": "<b>Module Overview:</b><br><br>In this module you are going to learn, arithmetic, emphasizing the properties of unsigned and two’s-complement number representations that affect programmers how numbers are represented and therefore what range of values can be encoded for a given word size. We consider the effect of casting between signed and unsigned numbers.<br><br><b>Learning Objectives:</b><ol><li>Explain how the information is stored as bits in memory.</li><li>Explain boolean algebra on bits using &, |, ^, !</li><li>Perform bit level manipulations</li><li>Make use of bitwise operators to finish of the datalab.</li></ol>",
+    "id": 3,
+    "name": "Data Lab - 1"
+  },
+  {
+    "activities": [
+      "Video on Bits Bytes and Integers Part - 2.1",
+      "Quiz on Bits Bytes and Integers Part - 2.1",
+      "Video on Bits Bytes and Integers Part - 2.2",
+      "Quiz on Bits Bytes and Integers Part - 2.2",
+      "Video on  Bits Bytes and Integers Part - 2.3",
+      "Quiz on  Bits Bytes and Integers Part - 2.3",
+      "Video on Floating Point - Optional",
+      "Quiz on Floating Point",
+      "Assignment-1"
+      ],
+    "desc": "<b>Module Overview:</b><br><br>In this module you are going to learn the mathematical properties of arithmetic operations such as addition, multiplication, difference and modulo. Novice programmers are often surprised to learn that the (two’s-complement) sum or product of two positive numbers can be negative. On the other hand, two’s complement arithmetic satisfies the algebraic properties of a ring, and hence a compiler can safely transform multiplication by a constant into a sequence of shifts and adds. We use the bit-level operations of C to demonstrate the principles and applications of Boolean algebra.<br><br><b>Learning Objectives:</b><ol><li>Demonstrate how  signed and unsigned addition of two numbers are performed.</li><li>Identify overflows (truncation and expanding) when arithmetic operations are performed.</li><li>Develop logic and Implement functions using bitwise operators as part of the Lab assignment</li></ol>",
+    "id": 4,
+    "name": "Data Lab - 2"
+  },
+  {
+    "activities": [
+      "Statements and Blocks, if-else, else-if and Switch",
+      "Quiz on Statements and Blocks, if-else, else-if and Switch",
+      "Loops while and for and do - while",
+      "Quiz on Loops while and for and do - while",
+      "Break, Continue and Goto Labels",
+      "Quiz on Break, Continue and Goto Labels",
+      "Basics of functions",
+      "Quiz on Basics of functions",
+      "Functions returning non-integers",
+      "Quiz on Functions returning non-integers",
+      "External variables",
+      "Quiz on External variables",
+      "Scope rules",
+      "Quiz on Scope rules",
+      "Header files",
+      "Quiz on Header files",
+      "Static and Register Variables",
+      "Quiz on Static and Register Variables",
+      "Block structure and Initialization",
+      "Quiz on Block structure and Initialization",
+      "Recursion",
+      "Quiz on Recursion",
+      "The C Preprocessor",
+      "Quiz on The C Preprocessor",
+      "Assignment-1",
+      "Assignment-2"
+    ],
+    "desc": "<b>Module Overview:</b><br><br>In this module you are going to learn about the control flow statements in C language. It’s just very similar to Java which you have already learnt. The control-flow statements of a language specify the order in which computations are performed. We have already met the most common control-flow constructions in earlier examples during the tutorial introduction; here we will complete the set, and be more precise about the ones discussed before.<br><br><b>Learning Objectives:</b><ol><li>Explain how block of statements can be created.</li><li>Perform decision making using if and else.</li><li>Trace the execution of for, while and do-while</li><li>Discuss the structure of nested loops</li><li>Differentiate between break and continue.</li><li>Discuss the pros and cons of Goto Statements</li><li>Explain how the code converts to machine code (Assembly Language)</li><li>Explain the purpose of functions.</li><li>Declare and define functions in your programs</li><li>Differentiate between various types of function prototypes</li><li>Identify the scope of variables</li><li>Explain the importance of recursive functions.</li></ol>",
+    "id": 5,
+    "name": "Functions and Control Flow"
+  },
+  {
+    "activities": [
+        "Introduction",
+        "Quiz on Introduction",
+        "Processes",
+        "Quiz on Processes",
+        "Video on Bomb Lab - Machine Level Programming - Basics",
+        "Quiz on Bomb Lab - Machine Level Programming - Basics",
+        "Video on Bomb Lab - Machine Level Programming - Control",
+        "Quiz on Bomb Lab - Machine Level Programming - Control",
+        "Bomb Lab - Diffuse Phase - 1"
+    ],
+    "desc": "<b>Module Overview:</b><br><br>An operating system acts as an intermediary between the user of a computer and the computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs in a convenient and efficient manner.<br><br>An operating system is software that manages the computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system<br><br>Early computers allowed only one program to be executed at a time. This program had complete control of the system and had access to all the system’s resources. In contrast, contemporary computer systems allow multiple programs to be loaded into memory and executed concurrently. This evolution required firmer control and more compartmentalization of the various programs; and these needs resulted in the notion of a process, which is a program in execution. A process is the unit of work in a modern time-sharing system.<br><br><b>Learning Objectives:</b><ol><li>To describe the basic organization of computer systems.</li><li>To provide a grand tour of the major components of operating systems.</li><li>To give an overview of the many types of computing environments.</li><li>To explore several open-source operating systems</li><li>To introduce the notion of a process—a program in execution, which forms the basis of all computation.</li><li>To describe the various features of processes, including scheduling, creation, and termination.</li><li>To explore interprocess communication using shared memory and message passing.</li><li>To describe communication in client–server systems.</li><li>Understand and trace the assembly code.",
+    "id": 6,
+    "name": "OS Concepts, Bomb Lab Diffuse of Phase - 1"
+  },
+  {
+    "activities": [
+      "Pointers and Addresses",
+      "Quiz on Pointers and Addresses"
+    ],
+    "desc": "<b>Module Overview:</b><br>A pointer is a variable that contains the address of a variable. Pointers are much used in C, partly ,because they are sometimes the only way to express a computation, and partly because they usually lead to more compact and efficient code than can be obtained in other ways. Pointers and arrays are closely related; this chapter also explores this relationship and shows how to exploit it. Let’s get started.<br><br><b>Learning Objectives:</b><br><br><ol><li>Explain the importance of pointers</li><li>Differentiate between pointer and address</li><li>Perform arithmetic operations on pointers and identify the differences between general arithmetic operations and pointer arithmetic operations.</li><li>Make use of command line arguments to read data and give as input to your program from command line</li><li>Explain the pointer arrays and how it can be useful.</li></ol>",
+    "id": 7,
+    "name": "Pointers and Arrays"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 8,
+    "name": "Structures"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 9,
+    "name": "Cache Lab-1"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 10,
+    "name": "Cache Lab-2"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 11,
+    "name": "Cache Lab-3"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 12,
+    "name": "OS Concepts, Bomb lab diffuse of Phase 2 and 3"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 13,
+    "name": "Shell Lab, Exceptional Control Flow: Processes"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 14,
+    "name": "Exceptional Control Flow: Processes"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 15,
+    "name": "Exceptional Control Flow: Signals"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 16,
+    "name": "Shell Lab - Code Part 1"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 17,
+    "nmae": "Exceptional Control Flow: Signals"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 18,
+    "name": "Attack Lab Phase - 1,, Diffusion of bomb lab fourth and fifth phases and OS Concepts (Synchronization and Deadlocks)"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 19,
+    "name": "Shell Lab - Code Part 2"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 20,
+    "name": "Shell Lab - Code Part 3"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 21,
+    "name": "Shell Lab - Code Part 4"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 22,
+    "name": "Shell Lab - Code Part 5"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 23,
+    "name": "Shell Lab - Code Part 6"
+  },
+  {
+    "activities": [],
+    "desc": null,
+    "id": 24,
+    "name": "OS Concepts (Memory management and VIrtual memory management) Attack Lab: Phase 2 and Phase 3"
+  }
+]

@@ -1,0 +1,1023 @@
+[{
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Bits Bytes and Integers Part - 2.1",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-4.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-4-0-pdf-4.pdf"
+
+    }],
+    "activity_name": "Video on Bits Bytes and Integers Part - 2.1",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "-12, -15"
+            },
+            {
+              "correct": false,
+              "option": "-24, -15"
+            },
+            {
+              "correct": false,
+              "option": "-8, -8"
+            },
+            {
+              "correct": false,
+              "option": "-20, -15"
+            }
+          ],
+          "questionText": [{
+            "text": "What are the integer values of the variables in two’s complement when A = 10100 and B = 10001 (Length of bit vector W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "27,  011011"
+            },
+            {
+              "correct": false,
+              "option": "37, 100101"
+            },
+            {
+              "correct": false,
+              "option": "40,  101000"
+            },
+            {
+              "correct": true,
+              "option": "-27, 100101"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (Without truncation)?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "-5, 11101"
+            },
+            {
+              "correct": false,
+              "option": "5, 101"
+            },
+            {
+              "correct": true,
+              "option": "5, 00101"
+            },
+            {
+              "correct": false,
+              "option": "-5, 1011"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (With truncation)? (Bit vector of length W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "24, 24"
+            },
+            {
+              "correct": false,
+              "option": "-8, 24"
+            },
+            {
+              "correct": false,
+              "option": "24, -8"
+            },
+            {
+              "correct": true,
+              "option": "-8, -8"
+            }
+          ],
+          "questionText": [{
+            "text": "What are the integer values of the variables in two’s complement when  A = 11000 and B = 11000 (Length of bit vector W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "16, 10000"
+            },
+            {
+              "correct": false,
+              "option": "-16, 110000"
+            },
+            {
+              "correct": false,
+              "option": "-16, 1110000"
+            },
+            {
+              "correct": true,
+              "option": "48, 110000"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (Without truncation)?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "16, 10000"
+            },
+            {
+              "correct": true,
+              "option": "-16, 110000"
+            },
+            {
+              "correct": false,
+              "option": "48, 110000"
+            },
+            {
+              "correct": false,
+              "option": "-16, 1110000"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (With truncation)? (Bit vector of length W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "-9, -12"
+            },
+            {
+              "correct": false,
+              "option": "-9,  20"
+            },
+            {
+              "correct": false,
+              "option": "23, -12"
+            },
+            {
+              "correct": false,
+              "option": "23, 20"
+            }
+          ],
+          "questionText": [{
+            "text": "What are the integer values of the variables in two’s complement when A = 10111 and B = 10100 (Length of bit vector W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "43, 101011"
+            },
+            {
+              "correct": true,
+              "option": "-21, 101011"
+            },
+            {
+              "correct": false,
+              "option": "43, 101101"
+            },
+            {
+              "correct": false,
+              "option": "-21, 101010"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (Without truncation)?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "11, 01010"
+            },
+            {
+              "correct": true,
+              "option": "11, 01011"
+            },
+            {
+              "correct": false,
+              "option": "-11, 101101"
+            },
+            {
+              "correct": false,
+              "option": "-11, 101010"
+            }
+          ],
+          "questionText": [{
+            "text": "Find A + B using two’s complement addition in base 10 and base 2 (With truncation)? (Bit vector of length W = 5)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "0x5"
+            },
+            {
+              "correct": false,
+              "option": "-5"
+            },
+            {
+              "correct": false,
+              "option": "B"
+            },
+            {
+              "correct": true,
+              "option": "5"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following (in decimal) is the two’s complement negation for the hex value 0x5? Let’s consider the bit vector length W = 4"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "-3"
+            },
+            {
+              "correct": false,
+              "option": "3"
+            },
+            {
+              "correct": false,
+              "option": "0X3"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following (in decimal) is the two’s complement negation for the hex value 0XD? Let’s consider the bit vector length W = 4"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "B"
+            },
+            {
+              "correct": false,
+              "option": "5"
+            },
+            {
+              "correct": true,
+              "option": "0x5"
+            },
+            {
+              "correct": false,
+              "option": "0xB"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following (in Hexadecimal) is the two’s complement negation for the value -5? Let’s consider the bit vector length W = 4"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "8"
+            },
+            {
+              "correct": false,
+              "option": "-8"
+            },
+            {
+              "correct": true,
+              "option": "0x8"
+            },
+            {
+              "correct": false,
+              "option": "0xB"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following (in Hexadecimal) is the two’s complement negation for the value -8? Let’s consider the bit vector length W = 4"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "4"
+            },
+            {
+              "correct": false,
+              "option": "-4"
+            },
+            {
+              "correct": false,
+              "option": "0xC"
+            },
+            {
+              "correct": true,
+              "option": "0x4"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following (in Hexadecimal) is the two’s complement negation for the value -4? Let’s consider the bit vector length W = 4"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Bits Bytes and Integers Part - 2.1"
+    }],
+    "activity_name": "Quiz on Bits Bytes and Integers Part - 2.1",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Video on Bits Bytes and Integers Part - 2.2",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-5.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-4-2-pdf-5.pdf"
+    }],
+    "activity_name": "Video on Bits Bytes and Integers Part - 2.2",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "(2 * w) + 1 bits"
+            },
+            {
+              "correct": false,
+              "option": "(2 * w) - 1 bits"
+            },
+            {
+              "correct": true,
+              "option": "2 * w bits"
+            },
+            {
+              "correct": false,
+              "option": "2 * (w + 1) bits"
+            }
+          ],
+          "questionText": [{
+            "text": "In an unsigned multiplication, if there are w bits then the true product will have how many bits?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "A * = 1024"
+            },
+            {
+              "correct": false,
+              "option": "A * = 512"
+            },
+            {
+              "correct": false,
+              "option": "A * = 256"
+            },
+            {
+              "correct": true,
+              "option": "a * = 768"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is the equivalent expression of (a << 10) - (a << 8)  of this?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "-15, 11110001, 7, 111"
+            },
+            {
+              "correct": true,
+              "option": "15, 001111, 7, 111"
+            },
+            {
+              "correct": false,
+              "option": "7, 111, 15, 001111"
+            },
+            {
+              "correct": false,
+              "option": "-15, 111111, 7, 111"
+            }
+          ],
+          "questionText": [{
+            "text": "What is the output of the expression when x = 5 and y = 3 using an unsigned multiplication. (There are four values as part of the options, The first is true product in unsigned integer, the second is binary representation of the first one. The third one is the unsigned integer of truncated product (Truncated to 3 bits) and the fourth one is the binary representation of the third one)."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "4, 000100, 4, 100"
+            },
+            {
+              "correct": false,
+              "option": "4, 000100, -4, 1100"
+            },
+            {
+              "correct": true,
+              "option": "4, 000100, -4, 100"
+            },
+            {
+              "correct": false,
+              "option": "-4, 111100, -4, 100"
+            }
+          ],
+          "questionText": [{
+            "text": "What is the output of the expression when x = -4 and y = -1 using two’s complement multiplication. (There are four values as part of the options, The first is true product in unsigned integer, the second is binary representation of the first one. The third one is the unsigned integer of truncated product (Truncated to 3 bits) and the fourth one is the binary representation of the third one)."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "20, 010100, 4, 100"
+            },
+            {
+              "correct": false,
+              "option": "4, 100, 20, 010100"
+            },
+            {
+              "correct": false,
+              "option": "12, 001100, 4, 100"
+            },
+            {
+              "correct": false,
+              "option": "-12, 110100, -4, 100"
+            },
+            {
+              "correct_feedback": "Correct",
+              "max_marks": "1",
+              "options": [{
+                  "correct": true,
+                  "option": "01 23 45 67"
+                },
+                {
+                  "correct": false,
+                  "option": "67 45 23 01"
+                },
+                {
+                  "correct": false,
+                  "option": "10 32 54 76"
+                },
+                {
+                  "correct": false,
+                  "option": "76 54 32 10"
+                }
+              ],
+              "questionText": [{
+                "text": "Which of the following representations is valid for big endian machines when the value of x is 0x01234567"
+              }],
+              "questionType": "mcq",
+              "wrong_feedback": "Incorrect"
+            },
+                        {
+              "correct_feedback": "Correct",
+              "max_marks": "1",
+              "options": [{
+                  "correct": false,
+                  "option": "01 23 45 67"
+                },
+                {
+                  "correct": true,
+                  "option": "67 45 23 01"
+                },
+                {
+                  "correct": false,
+                  "option": "10 32 54 76"
+                },
+                {
+                  "correct": false,
+                  "option": "76 54 32 10"
+                }
+              ],
+              "questionText": [{
+                "text": "Which of the following representations is valid for little endian machines when the value of x is 0x01234567"
+              }],
+              "questionType": "mcq",
+              "wrong_feedback": "Incorrect"
+            }
+          ],
+          "questionText": [{
+            "text": "What is the output of the expression when x = 100 and y = 101 using an unsigned multiplication. (There are four values as part of the options, The first is true product in unsigned integer, the second is binary representation of the first one. The third one is the unsigned integer of truncated product (Truncated to 3 bits) and the fourth one is the binary representation of the third one)."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Bits Bytes and Integers Part - 2.2"
+    }],
+    "activity_name": "Quiz on Bits Bytes and Integers Part - 2.2",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Bits Bytes and Integers Part - 2.3",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-6.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-4-4-pdf-6.pdf"
+    }],
+    "activity_name": "Video on  Bits Bytes and Integers Part - 2.3",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "2, 000010, 2, 010"
+            },
+            {
+              "correct": false,
+              "option": "-2, 111110, 2, 010"
+            },
+            {
+              "correct": false,
+              "option": "2, 000010, -2, 110"
+            },
+            {
+              "correct": true,
+              "option": "-2, 111110, -2, 110"
+            }
+          ],
+          "questionText": [{
+            "text": "What is the output of the expression when x = 010 and y = 111 using an two’s complement multiplication. (There are four values as part of the options, The first is true product in unsigned integer, the second is binary representation of the first one. The third one is the unsigned integer of truncated product (Truncated to 3 bits) and the fourth one is the binary representation of the third one)."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "(x<<2) + (x<<1)"
+            },
+            {
+              "correct": false,
+              "option": "(x<<2) + (x<<4)"
+            },
+            {
+              "correct": false,
+              "option": "(x<<4) + (x<<2)"
+            },
+            {
+              "correct": true,
+              "option": "(x<<1) + (x<<2)"
+            }
+          ],
+          "questionText": [{
+            "text": "Find ways to express x * K  where x is some integer and K is 6, using only the specified number of operations is 2, where we consider both additions and subtractions to be 1 and  to have comparable cost. You may need to use some tricks beyond the simple form A and B rules we have considered so far. (Check all that apply). (Refer to the textbook of page number 94 Introduction to Computer Systems for rules A and B).Find ways to express x * K  where x is some integer and K is 6, using only the specified number of operations is 2, where we consider both additions and subtractions to be 1 and  to have comparable cost. You may need to use some tricks beyond the simple form A and B rules we have considered so far. (Check all that apply). (Refer to the textbook of page number 94 Introduction to Computer Systems for rules A and B)."
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "(x<<5) - x"
+            },
+            {
+              "correct": false,
+              "option": "(x<<5) - (x<<0)"
+            },
+            {
+              "correct": false,
+              "option": "(x<<5) + (x<<0)"
+            },
+            {
+              "correct": false,
+              "option": "(x<<5) + (x<<1)"
+            }
+          ],
+          "questionText": [{
+            "text": "Find ways to express x * K  where x is some integer and K is 31, using only one operation, where we consider both additions and subtractions to be 1 and  to have comparable cost. You may need to use some tricks beyond the simple form A and B rules we have considered so far. (Check all that apply). (Refer to the textbook of page number 94 Introduction to Computer Systems for rules A and B)."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "TMin"
+            },
+            {
+              "correct": false,
+              "option": "TMax"
+            },
+            {
+              "correct": false,
+              "option": "UMin"
+            },
+            {
+              "correct": false,
+              "option": "UMax"
+            }
+          ],
+          "questionText": [{
+            "text": "In C, For what kind of values the expression, if x < 0 then ((x*2) < 0) is false."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "21"
+            },
+            {
+              "correct": false,
+              "option": "87"
+            },
+            {
+              "correct": false,
+              "option": "12"
+            },
+            {
+              "correct": false,
+              "option": "78"
+            }
+          ],
+          "questionText": [{
+              "text": "Answer the questions based on the code snippets given below"
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-32.PNG"
+              }
+            },
+            {
+              "text": "Value of A on little endian machine is"
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "21"
+            },
+            {
+              "correct": true,
+              "option": "87"
+            },
+            {
+              "correct": false,
+              "option": "12"
+            },
+            {
+              "correct": false,
+              "option": "78"
+            }
+          ],
+          "questionText": [{
+            "text": "Using the images given as part of the question 5, What is the value of A on big endian machine"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "12 34"
+            },
+            {
+              "correct": false,
+              "option": "87 65"
+            },
+            {
+              "correct": false,
+              "option": "78 56"
+            },
+            {
+              "correct": true,
+              "option": "21 43"
+            }
+          ],
+          "questionText": [{
+            "text": "Using the images given as part of the question 5, What is the value of B on little endian machine"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "12 34"
+            },
+            {
+              "correct": true,
+              "option": "87 65"
+            },
+            {
+              "correct": false,
+              "option": "78 56"
+            },
+            {
+              "correct": false,
+              "option": "21 43"
+            }
+          ],
+          "questionText": [{
+            "text": "Using the images given as part of the question 5, What is the value of B on big endian machine"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "12 34 56"
+            },
+            {
+              "correct": true,
+              "option": "87 65 43"
+            },
+            {
+              "correct": false,
+              "option": "21 43 65"
+            },
+            {
+              "correct": false,
+              "option": "78 56 34"
+            }
+          ],
+          "questionText": [{
+            "text": "Using the images given as part of the question 5, What is the value of B on big endian machine"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on  Bits Bytes and Integers Part - 2.3"
+    }],
+    "activity_name": "Quiz on  Bits Bytes and Integers Part - 2.3",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Floating Point - Optional",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-7.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-4-6-pdf-7.pdf"
+    }],
+    "activity_name": "Video on Floating Point - Optional",
+    "module_id": 4
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+        "correct_feedback": "Correct",
+        "max_marks": "1",
+        "options": [{
+            "correct": true,
+            "option": "0.001, 0.125"
+          },
+          {
+            "correct": false,
+            "option": "-0.01, 0.15"
+          },
+          {
+            "correct": false,
+            "option": "0.001, 0.125000001"
+          },
+          {
+            "correct": false,
+            "option": "0.0001, 0.125000001"
+          }
+        ],
+        "questionText": [{
+          "text": "What is the binary and decimal representations for fractional value ⅛?."
+        }],
+        "questionType": "mcq",
+        "wrong_feedback": "Incorrect"
+      },
+      {
+        "correct_feedback": "Correct",
+        "max_marks": "1",
+        "options": [{
+            "correct": false,
+            "option": "1.0001, 1.5625"
+          },
+          {
+            "correct": false,
+            "option": "1.1000, 1.5625"
+          },
+          {
+            "correct": false,
+            "option": "1.0101, 1.5625"
+          },
+          {
+            "correct": true,
+            "option": "1.1001, 1.5625"
+          }
+        ],
+        "questionText": [{
+          "text": "What is the binary and decimal representations for fractional value 25/16?"
+        }],
+        "questionType": "mcq",
+        "wrong_feedback": "Incorrect"
+      },
+      {
+        "correct_feedback": "Correct",
+        "max_marks": "1",
+        "options": [{
+            "correct": false,
+            "option": "43/16, 2.68753"
+          },
+          {
+            "correct": false,
+            "option": "44/16, 2.68752"
+          },
+          {
+            "correct": true,
+            "option": "43/16, 2.68750"
+          },
+          {
+            "correct": false,
+            "option": "44/16, 2.68750"
+          }
+        ],
+        "questionText": [{
+          "text": "What is the fractional and decimal representations for the binary value of 10.1011"
+        }],
+        "questionType": "mcq",
+        "wrong_feedback": "Incorrect"
+      },
+      {
+        "correct_feedback": "Correct",
+        "max_marks": "1",
+        "options": [{
+            "correct": false,
+            "option": "47/8, 1101.111"
+          },
+          {
+            "correct": false,
+            "option": "47/7, 101.0111"
+          },
+          {
+            "correct": true,
+            "option": "47/8, 101.0111"
+          },
+          {
+            "correct": false,
+            "option": "47/8, 101.111"
+          }
+        ],
+        "questionText": [{
+          "text": "What is the fractional and binary representations for the decimal value of 5.875?"
+        }],
+        "questionType": "mcq",
+        "wrong_feedback": "Incorrect"
+      },
+      {
+        "correct_feedback": "Correct",
+        "max_marks": "1",
+        "options": [{
+            "correct": true,
+            "option": "51/16, 11.0011"
+          },
+          {
+            "correct": false,
+            "option": "51/16, 11.1011"
+          },
+          {
+            "correct": true,
+            "option": "3 * 3/16, 11.0011"
+          },
+          {
+            "correct": false,
+            "option": "3 * 3/16, 11.1100"
+          }
+        ],
+        "questionText": [{
+          "text": "What is the fractional and binary representations for the decimal value of 3.1875?"
+        }],
+        "questionType": "checkbox",
+        "wrong_feedback": "Incorrect"
+      }
+    ],
+      "title": "Quiz on  Bits Bytes and Integers Part - 2.3"
+    }],
+    "activity_name": "Quiz on  Bits Bytes and Integers Part - 2.3",
+    "module_id": 4
+  },
+   {
+    "activity_json": [
+      {
+        "activityType": "assignment", 
+        "questions": [{
+        "evaluate": true,
+        "max_marks": 20,
+        "questionText": [{
+            "text": "<ol><li>Mentros will show you how to solve the puzzles given as part of the Data Lab.</li><li>>Finish the rest of the functions that are not covered by the mentors."
+          },
+          {
+            "text": "<b>File Submission:</b> Submit the first version of your data lab after solving  3 puzzles based on the handout you got."
+          }
+        ],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-1"
+    }],
+    "activity_name": "Assignment-1",
+    "module_id": 4
+  }
+]

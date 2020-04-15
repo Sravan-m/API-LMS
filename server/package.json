@@ -10,6 +10,7 @@
   "author": "manikanta",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
@@ -26,5 +27,8 @@
     "rimraf": "^2.6.3",
     "urlencode": "^1.1.0",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2"
   }
 }

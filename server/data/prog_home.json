@@ -1,0 +1,20 @@
+{
+	"courses": [
+		{
+			"desc": "<b>General Objective</b><br>The aim of this course is to explain the enduring concepts underlying all computer systems and to show you the concrete ways that these ideas affect the correctness, performance, and utility of your application programs. This course discusses the important concepts of Operating Systems too. This course is offered based on the programmer's perspective, describing how application programmers can use their knowledge of a system to write better programs.<br><br><b>Learning Outcomes</b><br>On completion of the course, the students will be able to:<br><ol><li>Explain common bit-level representations of numeric values (unsigned, two's complement, floating point) and the consequent mathematical properties of arithmetic and bit-level operations on them.</li><li>Recognize the relationship between programs expressed in C and in assembly code, including the implementation of expressions, control, procedures, and data structures.</li><li>Demonstrate the ability to understand the basic intention of a program through its binary representation and apply these skills to debugging programs.</li><li>Investigate the programmer's interaction with the underlying system through the different APIs and abstraction, including system support for the process and thread control.</li><li>Apply tools, both standard and self-developed, that will aid program development, including compilers, code analyzers, debuggers consistency checkers, and profilers.</li><li>Analyze the consequences of imperfect system usage, such as poor memory and CPU performance, crashes and security vulnerabilities.</li><ol>",
+			"enroll_status": "enrolled",
+			"id": 0,
+			"image": "ics.jpeg",
+			"instructors": [{
+					"image": "praveen.jpeg",
+					"name": "Praveen G",
+					"profile_url": "https://www.linkedin.com/in/praveen-garimella-84a26a1/"
+				}
+			],
+			"title": "Introduction to Computer Systems"
+		}
+	],
+	"desc": "MSIT (MS in IT or Master of Science in Information Technology) is a two year post graduate program in Computer Science started in 2001. MSIT is an innovative multi-university interdisciplinary post-graduate program. MSIT program is being offered by “Consortium of Institutions of Higher Learning” (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content. MSIT is currently offered at International Institute of Information Technology (IIIT-H), Hyderabad, School of IT, Jawaharlal Nehru Technological University Hyderabad (JNTUH), College of Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK), College of Engineering, Jawaharlal Nehru Technological University Anantapur (JNTUA) and Sri Venkateswara University Tirupati (SVU).",
+	"id": 1,
+	"name": "Master of Science in Information Technology"
+}

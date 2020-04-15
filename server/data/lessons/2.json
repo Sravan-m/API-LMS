@@ -1,0 +1,1057 @@
+[{
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Variables",
+      "text": "Read the Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 35)"
+    }],
+    "activity_name": "Variables",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "int"
+            },
+            {
+              "correct": true,
+              "option": "for"
+            },
+            {
+              "correct": true,
+              "option": "while"
+            },
+            {
+              "correct": false,
+              "option": "public"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are the keywords in C programming (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "When compiled, the compiler throws an error to the use"
+            },
+            {
+              "correct": true,
+              "option": "These two variables are treated as two different variables"
+            },
+            {
+              "correct": false,
+              "option": "The compiler won’t throw an error but throws a runtime error"
+            },
+            {
+              "correct": false,
+              "option": "Both will point to the same memory location"
+            }
+          ],
+          "questionText": [{
+            "text": "Total and total are the variables in a program and (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "studentName"
+            },
+            {
+              "correct": true,
+              "option": "Total"
+            },
+            {
+              "correct": true,
+              "option": "2be"
+            },
+            {
+              "correct": false,
+              "option": "_one"
+            },
+            {
+              "correct": true,
+              "option": "1's"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following can be used as variables names (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Variables - Quiz"
+    }],
+    "activity_name": "Variables - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Data types and sizes",
+      "text": "Read Data types and sizes from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 36)"
+    }],
+    "activity_name": "Data types and sizes",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The type of values that the variables holds"
+            },
+            {
+              "correct": false,
+              "option": "The values it holds"
+            },
+            {
+              "correct": false,
+              "option": "Only boolean values (True / False)"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "Data type specifies: (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "0 - 65535"
+            },
+            {
+              "correct": false,
+              "option": "1 - 65536"
+            },
+            {
+              "correct": false,
+              "option": "-32768 to 32676"
+            },
+            {
+              "correct": true,
+              "option": "2^0-1 to 2^(32-1) -1"
+            }
+          ],
+          "questionText": [{
+            "text": "What kind of values that an int variable holds when the type qualifier unsigned is also specified. (int takes 4 bytes of memory space) (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "16 bits"
+            },
+            {
+              "correct": false,
+              "option": "32 bits"
+            },
+            {
+              "correct": false,
+              "option": "8 bits"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "short occupies how much of memory space? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "0 to 255"
+            },
+            {
+              "correct": true,
+              "option": "-128 to +127"
+            },
+            {
+              "correct": false,
+              "option": "2^0 to 2^(8-1)"
+            },
+            {
+              "correct": false,
+              "option": "-127 to +128"
+            }
+          ],
+          "questionText": [{
+            "text": "signed char values may range from? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Data types and sizes - Quiz"
+    }],
+    "activity_name": "Data types and sizes - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": " Constants",
+      "text": "Read Constants from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 37"
+    }],
+    "activity_name": "Constants",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "0X"
+            },
+            {
+              "correct": false,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "Hex"
+            },
+            {
+              "correct": true,
+              "option": "0x"
+            },
+            {
+              "correct": false,
+              "option": "No suffix is required to represent hexadecimal numbers."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following suffixes should be used to represent the hexadecimal numbers? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Sequence of characters enclosed in double quotes"
+            },
+            {
+              "correct": false,
+              "option": "Sequence of characters enclosed in single quotes"
+            },
+            {
+              "correct": true,
+              "option": "Sequence of characters enclosed in double quotes and that has an internal null character to represent the end of the string."
+            },
+            {
+              "correct": false,
+              "option": "None of the above."
+            }
+          ],
+          "questionText": [{
+            "text": "String constants should be represented as? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "It can store 1000 characters excluding null character."
+            },
+            {
+              "correct": true,
+              "option": "It can store 999 characters and with a '|0' character at the end."
+            },
+            {
+              "correct": true,
+              "option": "It can store 1000 characters that includes '|0' character."
+            },
+            {
+              "correct": false,
+              "option": "It can store 998 characters  and with a ‘|0’ character at the end as array index starts with 0 and ends with 999."
+            }
+          ],
+          "questionText": [{
+            "text": "How many characters that you can store in variable line which is a char array (Check all that apply)<br>#define MAXLINE 1000<br>char line[MAXLINE];"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Constants - Quiz"
+    }],
+    "activity_name": "Constants - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Declarations",
+      "text": "Read Declarations from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 40)"
+    }],
+    "activity_name": "Declarations",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "can be applied to the declaration of any variable to specify that its value will not be changed"
+            },
+            {
+              "correct": false,
+              "option": "can be applied to the declaration of any variable to specify that its value will be changed"
+            },
+            {
+              "correct": true,
+              "option": "can be applied once the variable is declared and can assign the value whenever required"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is / are true about const qualifier  (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "External variables"
+            },
+            {
+              "correct": false,
+              "option": "Automatic variables (auto variables)"
+            },
+            {
+              "correct": true,
+              "option": "static variables"
+            },
+            {
+              "correct": false,
+              "option": "Register variables"
+            }
+          ],
+          "questionText": [{
+            "text": "What kind of variables are assigned to 0 by default (If not initialized)? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Declarations - Quiz"
+    }],
+    "activity_name": "Declarations - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Arithmetic Operators",
+      "text": "Read Arithmetic Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 41)"
+    }],
+    "activity_name": "Arithmetic Operators",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Relational and Logical Operators",
+      "text": "Read Relational and Logical Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 41)"
+    }],
+    "activity_name": "Relational and Logical Operators",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Type Conversions",
+      "text": "Skim through the concept Type Conversions from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 42)"
+    }],
+    "activity_name": "Type Conversions",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "2"
+            },
+            {
+              "correct": false,
+              "option": "2.5"
+            },
+            {
+              "correct": false,
+              "option": "2.00005"
+            },
+            {
+              "correct": false,
+              "option": "2.0"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet"
+            },
+            {
+              "image": {
+                "imageName": "ICS-5.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-5.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "float"
+            },
+            {
+              "correct": false,
+              "option": "int"
+            },
+            {
+              "correct": true,
+              "option": "double"
+            },
+            {
+              "correct": false,
+              "option": "long double"
+            }
+          ],
+          "questionText": [{
+            "text": "If either of the operand is long double, then the other operand will be considered as ________? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "the other two relational expressions be gets evaluated."
+            },
+            {
+              "correct": true,
+              "option": "the other two relational expressions will simply be ignored."
+            },
+            {
+              "correct": false,
+              "option": "The second one get evaluated and the third one will be skipped."
+            },
+            {
+              "correct": false,
+              "option": "The whole condition get evaluated to true even the other two gets evaluated to false."
+            }
+          ],
+          "questionText": [{
+            "text": "If three relational expressions are connected by logical and (&&) and if the first expression is evaluated to false, "
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "B+"
+            },
+            {
+              "correct": true,
+              "option": "B"
+            },
+            {
+              "correct": false,
+              "option": "C"
+            },
+            {
+              "correct": false,
+              "option": "A"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet? If the input to the grade is: 75"
+            },
+            {
+              "image": {
+                "imageName": "ICS-6.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-6.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "The output of the code snippet prints the value : 3.333333"
+            },
+            {
+              "correct": false,
+              "option": "The compiler throws an error to the user when compiled"
+            },
+            {
+              "correct": false,
+              "option": "The variable “a” will not be converted to float and performs the division operations and gets the result in floating point number"
+            },
+            {
+              "correct": true,
+              "option": "The variable “a” will be converted to float and performs the division operation"
+            }
+          ],
+          "questionText": [{
+              "text": "Which of the following statement are true based on the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-7.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-7.PNG"
+              }
+            }
+          ],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Operators and Type conversions - Quiz"
+    }],
+    "activity_name": "Operators and Type conversions - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Increment and Decrement Operators",
+      "text": "Read Increment and Decrement Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 46)"
+    }],
+    "activity_name": "Increment and Decrement Operators",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "10 :: 31 :: 11"
+            },
+            {
+              "correct": false,
+              "option": "11 :: 31 :: 12"
+            },
+            {
+              "correct": false,
+              "option": "11 :: 31 :: 12"
+            },
+            {
+              "correct": true,
+              "option": "10 :: 31 :: 12"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-8.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-8.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "11 :: 10 :: 11"
+            },
+            {
+              "correct": true,
+              "option": "10 :: 10 :: 10"
+            },
+            {
+              "correct": false,
+              "option": "10 :: 11 :: 11"
+            },
+            {
+              "correct": false,
+              "option": "10 :: 11 :: 12"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-9.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-9.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "21 :: 21 :: 21 :: 21"
+            },
+            {
+              "correct": false,
+              "option": "The compiler throws warning messages to the user when compiled"
+            },
+            {
+              "correct": false,
+              "option": "20 :: 21 :: 20 :: 21"
+            },
+            {
+              "correct": false,
+              "option": "21 :: 21 :: 21 :: 22"
+            },
+            {
+              "correct": false,
+              "option": "20 :: 20 :: 20 :: 20"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-10.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-10.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Increment and Decrement Operators - Quiz"
+    }],
+    "activity_name": "Increment and Decrement Operators - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Bitwise operators",
+      "text": "Read Bitwise Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 48)"
+    }],
+    "activity_name": "Bitwise operators",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Bitwise and"
+            },
+            {
+              "correct": true,
+              "option": "Bitwise or"
+            },
+            {
+              "correct": false,
+              "option": "Not (!) operator"
+            },
+            {
+              "correct": true,
+              "option": "Bitwise Xor"
+            },
+            {
+              "correct": false,
+              "option": "Bitwise two’s complement"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are the binary bitwise operators?"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Shift the value of the first operand by n (second operand)  bit positions left"
+            },
+            {
+              "correct": false,
+              "option": "Shift the value of the first operand by n (second operand)  bit positions right"
+            },
+            {
+              "correct": true,
+              "option": "Shift the value of the first operand by n (second operand)  bit positions right, the bits shifted right and will be filled based on the sign bit."
+            },
+            {
+              "correct": false,
+              "option": "Shift the value of the first operand by n (second operand)  bit positions right and that will fills with zeros irrespective of the sign bit"
+            }
+          ],
+          "questionText": [{
+            "text": "What does arithmetic shift do?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Bitwise and"
+            },
+            {
+              "correct": false,
+              "option": "Bitwise or"
+            },
+            {
+              "correct": false,
+              "option": "Not (!) operator"
+            },
+            {
+              "correct": true,
+              "option": "Bitwise Xor"
+            },
+            {
+              "correct": false,
+              "option": "Bitwise two’s complement"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the bitwise operator that sets a one in each bit position where its operands have different bits, and zero where they are the same"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Return 1"
+            },
+            {
+              "correct": false,
+              "option": "This will return true if both x and y are same"
+            },
+            {
+              "correct": false,
+              "option": "Return 0"
+            },
+            {
+              "correct": false,
+              "option": "Throws an error"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet? Assume both x and y value is 5 (Mark all that apply)"
+            },
+            {
+              "image": {
+                "imageName": "ICS-11",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-11.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Bitwise operators - Quiz"
+    }],
+    "activity_name": "Bitwise operators - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Assignment operators and Expressions",
+      "text": "Read Assignment Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 50)"
+    }],
+    "activity_name": "Assignment operators and Expressions",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Conditional Expressions",
+      "text": "Read Assignment Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 51)"
+    }],
+    "activity_name": "Conditional Expressions",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Precedence and order of evaluations",
+      "text": "Read Assignment Operators from Chapter - 2 from the textbook The C Programming Language - Second Edition (Page Number: 52)"
+    }],
+    "activity_name": "Precedence and order of evaluations",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "true"
+            },
+            {
+              "correct": false,
+              "option": "false"
+            }
+          ],
+          "questionText": [{
+            "text": "(T/F) If the value of n is 5, then evaluating (in isolation) ++n and n++ will give the same output?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "10 : 11 : 12"
+            },
+            {
+              "correct": false,
+              "option": "10 : 11 : 11"
+            },
+            {
+              "correct": true,
+              "option": "11 : 11 : 11"
+            },
+            {
+              "correct": false,
+              "option": "10 : 10 : 11"
+            },
+            {
+              "correct": false,
+              "option": "11 : 11 : 12"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-12.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-12.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "! (not)"
+            },
+            {
+              "correct": false,
+              "option": "^ (xor)"
+            },
+            {
+              "correct": false,
+              "option": "| (or)"
+            },
+            {
+              "correct": true,
+              "option": "~ (tilde)"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following operator gives the ones complement of an integer? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "*, /, %"
+            },
+            {
+              "correct": true,
+              "option": "&, ^"
+            },
+            {
+              "correct": false,
+              "option": "?:"
+            },
+            {
+              "correct": false,
+              "option": "All assignment operators. (Ex: =, !=, +=, -= etc)"
+            }
+          ],
+          "questionText": [{
+            "text": "Which set of the operators will evaluate from left to right? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The if condition get evaluated to false and prints False"
+            },
+            {
+              "correct": true,
+              "option": "The if condition get evaluated to true and prints True"
+            },
+            {
+              "correct": false,
+              "option": "The compiler throws an error message to the user."
+            },
+            {
+              "correct": true,
+              "option": "The compiler throws a warning message to the user."
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet?"
+            },
+            {
+              "image": {
+                "imageName": "ICS-13.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-13.PNG"
+              }
+            }
+          ],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Operators, Expressions and Precedence - Quiz"
+    }],
+    "activity_name": "Operators, Expressions and Precedence - Quiz",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Write a program to determine the ranges (Min value  and Max value) of char, int, long, float and double. Hint: limits.h and float.h (Try for various constants for float and observe the output)."
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-1"
+    }],
+    "activity_name": "Assignment-1",
+    "module_id": 2
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Write the function htoi (s), which converts a string of hexadecimal digits (including an optional Ox or ox) into its equivalent integer value. The allowable digits are 0 through 9, a through f, and A through F"
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-2"
+    }],
+    "activity_name": "Assignment-2",
+    "module_id": 2
+  }
+
+
+
+]

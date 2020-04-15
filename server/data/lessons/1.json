@@ -1,0 +1,918 @@
+[{
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "A tutorial introduction and Getting Started",
+      "text": "<b>Prerequisities:</b><ol><li> Students have to have an Ubuntu 18.04 LTS (Stable version) on their machines</li><li> Make sure that the students will have a GCC compiler installed on their machines</li></ol> <br>Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 5)<br> Textbook link:<a href=\"https://drive.google.com/file/d/1bKeZEOqqvDK2HPKc6kRQFLY6v1VzaGtA/view?usp=sharing\">Textbook</a>"
+    }],
+    "activity_name": "A tutorial introduction and Getting Started",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Statements that specify the computing operations to be done and variables store values used during the computation"
+            },
+            {
+              "correct": false,
+              "option": "Variables that specify the computing operations to be done and functions store values used during the computation"
+            },
+            {
+              "correct": true,
+              "option": "Variables and Statements constitute together a function"
+            },
+            {
+              "correct": false,
+              "option": "Only statements that specify the computing operations"
+            }
+          ],
+          "questionText": [{
+            "text": "A function consists of: (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Character String"
+            },
+            {
+              "correct": true,
+              "option": "Character Array"
+            },
+            {
+              "correct": true,
+              "option": "String constant"
+            },
+            {
+              "correct": true,
+              "option": "String Literal"
+            }
+          ],
+          "questionText": [{
+            "text": "The sequence of characters \"hello, world\n\" is called as (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Main"
+            },
+            {
+              "correct": false,
+              "option": "Start"
+            },
+            {
+              "correct": true,
+              "option": "main()"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "A _______  function that will call other functions to start the execution of the program. (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "A tutorial introduction and Getting Started - Quiz"
+    }],
+    "activity_name": "A tutorial introduction and Getting Started - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Variables and Arithmetic Expressions",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 8)"
+    }],
+    "activity_name": "Variables and Arithmetic Expressions",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Will be ignored by the compiler"
+            },
+            {
+              "correct": true,
+              "option": "Can be able to understand by the user what the particular program or statements does"
+            },
+            {
+              "correct": false,
+              "option": "Will throws the error to the user when compiled the program"
+            },
+            {
+              "correct": true,
+              "option": "Purpose Is multiline comment"
+            },
+            {
+              "correct": false,
+              "option": "Purpose Is a single line comment"
+            }
+          ],
+          "questionText": [{
+            "text": "Any characters between /* and */  (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Declared before they are used usually at the beginning of the function"
+            },
+            {
+              "correct": true,
+              "option": "Declared where ever you want before it can be used"
+            },
+            {
+              "correct": false,
+              "option": "No single variable can be declared before they are used"
+            },
+            {
+              "correct": false,
+              "option": "All variables must be declared only in the main function"
+            }
+          ],
+          "questionText": [{
+            "text": "In C, all variables must be: (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "%d"
+            },
+            {
+              "correct": true,
+              "option": "%f"
+            },
+            {
+              "correct": true,
+              "option": "%5.2f"
+            },
+            {
+              "correct": true,
+              "option": "%2f"
+            },
+            {
+              "correct": false,
+              "option": "%s"
+            }
+          ],
+          "questionText": [{
+            "text": "Which are the following are the format specifiers in the printf statement to be used to print floating values (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Variables and Arithmetic Expressions - Quiz"
+    }],
+    "activity_name": "Variables and Arithmetic Expressions - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "The For Statement",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 13)"
+    }],
+    "activity_name": "The For Statement",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "It consists of three parts, multiple initialization statement, multiple conditional statement and multiple increment or decrement statement and followed by statement block"
+            },
+            {
+              "correct": true,
+              "option": "Initialisation, conditional and increment or decrement statements are optional."
+            },
+            {
+              "correct": false,
+              "option": "All the three statements (initialization, condition and increment or decrement statements) are compulsory"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following statements are valid for \"for statement\"? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The compiler throws an error to the user when compiled"
+            },
+            {
+              "correct": true,
+              "option": "The for loop runs infinite number of times"
+            },
+            {
+              "correct": true,
+              "option": "Prints 10 for indefinite number of times"
+            },
+            {
+              "correct": false,
+              "option": "Prints 10 twice and terminates"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet? (Check all that apply)"
+            },
+            {
+              "image": {
+                "imagename": "ICS-1.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-1.png"
+              }
+            }
+          ],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "The For Statement - Quiz"
+    }],
+    "activity_name": "The For Statement - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Symbolic Constants",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 15)"
+    }],
+    "activity_name": "Symbolic Constants",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "#include"
+            },
+            {
+              "correct": true,
+              "option": "Const keyword"
+            },
+            {
+              "correct": false,
+              "option": "#define"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following directives defines the symbolic constant (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Lower Case"
+            },
+            {
+              "correct": true,
+              "option": "Upper Case"
+            },
+            {
+              "correct": false,
+              "option": "Mixed case (Upper and lower case)"
+            },
+            {
+              "correct": false,
+              "option": "Alphanumeric characters"
+            }
+          ],
+          "questionText": [{
+            "text": "The symbolic constant names are conventionally written in (to differentiate between variables and constants) (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Symbolic Constants - Quiz"
+    }],
+    "activity_name": "Symbolic Constants - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Character input and output",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 15)"
+    }],
+    "activity_name": "Character input and output",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Read the input from the standard input - keyboard"
+            },
+            {
+              "correct": true,
+              "option": "Read the input from the file"
+            },
+            {
+              "correct": false,
+              "option": "Prints the output to the file"
+            },
+            {
+              "correct": false,
+              "option": "Reads the data in a variable"
+            }
+          ],
+          "questionText": [{
+            "text": "getchar() is a functions which is used to (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Read the input from the standard input - keyboard"
+            },
+            {
+              "correct": false,
+              "option": "Read the input from the file"
+            },
+            {
+              "correct": true,
+              "option": "Writes the value to the file"
+            },
+            {
+              "correct": true,
+              "option": "Prints the value to the standard output - Monitor"
+            }
+          ],
+          "questionText": [{
+            "text": "Putchar is a function which is used to (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Returns a character after reading from the input"
+            },
+            {
+              "correct": false,
+              "option": "Returns value 1 after successful reading from the input. The value that is read from the input will be by default stored in a variables"
+            },
+            {
+              "correct": false,
+              "option": "Returns value 0 if its failed reading the input"
+            },
+            {
+              "correct": false,
+              "option": "None of the above"
+            }
+          ],
+          "questionText": [{
+            "text": "getchar() is a function that (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Character input and output - Quiz"
+    }],
+    "activity_name": "Character input and output - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Arrays",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 22)"
+    }],
+    "activity_name": "Arrays",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Integer expression or Integer variables"
+            },
+            {
+              "correct": true,
+              "option": "Integer constants"
+            },
+            {
+              "correct": false,
+              "option": "Floating values"
+            },
+            {
+              "correct": false,
+              "option": "Character constants"
+            }
+          ],
+          "questionText": [{
+            "text": "A subscript can be (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Random locations in the memory"
+            },
+            {
+              "correct": false,
+              "option": "Override the existing values in the memory if the memory is not sufficient"
+            },
+            {
+              "correct": true,
+              "option": "Contiguous locations in the memory"
+            },
+            {
+              "correct": false,
+              "option": "Either in primary (RAM) or secondary storages (Hard Disc)"
+            }
+          ],
+          "questionText": [{
+            "text": "The elements of the array will store in (Mark all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "1"
+            },
+            {
+              "correct": true,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "From the index where the elements actually stores in the array"
+            },
+            {
+              "correct": false,
+              "option": "-1"
+            },
+            {
+              "correct": false,
+              "option": "From the length of the array"
+            }
+          ],
+          "questionText": [{
+            "text": "Array index starts with: (Check all that apply"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": " Arrays - Quiz"
+    }],
+    "activity_name": "Arrays - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Functions",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 24)"
+    }],
+    "activity_name": "Functions",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "getchar and putchar"
+            },
+            {
+              "correct": false,
+              "option": "while"
+            },
+            {
+              "correct": true,
+              "option": "printf"
+            },
+            {
+              "correct": true,
+              "option": "main"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following that you think are functions: (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Power is a function name that take two integer arguments and returns an integer value"
+            },
+            {
+              "correct": false,
+              "option": "This function returns the base value to the called function"
+            },
+            {
+              "correct": false,
+              "option": "This function returns the value of n to the called function"
+            },
+            {
+              "correct": false,
+              "option": "None of the above."
+            }
+          ],
+          "questionText": [{
+            "text": "int power(int base, int n) (Mark all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "35"
+            },
+            {
+              "correct": false,
+              "option": "70"
+            },
+            {
+              "correct": false,
+              "option": "75"
+            },
+            {
+              "correct": false,
+              "option": "20"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the output of the following code snippet (Check all that apply)"
+            },
+            {
+              "image": {
+                "imagename": "ICS-2.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-2.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Functions - Quiz"
+    }],
+    "activity_name": "Functions - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Arguments - Call by value",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 27)"
+    }],
+    "activity_name": "Arguments - Call by value",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "By values"
+            },
+            {
+              "correct": false,
+              "option": "By references"
+            },
+            {
+              "correct": false,
+              "option": "Initialises to default values"
+            },
+            {
+              "correct": false,
+              "option": "Assigned to garbage values when the function has been invoked"
+            }
+          ],
+          "questionText": [{
+            "text": "Based on the following function declaration, the parameters are passed by:<br>int power(int a, int b);"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "When the value of the variable is changed in the called function, the variable’s value will also change in the calling function"
+            },
+            {
+              "correct": false,
+              "option": "When the value of the variable is changed in the called function, the variable’s value will not change in the calling function"
+            },
+            {
+              "correct": false,
+              "option": "If the value of the variable is changed in the calling function, the variable’s value will not change in the called function"
+            },
+            {
+              "correct": false,
+              "option": "If the value of the variable is not changed in the calling function, the variable’s value will not change in the called function too"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are applicable when a function is called by value where the arguments names are same in both the calling and called functions? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Arguments - Call by value - Quiz"
+    }],
+    "activity_name": "Arguments - Call by value - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Character Arrays",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 28)"
+    }],
+    "activity_name": "Character Arrays",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "It is an array of characters containing the characters of the string and is terminated by 0"
+            },
+            {
+              "correct": false,
+              "option": "It contains only the characters of the string as an array."
+            },
+            {
+              "correct": false,
+              "option": "All the characters of the variable will be stored in a variable (not an array)"
+            },
+            {
+              "correct": false,
+              "option": "All the characters of the variable will be stored in a variable (not an array) and is terminated by a 0"
+            },
+            {
+              "correct": false,
+              "option": "It contains unicode characters as well."
+            }
+          ],
+          "questionText": [{
+            "text": "How the string in C will be represented in memory? (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The above function copies all the characters from a to b"
+            },
+            {
+              "correct": false,
+              "option": "The above function copies the last character of b to a"
+            },
+            {
+              "correct": false,
+              "option": "The above function copies all the characters from b to a"
+            },
+            {
+              "correct": false,
+              "option": "Syntax error."
+            },
+            {
+              "correct": true,
+              "option": "None of the above."
+            }
+          ],
+          "questionText": [{
+              "text": "What does the following function do? (Check all that apply)"
+            },
+            {
+              "image": {
+                "imagename": "ICS-3.PNG",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ICS-3.PNG"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Character Arrays - Quiz"
+    }],
+    "activity_name": "Character Arrays - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "External variables and scope",
+      "text": "Read the Chapter - 1 from the textbook The C Programming Language - Second Edition (Page Number: 31)"
+    }],
+    "activity_name": "External variables and scope",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate": false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Register storage class"
+            },
+            {
+              "correct": false,
+              "option": "Static storage class"
+            },
+            {
+              "correct": false,
+              "option": "Automatic storage class"
+            },
+            {
+              "correct": false,
+              "option": "Extern storage class"
+            }
+          ],
+          "questionText": [{
+            "text": "To access a variable that can be used in multiple source files of a program that should be declared as: (Check all that apply)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Register storage class"
+            },
+            {
+              "correct": false,
+              "option": "Static storage class"
+            },
+            {
+              "correct": false,
+              "option": "Automatic storage class"
+            },
+            {
+              "correct": true,
+              "option": "Extern storage class"
+            },
+            {
+              "correct": true,
+              "option": "Declare outside of all the functions"
+            }
+          ],
+          "questionText": [{
+            "text": "If the same variable is used across multiple functions in one source file, then it should be declared as? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "External variables and scope - Quiz"
+    }],
+    "activity_name": "External variables and scope - Quiz",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank"
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-1"
+    }],
+    "activity_name": "Assignment-1",
+    "module_id": 1
+  },
+  {
+    "activity_json": [{
+      "activityType": "assignment",
+      "questions": [{
+        "evaluate": true,
+        "max_marks": 10,
+        "questionText": [{
+          "text": "Write a function reverse (s) that reverses the character string s"
+        }],
+        "questionType": "filesubmission"
+      }],
+      "title": "Assignment-2"
+    }],
+    "activity_name": "Assignment-2",
+    "module_id": 1
+  }
+]

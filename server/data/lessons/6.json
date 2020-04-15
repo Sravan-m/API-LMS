@@ -1,0 +1,1199 @@
+[{
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Introduction",
+      "text": "Refer to the slides from 1 to 33 and skim through the rest of the slides - from chapter - 01 Introduction.<br><br>You can also read the textbook Chapter 1 - Introduction. Download the textbook from<a href=\"https://drive.google.com/file/d/1NmNrJgAENuvH2BdDdfihZPOhdbCcCzxS/view?usp=sharing\">here</a><br><br>Download the ppt from<a href=\"https://drive.google.com/file/d/1Ux87mZLd9x5XsltqW1Q9_glmuCWtQNAk/view?usp=sharing\">here</a>"
+    }],
+    "activity_name": "Introduction",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate" : false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "It’s a software that is an interface between the user and computer software."
+            },
+            {
+              "correct": true,
+              "option": "A program that acts an intermediary between the user of a computer and the computer hardware."
+            },
+            {
+              "correct": false,
+              "option": "It’s a hardware that is an interface between the user and computer software."
+            },
+            {
+              "correct": false,
+              "option": "A program that acts an intermediary between the user of a computer and the computer applications."
+            }
+          ],
+          "questionText": [{
+            "text": "What is an operating system?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Execute user programs and make solving user problems easier"
+            },
+            {
+              "correct": true,
+              "option": "Make the computer system convenient to use"
+            },
+            {
+              "correct": true,
+              "option": "Use the computer hardware in an efficient manner"
+            },
+            {
+              "correct": false,
+              "option": "Execute only one user program to make to complete the jobs faster"
+            }
+          ],
+          "questionText": [{
+            "text": "What are the goals of the operating system (Mark all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Hardware, Operating System, Application Programs, Users,"
+            },
+            {
+              "correct": false,
+              "option": "Hardware, Operating System, Users, Software"
+            },
+            {
+              "correct": false,
+              "option": "Hardware, Memory, Operating System, Users"
+            },
+            {
+              "correct": false,
+              "option": "IO, Memory, Operating System, User programs."
+            }
+          ],
+          "questionText": [{
+            "text": "What are the four components that a computer system be divided into?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "This is a program that is loaded at power-up or reboot."
+            },
+            {
+              "correct": true,
+              "option": "This initializes all the aspects of the system."
+            },
+            {
+              "correct": true,
+              "option": "Loads Operating System kernel and starts execution."
+            },
+            {
+              "correct": true,
+              "option": "This program typically stored in ROM or EPROM."
+            }
+          ],
+          "questionText": [{
+            "text": "What is a bootstrap program? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "It transfers the control to the interrupt service routine generally through the interrupt vector which contains all the addresses of all the service routines."
+            },
+            {
+              "correct": true,
+              "option": "The current process is suspended and the control is transferred to the interrupt service routine."
+            },
+            {
+              "correct": false,
+              "option": "All the interrupts are executed at once at the end of the program execution."
+            },
+            {
+              "correct": true,
+              "option": "An Operating system is an interrupt driven."
+            }
+          ],
+          "questionText": [{
+            "text": "What is an interrupt? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "RAM - Main memory."
+            },
+            {
+              "correct": false,
+              "option": "Secondary storage devices such as Hard disks"
+            },
+            {
+              "correct": true,
+              "option": "ROM - Read Only Memory."
+            },
+            {
+              "correct": true,
+              "option": "CPU registers and Cache memories."
+            },
+            {
+              "correct": false,
+              "option": "Solid State Devices (SSD)"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following storage devices are volatile? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Each processor is assigned a specific task."
+            },
+            {
+              "correct": false,
+              "option": "Each processor performs all tasks."
+            },
+            {
+              "correct": false,
+              "option": "A task is performed by multiple processors."
+            },
+            {
+              "correct": false,
+              "option": "Each processor helps other processor in performing the tasks."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is true in case of Asymmetric Multiprocessing systems?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "A process is a program in execution."
+            },
+            {
+              "correct": true,
+              "option": "Process needs resources to accomplish its tasks."
+            },
+            {
+              "correct": false,
+              "option": "Process will complete its job without generating interrupts."
+            },
+            {
+              "correct": true,
+              "option": "Process is an active entity."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is true about processes?"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Creating and deleting both user and system processes."
+            },
+            {
+              "correct": true,
+              "option": "Suspending and resuming processes."
+            },
+            {
+              "correct": false,
+              "option": "No interrupts will be generated by a process"
+            },
+            {
+              "correct": true,
+              "option": "Providing mechanisms for process communication."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are process management activities?"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "One of the devices"
+            },
+            {
+              "correct": false,
+              "option": "Exceptions"
+            },
+            {
+              "correct": false,
+              "option": "Trapss"
+            },
+            {
+              "correct": false,
+              "option": "System Calls"
+            }
+          ],
+          "questionText": [{
+            "text": "Hardware interrupts are generated by which of the following?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Cloud Computing."
+            },
+            {
+              "correct": true,
+              "option": "Virtualization"
+            },
+            {
+              "correct": true,
+              "option": "Real time embedded systems"
+            },
+            {
+              "correct": true,
+              "option": "Distributed and mobile."
+            },
+            {
+              "correct": true,
+              "option": "Client server and Peer to peer"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are different computing environments are available? (Check all that apply)."
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Registers, Cache, Secondary storages and Memory"
+            },
+            {
+              "correct": true,
+              "option": "Registers, Cache, Memory and Secondary storages."
+            },
+            {
+              "correct": false,
+              "option": "Secondary storages, Memory, Cache and Register"
+            },
+            {
+              "correct": false,
+              "option": "Register, Memory, Cache and Secondary memory."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the memories (Cache, Registers, Memory, Secondary storages) performs faster access to data. (Arrange them In descending order)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "System Calls"
+            },
+            {
+              "correct": false,
+              "option": "API"
+            },
+            {
+              "correct": false,
+              "option": "Libraries"
+            },
+            {
+              "correct": false,
+              "option": "Assembly Instructions"
+            }
+          ],
+          "questionText": [{
+            "text": " To access the services of operating system, the interface is provided by the"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Introduction"
+    }],
+    "activity_name": "Quiz on Introduction",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Processes",
+      "text": "Cover the following topics<ol><li>Process Concepts</li><li>Process Scheduling</li><li>Operations on processes</li></ol>Refer to the slides from 3.1 to 3.28 and skim through the rest of the slides - from chapter - 03 Processes.<br><br>You can also read the textbook Chapter 3 - Processes. Download the textbook from<a href=\"https://drive.google.com/file/d/1NmNrJgAENuvH2BdDdfihZPOhdbCcCzxS/view?usp=sharing\">here</a><br><br>Download the ppt from<a href=\"https://drive.google.com/file/d/1AO2s5ajDdsM1LBGKH4OafPLKigjC3_P5/view?usp=sharing\">here</a>"
+    }],
+    "activity_name": "Processes",
+    "module_id": 6
+  },
+   {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate" : false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Stack and Heap"
+            },
+            {
+              "correct": true,
+              "option": "Program counter, CPU registers"
+            },
+            {
+              "correct": true,
+              "option": "Data Section and Text section."
+            },
+            {
+              "correct": false,
+              "option": "Secondary storage devices and external storage devices."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are required for a process to finish its execution? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Memory (RAM)"
+            },
+            {
+              "correct": false,
+              "option": "SSD’s"
+            },
+            {
+              "correct": false,
+              "option": "Cache"
+            },
+            {
+              "correct": false,
+              "option": "Secondary storage devices."
+            }
+          ],
+          "questionText": [{
+            "text": "Programs stored on disks and process stored in"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Ready"
+            },
+            {
+              "correct": true,
+              "option": "Running"
+            },
+            {
+              "correct": false,
+              "option": "Stopped"
+            },
+            {
+              "correct": true,
+              "option": "Terminated"
+            },
+            {
+              "correct": true,
+              "option": "Waiting"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following are valid states for processes? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "When an interrupt is occured."
+            },
+            {
+              "correct": false,
+              "option": "When I/O or event wait is occured."
+            },
+            {
+              "correct": false,
+              "option": "When I/O or event completion."
+            },
+            {
+              "correct": false,
+              "option": "When the process finishes its execution."
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following is true when the process state has been changed from running to ready."
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Process switch"
+            },
+            {
+              "correct": true,
+              "option": "Context switch"
+            },
+            {
+              "correct": false,
+              "option": "CPU switch"
+            },
+            {
+              "correct": false,
+              "option": "None of the above."
+            }
+          ],
+          "questionText": [{
+            "text": "When CPU switches to another process, the system must save the state of the old process and load the saved state for the new process via a ____________"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "Queue"
+            },
+            {
+              "correct": false,
+              "option": "Stack"
+            },
+            {
+              "correct": false,
+              "option": "Array"
+            },
+            {
+              "correct": false,
+              "option": "Trees"
+            }
+          ],
+          "questionText": [{
+            "text": "For process scheduling, what data structure will be used?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Main memory"
+            },
+            {
+              "correct": false,
+              "option": "Secondary Memory"
+            },
+            {
+              "correct": false,
+              "option": "CPU Registers."
+            },
+            {
+              "correct": true,
+              "option": "Process Control block"
+            }
+          ],
+          "questionText": [{
+            "text": "Context of the process will be saved in ____________"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "fork()"
+            },
+            {
+              "correct": false,
+              "option": "execv()"
+            },
+            {
+              "correct": false,
+              "option": "execve()"
+            },
+            {
+              "correct": false,
+              "option": "create_child()"
+            }
+          ],
+          "questionText": [{
+            "text": "Which of the following function is used to create a child process?"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "wait()"
+            },
+            {
+              "correct": true,
+              "option": "exit()"
+            },
+            {
+              "correct": true,
+              "option": "abort()"
+            },
+            {
+              "correct": false,
+              "option": "terminate()"
+            }
+          ],
+          "questionText": [{
+            "text": "Upon process termination, which of the following system calls will be use? (Check all that apply)"
+          }],
+          "questionType": "checkbox",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": true,
+              "option": "wait()"
+            },
+            {
+              "correct": false,
+              "option": "exit()"
+            },
+            {
+              "correct": false,
+              "option": "fork()"
+            },
+            {
+              "correct": false,
+              "option": "get()"
+            }
+          ],
+          "questionText": [{
+            "text": "Which system call returns the process identifier of the terminated child"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Program stack"
+            },
+            {
+              "correct": true,
+              "option": "Program counter"
+            },
+            {
+              "correct": false,
+              "option": "CPU registers"
+            },
+            {
+              "correct": false,
+              "option": "Pipe"
+            }
+          ],
+          "questionText": [{
+            "text": "The address of the next instruction is to be executed by the current process will be provided by"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "Efficiency"
+            },
+            {
+              "correct": false,
+              "option": "Capacity"
+            },
+            {
+              "correct": false,
+              "option": "Scalability"
+            },
+            {
+              "correct": true,
+              "option": "Throughput"
+            }
+          ],
+          "questionText": [{
+            "text": "The number of processes completed per unit of time is called ____"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "1",
+          "options": [{
+              "correct": false,
+              "option": "The final activity of the process"
+            },
+            {
+              "correct": true,
+              "option": "The current activity of the process"
+            },
+            {
+              "correct": false,
+              "option": "The activity just executed by the process"
+            },
+            {
+              "correct": false,
+              "option": "The activity to be next executed by the process."
+            }
+          ],
+          "questionText": [{
+            "text": "The state of a process is defined by _________"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Processes"
+    }],
+    "activity_name": "Quiz on Processes",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Video on Bomb Lab - Machine Level Programming - Basics",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-8.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-6-4-pdf-8.pdf"
+
+    }],
+    "activity_name": "Video on Bomb Lab - Machine Level Programming - Basics",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate" : false,
+      "questions": [{
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": true,
+              "option": "Movl"
+            },
+            {
+              "correct": false,
+              "option": "Movb"
+            },
+            {
+              "correct": false,
+              "option": "Movw"
+            },
+            {
+              "correct": false,
+              "option": "Mov"
+            }
+          ],
+          "questionText": [{
+            "text": "For each of the following lines of assembly language, determine the appropriate instruction suffix based on the operands. (For example, mov can be rewritten as movb, movw, or movl)<br>Mov %eax, (%esp)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "Pushb"
+            },
+            {
+              "correct": true,
+              "option": "Pushl"
+            },
+            {
+              "correct": false,
+              "option": "Pushw"
+            },
+            {
+              "correct": false,
+              "option": "Push"
+            }
+          ],
+          "questionText": [{
+            "text": "For each of the following lines of assembly language, determine the appropriate instruction suffix based on the operands. (For example, mov can be rewritten as movb, movw, or movl)<br>Push $0xFF"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "Movl"
+            },
+            {
+              "correct": false,
+              "option": "Movb"
+            },
+            {
+              "correct": true,
+              "option": "Movw"
+            },
+            {
+              "correct": false,
+              "option": "Mov"
+            }
+          ],
+          "questionText": [{
+            "text": "For each of the following lines of assembly language, determine the appropriate instruction suffix based on the operands. (For example, mov can be rewritten as movb, movw, or movl)<br>Mov %dx, (%eax)"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "y + 6"
+            },
+            {
+              "correct": false,
+              "option": "6 * x"
+            },
+            {
+              "correct": false,
+              "option": "Y * 6"
+            },
+            {
+              "correct": true,
+              "option": "6 + x"
+            }
+          ],
+          "questionText": [{
+            "text": "Suppose register %eax holds value x and %ecx holds value y. What is the result of the following assembly code instructions that will be stored in %edx?<br><b>leal 6(%eax), %edx</b>"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "y * x"
+            },
+            {
+              "correct": true,
+              "option": "x + y"
+            },
+            {
+              "correct": false,
+              "option": "x - y"
+            },
+            {
+              "correct": false,
+              "option": "x / y"
+            }
+          ],
+          "questionText": [{
+            "text": "Suppose register %eax holds value x and %ecx holds value y. What is the result of the following assembly code instructions that will be stored in %edx?<br><b>leal (%eax,%ecx), %edx</b>"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "4 * 10 + y"
+            },
+            {
+              "correct": false,
+              "option": "4 + 10 * y"
+            },
+            {
+              "correct": true,
+              "option": "10 + 4y"
+            },
+            {
+              "correct": false,
+              "option": "10 + (4 + y)"
+            }
+          ],
+          "questionText": [{
+            "text": "Suppose register %eax holds value x and %ecx holds value y. What is the result of the following assembly code instructions that will be stored in %edx?<br>leal 0xA(,%ecx,4), %edx"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": true,
+              "option": "9 + x + 2y"
+            },
+            {
+              "correct": false,
+              "option": "9 + 2 + xy"
+            },
+            {
+              "correct": false,
+              "option": "9 + 2x + y"
+            },
+            {
+              "correct": false,
+              "option": "9 + 2 * (x + y)"
+            }
+          ],
+          "questionText": [{
+            "text": "Suppose register %eax holds value x and %ecx holds value y. What is the result of the following assembly code instructions that will be stored in %edx? <br>leal 9(%eax,%ecx,2), %edx"
+          }],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+                {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": true,
+              "option": "T1 = x ^ y"
+            },
+            {
+              "correct": false,
+              "option": "T1 = t1 >> 3"
+            },
+            {
+              "correct": false,
+              "option": "T1 = y"
+            },
+            {
+              "correct": false,
+              "option": "T1 = T1 + 12 * y"
+            }
+          ],
+          "questionText": [{
+              "text": "Based on the assembly code snippet, What is the expression that is assigned to t1 with respect to C code."
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-36.png"
+              }
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "t2 = x ^ y"
+            },
+            {
+              "correct": true,
+              "option": "t2 = t1 >> 3"
+            },
+            {
+              "correct": false,
+              "option": "t2 = y"
+            },
+            {
+              "correct": false,
+              "option": "t2 = t2 + 12 * y"
+            }
+          ],
+          "questionText": [{
+              "text": "Based on the image in question number 8, what is the expression that will be assigned to t2."
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "t3 = x ^ y"
+            },
+            {
+              "correct": false,
+              "option": "t3 = t1 >> 3"
+            },
+            {
+              "correct": true,
+              "option": "t3 = ~t2"
+            },
+            {
+              "correct": false,
+              "option": "t1 = t1 + 12 * y"
+            }
+          ],
+          "questionText": [{
+              "text": "Based on the image in question number 8, what is the expression that will be assigned to t3"
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+      ],
+      "title": "Quiz on Bomb Lab - Machine Level Programming - Basics"
+    }],
+    "activity_name": "Quiz on Bomb Lab - Machine Level Programming - Basics",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "video",
+      "title": "Video on Bomb Lab - Machine Level Programming - Control",
+      "videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-9.mp4",
+      "videoResources": "http://iiitdev.msitprogram.net/attachments/ics-6-6-pdf-9.pdf"
+
+    }],
+    "activity_name": "Video on Bomb Lab - Machine Level Programming - Control",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "quiz",
+      "evaluate" : false,
+      "questions": [
+      	{
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": true,
+              "option": "X == 0"
+            },
+            {
+              "correct": false,
+              "option": "X >= 0"
+            },
+            {
+              "correct": false,
+              "option": "X <= 0"
+            },
+            {
+              "correct": false,
+              "option": "X != 0"
+            }
+          ],
+          "questionText": [{
+              "text": "Look at the following code snippets in C and Assembly code and answer the questions."
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-37.png"
+              }
+            },
+            {
+              "image": {
+                "imagename": "",
+                "imageSRC": "http://iiitdev.msitprogram.net/images/ics-38.png"
+              }
+            },
+            {
+              "text": "What is the expression that goes into the if condition of rfun() function."
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "2"
+            },
+            {
+              "correct": false,
+              "option": "1"
+            },
+            {
+              "correct": true,
+              "option": "0"
+            },
+            {
+              "correct": false,
+              "option": "3"
+            }
+          ],
+          "questionText": [{
+              "text": " What expression or value that goes into the return statement inside the if condition."
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+        {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "X << 1"
+            },
+            {
+              "correct": false,
+              "option": "X >> = 1"
+            },
+            {
+              "correct": true,
+              "option": "X >> 1"
+            },
+            {
+              "correct": false,
+              "option": "X <<= 1"
+            }
+          ],
+          "questionText": [{
+              "text": "What expression that goes in unsigned nx = _______"
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+         {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "rfun(x << 1)"
+            },
+            {
+              "correct": false,
+              "option": "rfun(x)"
+            },
+            {
+              "correct": false,
+              "option": "rfun(x >> 1)"
+            },
+            {
+              "correct": true,
+              "option": "rfun(nx)"
+            }
+          ],
+          "questionText": [{
+              "text": "What is the expression that goes in int rv = _______-"
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        },
+         {
+          "correct_feedback": "Correct",
+          "max_marks": "0",
+          "options": [{
+              "correct": false,
+              "option": "rv + (0x1 + rv)"
+            },
+            {
+              "correct": true,
+              "option": "(x & 0x1) + rv"
+            },
+            {
+              "correct": false,
+              "option": "(x + 0x1) + rv"
+            },
+            {
+              "correct": false,
+              "option": "(x * 0x1) + rv"
+            }
+          ],
+          "questionText": [{
+              "text": "What does the rfun returns (the last statement in the rfun() function) _______"
+            }
+          ],
+          "questionType": "mcq",
+          "wrong_feedback": "Incorrect"
+        }
+         ],
+      "title": "Quiz on Bomb Lab - Machine Level Programming - Control"
+    }],
+    "activity_name": "Quiz on Bomb Lab - Machine Level Programming - Control",
+    "module_id": 6
+  },
+  {
+    "activity_json": [{
+      "activityType": "notes",
+      "title": "Bomb Lab - Diffuse Phase - 1",
+      "text": "1. Diffuse phase 1 of the bomb lab as part of this activity.<br>2. Please find the bomb lab handout <a href=\"https://drive.google.com/drive/folders/1gaBV0ney-sWFe81Qt_MSIcFonK1xzeEM?usp=sharing\">here</a><br>3. You can request your mentor to get the new version of the bomb lab handout."
+    }],
+    "activity_name": "Bomb Lab - Diffuse Phase - 1",
+    "module_id": 6
+  }
+
+]

@@ -46,27 +46,27 @@ router.post('/mlogin', jsonParser, async (req, res) => {
   let token;
   try{
     accessToken = req.body.accessToken;
-    console.log(accessToken);
     googleAuthAPI = "https://www.googleapis.com/oauth2/v1/tokeninfo?access_token="+ accessToken;
 
     axios.get(googleAuthAPI)
       .then(async response =>{
         if(response.data.email === req.body.email){
-          data = await Users.findOne({email: req.body.email});
-          assert(data, 'wrong email');
+          userdata = await Users.findOne({email: req.body.email});
+          // assert(data, 'wrong email');
           payload = {
             'email': req.body.email,
           };
           token = jwt.sign(payload, privateKEY, signOptions);
           data = {
             'token': token,
-            'valid': data.role
+            // 'valid': userdata.role
           };
           logger.info("User logged in successfully");
           res.send(data);
         }
       })
       .catch(error => {
+        console.log(error);
         res.status(401).json({error: "Invalid user"});
     });
   }

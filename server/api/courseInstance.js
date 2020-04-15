@@ -3,7 +3,7 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json({ limit: '100mb' });
 const multer = require('multer');
-const upload = multer({ dest: './uploads/' });
+const upload = multer({ dest: process.env.UPLOADS_DIR });
 const csv = require('csv-parser');
 const fs = require('fs');
 

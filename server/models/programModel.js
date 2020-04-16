@@ -11,9 +11,15 @@ var CreateProgramSchema = new mongo.Schema({
     programDescription:String,
     calendar: String,
     // added by siva after discussed with the team.
-    gradeScale: []
+    gradeScale: [
+        {
+            grade: String,
+            scale: Number
+        }
+    ]
 });
 
 Programs = mongo.model('Programs', CreateProgramSchema);
 
 module.exports = Programs;
+

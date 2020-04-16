@@ -1,7 +1,6 @@
 const mongo = require('mongoose');
 
 function startDb() {
-  console.log(process.env.MONGO_ATLAS_URL)
   mongo.connect(process.env.MONGO_ATLAS_URL, {
     useNewUrlParser: true
   })

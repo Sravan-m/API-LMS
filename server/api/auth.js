@@ -52,16 +52,18 @@ router.post('/mlogin', jsonParser, async (req, res) => {
       .then(async response =>{
         if(response.data.email === req.body.email){
           userdata = await Users.findOne({email: req.body.email});
-          // assert(data, 'wrong email');
+          // console.log(userdata);
+          assert(userdata, 'wrong email');
           payload = {
             'email': req.body.email,
           };
           token = jwt.sign(payload, privateKEY, signOptions);
           data = {
             'token': token,
-            // 'valid': userdata.role
+            'valid': userdata.role
           };
           logger.info("User logged in successfully");
+          console.log(data);
           res.send(data);
         }
       })

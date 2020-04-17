@@ -1,7 +1,7 @@
 FROM node:8.10
 
 ENV PORT_=3000 \
-    MONGO_ATLAS_URL=mongodb+srv://sukesh:batman1@ng-cluster-0uosh.mongodb.net/userdb?retryWrites=true \
+    MONGO_ATLAS_URL="mongodb://mongo:27017/mongo-test" \
     UPLOADS_DIR=./uploads/
 
 EXPOSE 3000

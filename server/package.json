@@ -4,8 +4,14 @@
   "description": "to test the modularity",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "MONGO_ATLAS_URL=mongodb+srv://sukesh:batman1@ng-cluster-0uosh.mongodb.net/userdb?retryWrites=true jest",
     "start": "nodemon -r dotenv/config app.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "author": "manikanta",
   "license": "ISC",
@@ -26,5 +32,9 @@
     "rimraf": "^2.6.3",
     "urlencode": "^1.1.0",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "supertest": "^4.0.2"
   }
 }

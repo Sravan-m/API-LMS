@@ -1,7 +1,7 @@
 const request = require('supertest')
 const app = require('../app')
 
-describe('Post Endpoints', () => {
+describe('Get Endpoints', () => {
 
     it("Consuming API endpoint - 2", async (done) => {
         const res = await request(app)

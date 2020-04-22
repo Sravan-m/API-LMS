@@ -7,24 +7,68 @@ const Users = require('../models/userModel');
 const CourseInstances = require('../models/courseInstanceModel');
 const CourseCatalog = require('../models/courseModel');
 const acadDetails = require("../models/academicDetailsModel")
-
+const axios = require('axios');
+const jwt = require('../jwt').jwt;
+const verifyOptions = require('../jwt').jwt.verifyOptions;
+const publicKEY = require('../jwt').publicKEY;
 const User = require('./user')
+const winston = require('winston');
+const assert = require('assert');
 const mongo = require('mongoose');
 var ObjectId = mongo.Types.ObjectId;
 
-router.get("/required/courses/completion/:user_id", async (req, res) => {
+const logger = winston.createLogger({
+  level: 'info',
+  // format: winston.format.json(),
+  format: winston.format.combine(
+    // winston.format.colorize({ all: true }),
+    winston.format.timestamp(),
+    winston.format.json()
+  ),
+  defaultMeta: { service: 'user-service' },
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: 'error.log', level: 'error' }),
+    new winston.transports.File({ filename: 'info.log', level: 'info' }),
+    new winston.transports.File({ filename: 'combined.log' })
+  ]
+});
+
+
+router.get("/required/courses/completion/", async (req, res) => {
 	try {
-        console.log("Here...1", req.params.user_id);
-        var user = req.params.user_id;
+
+  		// var url = "http://localhost:3000/api/user/id?token="+req.query.token;
+		// const response = await axios.get(url);
+		var userID;
+		try {
+			var accessToken = req.query.token;
+			console.log(accessToken);
+			var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
+			// console.log("token verify--->", decoded);
+			// console.log(await Users.find({"email":decoded.email}))
+			var user = await Users.findOne({ "email": decoded.email });
+			assert(user, "Not Found");
+			// logger.info("User's id sent successfully");
+			userID = user._id;
+			// res.json({ 'id': user._id });
+		} catch (err) {
+			if (err instanceof jwt.JsonWebTokenError) {
+				logger.error('Invalid token');
+				res.status(404).end("Invalid Token");
+			}
+			logger.error("Error in getting user's id -->" + err.message);
+			res.json({ "error": err.message });
+		}
 
         var query = {
-            "userID": new ObjectId(user)
+            "userID": new ObjectId(userID)
         };
 
         var data = await acadDetails.findOne(query);
 
         var prog = await Programs.findOne(data.programID);
-        console.log(prog.gradeScale);
+        // console.log(prog.gradeScale);
 
         var enrolments = data.enrollments;
         result = "";
@@ -39,9 +83,9 @@ router.get("/required/courses/completion/:user_id", async (req, res) => {
 				// console.log("Course Name : ", courseDetails.courseName);
             	for (var k = 0; k < courss[j].grades.length; k++) {
 					var cinstance = courss[j].grades[k].courseInstance;
-					console.log(cinstance);
+					// console.log(cinstance);
 					var instance = await CourseInstances.findOne({ _id: cinstance });
-					console.log(instance);
+					// console.log(instance);
 					if (instance.isCourseRequired === true) {
 						var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
 						console.log(courseDetails.courseName, courss[j].grades[k].grade);
@@ -76,34 +120,33 @@ router.get("/required/courses/completion/:user_id", async (req, res) => {
         			flag = false;
         		}
         	}
-        	if (flag){
+        	if (flag) {
 	    		tmpCourses.push(courses[maxJ]);
-				tmpGrades.push(grades[maxJ]);
 				tmpStatus.push(status[maxJ]);
+				if (grades[maxJ] === "Incomplete" || 
+						status[maxJ] === "Evaluations in-progress" || 
+	       				status[maxJ] === "Course in-progress" || 
+        				status[maxJ] === "Registered") {
+					tmpGrades.push("-");
+					incompleteCnt += 1;
+				} else {
+					tmpGrades.push(grades[maxJ]);
+				}
 			}
         }
-        for (var i = 0; i < tmpGrades.length; i++) {
-        	if (tmpGrades[i] === "Incomplete") {
-        		incompleteCnt += 1;
-        	}
-        	if (tmpStatus[i] === "Evaluations in-progress" || 
-        		tmpStatus[i] === "Course in-progress" || 
-        		tmpStatus[i] === "Registered") {
-        			incompleteCnt += 1;	
-        	}
-        }
-        // JSONObject profile = new JSONObject();
+
         var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
         
         console.log(tmpCourses);
         console.log(tmpGrades);
+        console.log(tmpStatus);
 
         var result = { 	"courses": tmpCourses,
         				"grades": tmpGrades,
         				"status": tmpStatus,
         				"isPromoted" : status
         			};
-        res.json(result);
+        res.status(200).json(result);
     } catch (error) {
     	console.log(error)
         res.sendStatus(500);
@@ -112,11 +155,18 @@ router.get("/required/courses/completion/:user_id", async (req, res) => {
 
 module.exports = router;
 
-
+// On success.... the response could be as follows
 // {
 // 	"courses" : [1,2,3,4],
 // 	"grades" : ["a+", -,-,-]
 // 	"status" : ["course completed","registered","inprogress","Incompelete"],
 // 	"overallStatus" : "Welcome to MSIT and you are not registered. Write to help"
 // }
+
+
+// On failure.... the response could be as follows
+// {
+//     "error": "Invalid Token"
+// }
+
 

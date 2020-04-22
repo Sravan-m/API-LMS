@@ -1583,3 +1583,26 @@
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-21T10:01:41.066Z"}
 {"message":"User not able to log in due toKey must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-21T10:02:00.494Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-21T10:08:51.413Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:09:23.589Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:12:34.265Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:18:04.533Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:19:31.456Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:20:00.243Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:21:23.890Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:23:40.400Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:25:45.465Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:26:39.885Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:28:21.011Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:45:05.488Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T11:48:19.937Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T13:58:46.949Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T13:59:47.016Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T14:46:27.838Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T14:47:06.190Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T14:51:09.678Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T14:52:51.564Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:01:09.936Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:05:54.100Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:13:07.317Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:16:50.640Z"}
+{"message":"Error in getting user's id -->assert is not defined","level":"error","service":"user-service","timestamp":"2020-04-22T15:36:49.579Z"}

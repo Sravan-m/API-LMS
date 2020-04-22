@@ -4,12 +4,19 @@
   "description": "to test the modularity",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --testTimeout=100000 --detectOpenHandles",
     "start": "nodemon -r dotenv/config app.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "author": "manikanta",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
@@ -27,5 +34,9 @@
     "rimraf": "^2.6.3",
     "urlencode": "^1.1.0",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "supertest": "^4.0.2"
   }
 }

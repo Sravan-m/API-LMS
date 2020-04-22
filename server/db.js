@@ -6,7 +6,6 @@ function startDb() {
     useNewUrlParser: true
   })
   .then(() => console.log('Mongodb successfully connected'));
-
   return mongo.connection
     .on('error', console.error)
     .on('disconnected', startDb);

@@ -89,7 +89,7 @@ async function getId(req, res) {
   try {
     // console.log("Insise Get Role");
     var accessToken = req.query.token;
-    // console.log(accessToken);
+    console.log(accessToken);
     var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
     // console.log("token verify--->", decoded);
     // console.log(await Users.find({"email":decoded.email}))

@@ -13,6 +13,7 @@
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
+    "convert-csv-to-json": "0.0.15",
     "cors": "^2.8.5",
     "csv-parser": "^2.2.0",
     "dotenv": "^8.0.0",

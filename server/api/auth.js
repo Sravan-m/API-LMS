@@ -52,7 +52,6 @@ router.post('/mlogin', jsonParser, async (req, res) => {
       .then(async response =>{
         if(response.data.email === req.body.email){
           userdata = await Users.findOne({email: req.body.email});
-          // console.log(userdata);
           assert(userdata, 'wrong email');
           payload = {
             'email': req.body.email,
@@ -63,12 +62,12 @@ router.post('/mlogin', jsonParser, async (req, res) => {
             'valid': userdata.role
           };
           logger.info("User logged in successfully");
-          console.log(data);
-          res.send(data);
+          res.status(200).send(data);
+        } else {
+          res.status(401).json({error: "Invalid user"});
         }
       })
       .catch(error => {
-        console.log(error);
         res.status(401).json({error: "Invalid user"});
     });
   }

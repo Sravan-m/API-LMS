@@ -1606,3 +1606,5 @@
 {"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:13:07.317Z"}
 {"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-22T15:16:50.640Z"}
 {"message":"Error in getting user's id -->assert is not defined","level":"error","service":"user-service","timestamp":"2020-04-22T15:36:49.579Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-23T05:55:09.464Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-23T06:06:09.332Z"}

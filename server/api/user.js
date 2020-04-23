@@ -216,4 +216,4 @@ user.post("/post/student-list/:role/:programID", jsonParser, async (req, res) =>
 });
 
 
-module.exports = user;
+module.exports = {user, getId};

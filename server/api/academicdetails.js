@@ -38,9 +38,12 @@ const logger = winston.createLogger({
 router.get("/required/courses/completion/", async (req, res) => {
 	try {
 
-  		// var url = "http://localhost:3000/api/user/id?token="+req.query.token;
+  		// var url = "/api/user/id?token="+req.query.token;
 		// const response = await axios.get(url);
-		var userID;
+		// const response = await User.getId(req, res);
+		// var userID = response["id"];
+		// console.log("hello from acadetails : ", userID);
+
 		try {
 			var accessToken = req.query.token;
 			console.log(accessToken);
@@ -76,77 +79,83 @@ router.get("/required/courses/completion/", async (req, res) => {
         grades = [];
         status = [];
         points = [];
+
         for (var i = 0; i < enrolments.length; i++) {
             var courss = enrolments[i].courses;
-            for (var j = 0; j < courss.length; j++) {
-            	var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
-				// console.log("Course Name : ", courseDetails.courseName);
-            	for (var k = 0; k < courss[j].grades.length; k++) {
-					var cinstance = courss[j].grades[k].courseInstance;
-					// console.log(cinstance);
-					var instance = await CourseInstances.findOne({ _id: cinstance });
-					// console.log(instance);
-					if (instance.isCourseRequired === true) {
-						var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
-						console.log(courseDetails.courseName, courss[j].grades[k].grade);
-						courses.push(courseDetails.courseName);
-						grades.push(courss[j].grades[k].grade);
-						status.push(courss[j].status[k].status);
+			//	The size of the arrays of courseInstances, grades, status should be equal.
+            if (courss[j].grades.length !== courss[j].status.length && courss[j].status.length !== courss[j].courseInstances.length) {
+				res.status(401).send({"status": "Grades are not currently available."});
+			} else {
+	            for (var j = 0; j < courss.length; j++) {
+	            	var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
+					// console.log("Course Name : ", courseDetails.courseName);
+	            	for (var k = 0; k < courss[j].grades.length; k++) {
+						var cinstance = courss[j].grades[k].courseInstance;
+						// console.log(cinstance);
+						var instance = await CourseInstances.findOne({ _id: cinstance });
+						// console.log(instance);
+						if (instance.isCourseRequired === true) {
+							var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
+							console.log(courseDetails.courseName, courss[j].grades[k].grade);
+							courses.push(courseDetails.courseName);
+							grades.push(courss[j].grades[k].grade);
+							status.push(courss[j].status[k].status);
 
-						var idx = prog.gradeScale.findIndex(x => x.grade === courss[j].grades[k].grade);
-						var pts = prog.gradeScale[idx].points;
-						console.log(idx, prog.gradeScale[idx].points);
-						points.push(prog.gradeScale[idx].points);
+							var idx = prog.gradeScale.findIndex(x => x.grade === courss[j].grades[k].grade);
+							var pts = prog.gradeScale[idx].points;
+							console.log(idx, prog.gradeScale[idx].points);
+							points.push(prog.gradeScale[idx].points);
+						}
+						else {
+							break;
+						}
+	            	}
+	            }
+
+		        var tmpCourses = [];
+		        var tmpGrades = [];
+		        var tmpStatus = [];
+		        var incompleteCnt = 0;
+		        for (var i = 0; i < courses.length; i++) {
+		        	var prevPts = points[i];
+		        	var flag = true;
+		        	var maxJ = i;
+		        	for (var j = i+1; j < courses.length; j++) {
+		        		if (courses[i] === courses[j] && prevPts < points[j]) {
+		        			maxJ = j;
+		        			prevPts = points[j];
+		        			flag = false;
+		        		}
+		        	}
+		        	if (flag) {
+			    		tmpCourses.push(courses[maxJ]);
+						tmpStatus.push(status[maxJ]);
+						if (grades[maxJ] === "Incomplete" || 
+								status[maxJ] === "Evaluations in-progress" || 
+			       				status[maxJ] === "Course in-progress" || 
+		        				status[maxJ] === "Registered") {
+							tmpGrades.push("-");
+							incompleteCnt += 1;
+						} else {
+							tmpGrades.push(grades[maxJ]);
+						}
 					}
-					else {
-						break;
-					}
-            	}
-            }
-        }
+		        }
 
-        var tmpCourses = [];
-        var tmpGrades = [];
-        var tmpStatus = [];
-        var incompleteCnt = 0;
-        for (var i = 0; i < courses.length; i++) {
-        	var prevPts = points[i];
-        	var flag = true;
-        	var maxJ = i;
-        	for (var j = i+1; j < courses.length; j++) {
-        		if (courses[i] === courses[j] && prevPts < points[j]) {
-        			maxJ = j;
-        			prevPts = points[j];
-        			flag = false;
-        		}
-        	}
-        	if (flag) {
-	    		tmpCourses.push(courses[maxJ]);
-				tmpStatus.push(status[maxJ]);
-				if (grades[maxJ] === "Incomplete" || 
-						status[maxJ] === "Evaluations in-progress" || 
-	       				status[maxJ] === "Course in-progress" || 
-        				status[maxJ] === "Registered") {
-					tmpGrades.push("-");
-					incompleteCnt += 1;
-				} else {
-					tmpGrades.push(grades[maxJ]);
-				}
-			}
-        }
+		        var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
+		        
+		        console.log(tmpCourses);
+		        console.log(tmpGrades);
+		        console.log(tmpStatus);
 
-        var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
-        
-        console.log(tmpCourses);
-        console.log(tmpGrades);
-        console.log(tmpStatus);
-
-        var result = { 	"courses": tmpCourses,
-        				"grades": tmpGrades,
-        				"status": tmpStatus,
-        				"isPromoted" : status
-        			};
-        res.status(200).json(result);
+		        var result = { 	"courses": tmpCourses,
+		        				"grades": tmpGrades,
+		        				"status": tmpStatus,
+		        				"isPromoted" : status
+		        			};
+		        res.status(200).json(result);
+		    }
+	    }
     } catch (error) {
     	console.log(error)
         res.sendStatus(500);

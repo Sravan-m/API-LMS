@@ -14,7 +14,7 @@ function startDb() {
     console.log('Mongodb successfully connected');
     //loadUsers();
     //loadCourses();
-    //loadPrograms();
+    loadPrograms();
     //loadCurriculam();
     //loadGrades();
 
@@ -70,14 +70,19 @@ function loadCourses() {
 function loadPrograms() {
     Programs.find(function(err, programs) {
         if (err) return err;
+        console.log(programs[0].batch);
         var header = "program.programName|program.batch|program.mentors\n";
         fs.appendFile('programs.csv', header, function (err) {
             if (err) throw err;
             console.log(header);
         }); 
         programs.forEach(program => {
+            var batches = program.batch;
             var programInfo = program.programName + "|" + program.batch 
             + "|" + program.mentors + "\n";
+            batches.forEach(batch => { 
+                
+            });
             fs.appendFile('programs.csv', programInfo, function (err) {
                 if (err) throw err;
                 console.log(programInfo);
@@ -86,6 +91,8 @@ function loadPrograms() {
 
     })
 }
+
+
 // create curriculum.csv from database.
 function loadCurriculam() {
     Programs.find(function(err, programs) {

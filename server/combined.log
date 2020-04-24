@@ -1608,3 +1608,24 @@
 {"message":"Error in getting user's id -->assert is not defined","level":"error","service":"user-service","timestamp":"2020-04-22T15:36:49.579Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-23T05:55:09.464Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-23T06:06:09.332Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:02:47.456Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:02:47.460Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:04:38.906Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:04:38.911Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:06:27.793Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:06:27.800Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:06:30.247Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:06:30.249Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:07:03.641Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:07:03.645Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:07:33.537Z"}
+{"message":"Error in getting user's id -->Can't set headers after they are sent.","level":"error","service":"user-service","timestamp":"2020-04-24T06:07:33.542Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:08:07.641Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:09:27.201Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:11:07.269Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:11:58.163Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:12:59.215Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:14:01.966Z"}
+{"message":"Error in getting user's id -->Cannot read property 'json' of undefined","level":"error","service":"user-service","timestamp":"2020-04-24T06:14:01.970Z"}
+{"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2020-04-24T06:16:01.910Z"}
+{"message":"Error in getting user's id -->Cannot read property 'json' of undefined","level":"error","service":"user-service","timestamp":"2020-04-24T06:16:01.911Z"}

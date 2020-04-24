@@ -11,67 +11,28 @@ const axios = require('axios');
 const jwt = require('../jwt').jwt;
 const verifyOptions = require('../jwt').jwt.verifyOptions;
 const publicKEY = require('../jwt').publicKEY;
-const User = require('./user')
-const winston = require('winston');
-const assert = require('assert');
+// const getId = require('./user');
+// const winston = require('winston');
+// const assert = require('assert');
 const mongo = require('mongoose');
 var ObjectId = mongo.Types.ObjectId;
 
-const logger = winston.createLogger({
-  level: 'info',
-  // format: winston.format.json(),
-  format: winston.format.combine(
-    // winston.format.colorize({ all: true }),
-    winston.format.timestamp(),
-    winston.format.json()
-  ),
-  defaultMeta: { service: 'user-service' },
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: 'error.log', level: 'error' }),
-    new winston.transports.File({ filename: 'info.log', level: 'info' }),
-    new winston.transports.File({ filename: 'combined.log' })
-  ]
-});
-
-
 router.get("/required/courses/completion/", async (req, res) => {
+	// // var hello = "Hello";
+	// res = await getId(req);
+	// // var userID = res["id"];
+	// console.log("Siva Sankar", res);
+	
 	try {
-
-  		// var url = "/api/user/id?token="+req.query.token;
-		// const response = await axios.get(url);
-		// const response = await User.getId(req, res);
-		// var userID = response["id"];
-		// console.log("hello from acadetails : ", userID);
-
-		try {
-			var accessToken = req.query.token;
-			console.log(accessToken);
-			var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
-			// console.log("token verify--->", decoded);
-			// console.log(await Users.find({"email":decoded.email}))
-			var user = await Users.findOne({ "email": decoded.email });
-			assert(user, "Not Found");
-			// logger.info("User's id sent successfully");
-			userID = user._id;
-			// res.json({ 'id': user._id });
-		} catch (err) {
-			if (err instanceof jwt.JsonWebTokenError) {
-				logger.error('Invalid token');
-				res.status(404).end("Invalid Token");
-			}
-			logger.error("Error in getting user's id -->" + err.message);
-			res.json({ "error": err.message });
-		}
-
-        var query = {
-            "userID": new ObjectId(userID)
-        };
-
+		var accessToken = req.query.token;
+	    var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
+	    var userId = await Users.findOne({"email":decoded.email});
+	    if (userId === null) {
+	    	res.status(401).send({"error": "Invalid user, Please login again..."});
+	    }
+	    query =  {"userID" : userId._id  };
         var data = await acadDetails.findOne(query);
-
         var prog = await Programs.findOne(data.programID);
-        // console.log(prog.gradeScale);
 
         var enrolments = data.enrollments;
         result = "";
@@ -83,10 +44,10 @@ router.get("/required/courses/completion/", async (req, res) => {
         for (var i = 0; i < enrolments.length; i++) {
             var courss = enrolments[i].courses;
 			//	The size of the arrays of courseInstances, grades, status should be equal.
-            if (courss[j].grades.length !== courss[j].status.length && courss[j].status.length !== courss[j].courseInstances.length) {
-				res.status(401).send({"status": "Grades are not currently available."});
-			} else {
-	            for (var j = 0; j < courss.length; j++) {
+            for (var j = 0; j < courss.length; j++) {
+            	if (courss[j].grades.length !== courss[j].status.length && courss[j].status.length !== courss[j].courseInstances.length) {
+					// res.status(401).send({"status": "Grades are not currently available."});
+				} else {
 	            	var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
 					// console.log("Course Name : ", courseDetails.courseName);
 	            	for (var k = 0; k < courss[j].grades.length; k++) {
@@ -105,59 +66,56 @@ router.get("/required/courses/completion/", async (req, res) => {
 							var pts = prog.gradeScale[idx].points;
 							console.log(idx, prog.gradeScale[idx].points);
 							points.push(prog.gradeScale[idx].points);
-						}
-						else {
+						} else {
 							break;
 						}
-	            	}
-	            }
-
-		        var tmpCourses = [];
-		        var tmpGrades = [];
-		        var tmpStatus = [];
-		        var incompleteCnt = 0;
-		        for (var i = 0; i < courses.length; i++) {
-		        	var prevPts = points[i];
-		        	var flag = true;
-		        	var maxJ = i;
-		        	for (var j = i+1; j < courses.length; j++) {
-		        		if (courses[i] === courses[j] && prevPts < points[j]) {
-		        			maxJ = j;
-		        			prevPts = points[j];
-		        			flag = false;
-		        		}
-		        	}
-		        	if (flag) {
-			    		tmpCourses.push(courses[maxJ]);
-						tmpStatus.push(status[maxJ]);
-						if (grades[maxJ] === "Incomplete" || 
-								status[maxJ] === "Evaluations in-progress" || 
-			       				status[maxJ] === "Course in-progress" || 
-		        				status[maxJ] === "Registered") {
-							tmpGrades.push("-");
-							incompleteCnt += 1;
-						} else {
-							tmpGrades.push(grades[maxJ]);
-						}
 					}
-		        }
+        		}
+        	}
+        }
+        var tmpCourses = [];
+        var tmpGrades = [];
+        var tmpStatus = [];
+        var incompleteCnt = 0;
+        for (var i = 0; i < courses.length; i++) {
+        	var prevPts = points[i];
+        	var flag = true;
+        	var maxJ = i;
+        	for (var j = i+1; j < courses.length; j++) {
+        		if (courses[i] === courses[j] && prevPts < points[j]) {
+        			maxJ = j;
+        			prevPts = points[j];
+        			flag = false;
+        		}
+        	}
+        	if (flag) {
+	    		tmpCourses.push(courses[maxJ]);
+				tmpStatus.push(status[maxJ]);
+				if (grades[maxJ] === "Incomplete" || 
+						status[maxJ] === "Evaluations in-progress" || 
+	       				status[maxJ] === "Course in-progress" || 
+        				status[maxJ] === "Registered") {
+					tmpGrades.push("-");
+					incompleteCnt += 1;
+				} else {
+					tmpGrades.push(grades[maxJ]);
+				}
+			}
+        }
 
-		        var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
-		        
-		        console.log(tmpCourses);
-		        console.log(tmpGrades);
-		        console.log(tmpStatus);
+        var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
+        
+        console.log(tmpCourses);
+        console.log(tmpGrades);
+        console.log(tmpStatus);
 
-		        var result = { 	"courses": tmpCourses,
-		        				"grades": tmpGrades,
-		        				"status": tmpStatus,
-		        				"isPromoted" : status
-		        			};
-		        res.status(200).json(result);
-		    }
-	    }
+        var result = { 	"courses": tmpCourses,
+        				"grades": tmpGrades,
+        				"status": tmpStatus,
+        				"isPromoted" : status 	};
+        res.status(200).json(result);
     } catch (error) {
-    	console.log(error)
+    	console.log(error);
         res.sendStatus(500);
     }
 });

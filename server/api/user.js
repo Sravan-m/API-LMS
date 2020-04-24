@@ -97,7 +97,6 @@ async function getId(req, res) {
     assert(user, "Not Found");
     logger.info("User's id sent successfully");
     res.json({ 'id': user._id });
-
   }
   catch (err) {
     if (err instanceof jwt.JsonWebTokenError) {
@@ -216,4 +215,5 @@ user.post("/post/student-list/:role/:programID", jsonParser, async (req, res) =>
 });
 
 
-module.exports = {user, getId};
+module.exports = user
+module.exports = getId

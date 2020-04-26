@@ -8,16 +8,16 @@ import { Password } from './password';
 
 @Collection('users')
 export class User {
-    @ObjectIdColumn() readonly id: ObjectId;
-    @Property() firstName: String;
-    @Property() lastName: String;
-    @Property() userID: String;
-    @Property() email: String;
+    @ObjectIdColumn() id: ObjectId;
+    @Property() firstName: string;
+    @Property() lastName: string;
+    @Property() userID: string;
+    @Property() email: string;
     @Property() password: Password;
-    @Property() phoneNo: String;
+    @Property() phoneNo: string;
     @Property() dateOfBirth: Date;
-    @Property() gender: String;
-    @Property() image: String;
-    @Property() resetToken?: String;
-    @Property() role: String;
+    @Property() gender: string;
+    @Property() image: string;
+    @Property() resetToken?: string;
+    @Property() role: string;
 }

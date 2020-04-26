@@ -18,5 +18,5 @@ export class Program {
     @Property() mentors: User[];
     @Property() programDescription: String;
     @Property() calendar: String;
-    @Property() gradeScale: GradeScale;
+    @Property() gradeScale: GradeScale[];
 }

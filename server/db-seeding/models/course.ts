@@ -4,7 +4,6 @@ import {
     ObjectIdColumn,
 } from 'typeorm';
 import { ObjectId } from "mongodb";
-import { User } from "./user";
 
 @Collection("coursecatalog")
 export class Course {
@@ -12,7 +11,7 @@ export class Course {
     @Property() courseID: String;
     @Property() courseName: String;
     @Property() courseDescription: String;
-    @Property() courseInstructor: User[];
-    @Property() image:{};
+    @Property() courseInstructor: ObjectId[];
+    @Property() image?:{};
     @Property() isAlive: Boolean;
 }

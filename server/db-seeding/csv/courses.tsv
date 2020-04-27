@@ -1,0 +1,10 @@
+courseID	courseName	courseDescription	courseInstructor	image	isAlive
+C1	Software App Development-Web	Software App Development-Web description	1	SAD	true
+C2	Introduction to Operating System	Introduction to Operating System description	1	IOS	false
+C3	Algorithms and Data Structures 2	Algorithms and Data Structures 2 description	1	ADS2	false
+C4	Database Management Systems	Database Management Systems description	1	DBMS	false
+C5	Software Engineering Foundations	Software Engineering Foundations description	1	SEF	false
+C6	Algorithms and Data Structures 1	Algorithms and Data Structures 1 description	1	ADS1	false
+C7	Object Oriented Programming	Object Oriented Programming description	1	OOP	false
+C8	Computer Science Principles and Programming	Computer Science Principles and Programming description	1	CSPP	false
+C9	Computational Thinking	Computational Thinking description	1	CT	false

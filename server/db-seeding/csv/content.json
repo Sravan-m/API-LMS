@@ -1,0 +1,401 @@
+{
+	"courseInstanceID": "CIID10",
+	"contentJSON": [
+        {
+		"activities": ["Intro to Version Control", "Create a repo"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eVersion control is central to software engineers, especially when they engage as a team in developing sophisticated distributed and cloud-based software like web and mobile apps. The next 12 weeks require you to use git, and so I've scheduled a significant portion of the first three days to master git.\u003c/p\u003e\u003cp\u003eI found Udacity's course on version control with git to be the best available online course that is suitable for this class. Your goal by the end of this calendar event is to complete the first lesson titled \"What is version control?\"\u003c/p\u003e\u003cb\u003e\u003cp\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to\u003c/p\u003e\u003col\u003e\u003cli\u003eExplain the concept of version control\u003c/li\u003e\u003cli\u003eRecall the terminology associated with version control systems\u003c/li\u003e\u003cli\u003eSet up git on your laptop\u003c/li\u003e\u003cli\u003eConfigure your terminal to use git.\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Version control with git",
+		"module_id": "SADWM1",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Intro to Version Control notes",
+				"text": "Here is the link to lesson 1 \u003ca href=\"https://www.udacity.com/course/version-control-with-git--ud123\"\u003ehttps://www.udacity.com/course/version-control-with-git--ud123\u003c/a\u003e. You may have to create an account on Udacity if you don't already have one. It is entirely free, and you don't have to make any payments to access the course. The course has six lessons carefully scheduled so that you don't rush through it."
+			}],
+			"activity_name": "Intro to Version Control",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Create a repo notes",
+				"text": "repo is short for a repository. In this event, you will continue on to lesson 2 of the Udacity course \u003ca href=\"https://www.udacity.com/course/version-control-with-git--ud123\"\u003ehttps://www.udacity.com/course/version-control-with-git--ud123\u003c/a\u003e. By the end of this lesson, you will be able to:\u003col\u003e\u003cli\u003eCreate a repo\u003c/li\u003e\u003cli\u003eExplain the structure of a repo\u003c/li\u003e\u003cli\u003eUse git clone to make copies of the repo\u003c/li\u003e\u003cli\u003eExamine the status of a repo using git status command\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eYou must try to finish the two lessons on day 1 even if it takes longer than the stipulated time. In case you find yourself to be stuck then please reach out to us via Gitter chatroom.\u003c/p\u003e"
+			}],
+			"activity_name": "Create a repo",
+			"activity_id": "A2"
+		}]
+	}, {
+		"activities": ["repo history", "LxD learn git"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eYesterday you got started with git and today you will learn about the git repo and commits. This lesson is super important as it dwells into several details about how git keeps track of the files and history.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003eBy the end of this module, you will be able to\u003col\u003e\u003cli\u003eExplain how git repo keeps track of the history\u003c/li\u003e\u003cli\u003eUse git log to display existing commits\u003c/li\u003e\u003cli\u003eUse git show to review the details of a commit\u003c/li\u003e\u003cli\u003eUse git add to add files from the working directory to the staging index\u003c/li\u003e\u003cli\u003eUse git commit to add the files from the staging index to the repo\u003c/li\u003e\u003cli\u003eUse git diff to display the difference between two versions of a file\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Git cont.",
+		"module_id": "SADWM2",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "repo history notes",
+				"text": "Complete the udacity lessons 3 and 4.\u003cbr\u003e\u003ca href=\"https://www.udacity.com/course/version-control-with-git--ud123\"\u003ehttps://www.udacity.com/course/version-control-with-git--ud123\u003c/a\u003e."
+			}],
+			"activity_name": "repo history",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "LxD learn git notes",
+				"text": "\u003cp\u003eThis is a \"learn by doing\" task to practice Git, and it connected with GitHub. It is an assignment to make you familiar with the process of submitting assignments on GitHub. You will also review the procedures for receiving feedback. At any time during the task, if you are stuck, reach out to us.\u003c/p\u003e\u003cp\u003eAccess the link and follow the instructions given in the link below. This observation of mine may appear silly, but it is true. Most of us don't carefully read and understand the given instructions. We usually rush through them. A tip for you is NOT to rush through all the instructions. \u003ca href=\"https://classroom.github.com/a/ltnO5x2L\"\u003ehttps://classroom.github.com/a/ltnO5x2L\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003cfont color=\"red\"\u003eAt the end of day 2, most students have expressed that the assignment delivered via GitHub classroom is very confusing and that we should use LMS for the submissions of the assignments. Revert to LMS from Module 3\u003c/font\u003e\u003c/p\u003e"
+			}],
+			"activity_name": "LxD learn git",
+			"activity_id": "A2"
+		}]
+	}, {
+		"activities": ["HTML", "CSS", "install code-time", "HTML \u0026 CSS Practice", "My Journey Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eToday we begin to learn the core of web frontend development technologies: HTML and CSS.\u003c/p\u003e\u003cp\u003eTo learn HTML and CSS, I'm switching the learning material to Harvard's very popular MOOC course titled CS50 Web. They have a video lecture that covers the basics of HTML and CSS including a demo of HTML and CSS code examples.\u003c/p\u003e\u003cp\u003eThe problem is that the lecture is lengthy, 1 hour 45 minutes. It is recommended to review the entire video \u003ca href=\"https://www.youtube.com/watch?v=1u2qu-EmIRc\"\u003ehttps://www.youtube.com/watch?v=1u2qu-EmIRc\u003c/a\u003e but it is not an absolute requirement.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to\u003c/p\u003e\u003col\u003e\u003cli\u003eDescribe HTML and CSS\u003c/li\u003e\u003cli\u003eWrite HTML code with the tags \u003col type=\"a\"\u003e\u003cli\u003eheading, ordered and unordered lists, image, tables, forms, paragraph, and div\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eWrite CSS with the properties \u003col type=\"a\"\u003e\u003cli\u003ecolor, background-color, text-align, width, height, margin, padding, font-family, font-size, font-weight, border, border-collapse\u003c/li\u003e\u003c/o\u003e\u003c/li\u003e\u003c/ol\u003e",
+		"name": "HTML \u0026 CSS",
+		"module_id": "SADWM3",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "HTML",
+				"text": "In this activity, you will go through the HTML video tutorial from Harvard.\u003col\u003e\u003cli\u003eVideo starts (35m 45s) for HTML:\u003cp\u003e\u003ca href=\"https://www.youtube.com/watch?v=1u2qu-EmIRc\u0026t=35m45s\"\u003ehttps://www.youtube.com/watch?v=1u2qu-EmIRc\u0026t=35m45s\u003c/a\u003e\u003c/p\u003e"
+			}],
+			"activity_name": "HTML",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "CSS",
+				"text": "In this activity, you will go through the HTML video tutorial from Harvard.\u003col\u003e\u003cli\u003e\u003cp\u003e\u003ca href=\"https://youtu.be/UV0jv66D5YI\"\u003ehttps://youtu.be/UV0jv66D5YI\u003c/a\u003e\u003c/p\u003e"
+			}],
+			"activity_name": "CSS",
+			"activity_id": "A2"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "install code-time",
+				"text": "Before you start coding you must install the code-time plugin for the code editor you are using. Metrics generated from the code editor should be added to your daily journal as a screenshot. Talk to your mentor about how to set up the code-time if you are stuck. Here is the link to the instructions. \u003ca href=\"https://www.software.com/code-time\"\u003ehttps://www.software.com/code-time\u003c/a\u003e"
+			}],
+			"activity_name": "install code-time",
+			"activity_id": "A3"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "HTML \u0026 CSS Practice",
+				"text": "The following code snippets are explained in the video. Review the code and play around with the examples to get familiarity with the code environment. \u003ca href=\"http://cdn.cs50.net/web/2018/spring/lectures/0/src0.zip \"\u003ehttp://cdn.cs50.net/web/2018/spring/lectures/0/src0.zip \u003c/a\u003e"
+			}],
+			"activity_name": "HTML \u0026 CSS Practice",
+			"activity_id": "A4"
+		}, {
+			"activity_name": "My Journey Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eCreate a webpage that illustrates your journey at MSIT.\u003c/p\u003e\u003cp\u003eBefore you start this assignment you should initialize the git repo on GitHub using your account. Add your mentor and reviewer as collaborators. Clone this GitHub repo on your local system. Start working on the project given below.\u003c/p\u003e\u003cp\u003eEnsure that you break the assignment down into multiple tasks. For example,\u003c/p\u003e\u003col\u003e\u003cli\u003ecreate a page header\u003c/li\u003e\u003cli\u003ecreate your profile picture\u003c/li\u003e\u003cli\u003ecreate an about me section\u003c/li\u003e\u003cli\u003elist of courses you worked on and your experiences\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eFor each task in the assignment, you should have at least one commit in the repo. So, for the example given above, there will be at least 4 commits.\u003c/p\u003e\u003cp\u003eYour webpage should demonstrate the use of the following HTML tags and CSS properties.\u003c/p\u003e\u003col\u003e\u003cli\u003eHTML Tags - heading, ordered and unordered lists, image, tables, forms, paragraph, and div\u003c/li\u003e\u003cli\u003eCSS - color, background-color, text-align, width, height, margin, padding, font-family, font-size, font-weight, border, border-collapse\u003c/li\u003e\u003c/ol\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "My Journey Assignment"
+			}],
+			"activity_id": "A5"
+		}]
+	}, {
+		"activities": ["Code Time Assignment", "HTML/CSS", "HTML \u0026 CSS Practice", "Project 0 Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eIn this module, you will continue to learn HTML and in particular, learn to hyperlink web pages, some HTML5 tags, use CSS to apply responsive design principles, use the bootstrap framework and SASS (a nicer way to write style sheets). The CS50 video lecture covers these topics including a demo with code examples. You will also begin project 0 after completing the video lectures.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eUse HTML tags \u003col type=\"a\"\u003e\u003cli\u003eHyperlinks, radio buttons, HTML5 tags\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eCSS selectors\u003c/li\u003e\u003cli\u003eApply responsive design using CSS\u003c/li\u003e\u003cli\u003eUse Bootstrap CSS library\u003c/li\u003e\u003cli\u003eUse SASS\u003c/li\u003e\u003c/ol\u003e",
+		"name": "HTML \u0026 CSS cont.",
+		"module_id": "SADWM4",
+		"content": [{
+			"activity_name": "Code Time Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eBefore you begin, please submit your CodeTime.txt file generated by the code-time extension. This file can be found in YOUR HOME DIRECTORY/.software/\u003c/p\u003e\u003cp\u003e\u003cfont color=\"red\"\u003eNote that this file is used for research purposes only and not for grading or attendance marking purposes.\u003c/font\u003e\u003c/p\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "Code Time Assignment"
+			}],
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "HTML/CSS",
+				"text": "Watch the video on the HTML/CSS parts. The first part of the video covers a little bit of Git and GitHub followed by HTML, CSS selectors, Responsive design, and SASS.\u003cbr\u003e.\u003ca href=\"https://www.youtube.com/watch?v=XQs5KcUj-Do\u0026feature=youtu.be\"\u003ehttps://www.youtube.com/watch?v=XQs5KcUj-Do\u0026feature=youtu.be\u003c/a\u003e"
+			}],
+			"activity_name": "HTML/CSS",
+			"activity_id": "A2"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "HTML \u0026 CSS Practice notes",
+				"text": "The following code snippets are explained in the video. Review the code and play around with the examples to get familiarity with the code environment.\u003cbr\u003e\u003ca href=\"http://cdn.cs50.net/web/2018/spring/lectures/1/src1.zip \"\u003ehttp://cdn.cs50.net/web/2018/spring/lectures/1/src1.zip \u003c/a\u003e"
+			}],
+			"activity_name": "HTML \u0026 CSS Practice",
+			"activity_id": "A3"
+		}, {
+			"activity_name": "Project 0 Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eProject 0\u003c/p\u003e\u003cp\u003eProject 0 description can be found at this URL\u003cbr\u003e\u003ca href=\"https://docs.cs50.net/ocw/web/projects/0/project0.html\"\u003ehttps://docs.cs50.net/ocw/web/projects/0/project0.html\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003cfont color=\"red\"\u003eThis project is due on Friday at midnight\u003c/font\u003e\u003c/p\u003e"
+					}],
+					"question_id": "Q2"
+				}],
+				"title": "Project 0 Assignment"
+			}],
+			"activity_id": "A4"
+		}]
+	}, {
+		"activities": ["Concept Map Assignment", "HTML Reflection Assignment", "CSS Reflection Assignment", "Version Control Reflection Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eThe purpose of this module is to assimilate all the concepts we have covered this week. It is important to connect all the topics to the big picture of software app development. For example, it would greatly help to know how HTML, CSS, Bootstrap, and SASS are related to each other and their dependencies. A solid understanding of these will be useful in software apps development.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003eBy the end of this module, you will be able to:\u003col\u003e\u003cli\u003eExplain when to use HTML\u003c/li\u003e\u003cli\u003eIllustrate HTML as DOM\u003c/li\u003e\u003cli\u003eDescribe the connection between HTML and CSS\u003c/li\u003e\u003cli\u003eIdentify the responsive design tools\u003c/li\u003e\u003cli\u003eDefine a workflow for creating HTML pages\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Reflection",
+		"module_id": "SADWM5",
+		"content": [{
+			"activity_name": "Concept Map Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "Create a concept map with all the topics that you have studied. The concept map can be very detailed to include all the tags and CSS properties that you know. If you have never created a concept map then this video is for you. You may use the software given in the video to create the concept map or do it on paper. Submit a Google document with a picture of the concept map and its description. Name the Google doc \u003cyour-name\u003e-concept-map-w1.\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=8XGQGhli0I0\u0026feature=youtu.be\"\u003ehttps://www.youtube.com/watch?v=8XGQGhli0I0\u0026feature=youtu.be\u003c/a\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "Concept Map Assignment"
+			}],
+			"activity_id": "A1"
+		}, {
+			"activity_name": "HTML Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eSubmit the answers to the following in a Google doc. Name the Google doc your-name-html-reflection.\u003c/p\u003e\u003col\u003e\u003cli\u003eWhat is the difference between writing the HTML code in a text editor (such as VS Code, Sublime, Atom) and a word document?\u003c/li\u003e\u003cli\u003eWhat is the purpose of the first tag in the HTML document?\u003c/li\u003e\u003cli\u003eWhich HTML tags in HTML do not have any visual appearance? What is the purpose of such tags?\u003c/li\u003e\u003cli\u003eIs it possible to create user-defined tags in HTML?\u003c/li\u003e\u003cli\u003eWhich HTML tag is the most powerful? Hint: It enables the world wide web\u003c/li\u003e\u003cli\u003eIs there a compiler or interpreter for the HTML code? Which software package does the job of taking HTML code as input, checks the tags and generates the output?\u003c/li\u003e\u003cli\u003eWhich data structure is used to represent the HTML page in the browser?\u003c/li\u003e\u003c/ol\u003e"
+					}],
+					"question_id": "Q2"
+				}],
+				"title": "HTML Reflection Assignment"
+			}],
+			"activity_id": "2"
+		}, {
+			"activity_name": "CSS Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eSubmit the answers to the following in a Google doc. Name the Google doc your-name-css-reflection.\u003c/p\u003e\u003col\u003e\u003cli\u003eHow are DOM and CSS related?\u003c/li\u003e\u003cli\u003eWhich is the most useful form of using CSS? style attribute, style tag or external style sheets?\u003c/li\u003e\u003cli\u003eI want to print a web page that I create and on the paper, I don’t want all the advertisements to be printed. Describe how CSS can be used for this purpose.\u003c/li\u003e\u003cli\u003eWhat exactly is responsive design a and why should I care? How is it relevant to software app development? Is the LMS software responsive?\u003c/li\u003e\u003cli\u003eIs there any use for SASS? When is it most relevant?\u003c/li\u003e\u003c/ol\u003e"
+					}],
+					"question_id": "Q3"
+				}],
+				"title": "CSS Reflection Assignment"
+			}],
+			"activity_id": "A2"
+		}, {
+			"activity_name": "Version Control Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eSubmit the answers to the following in a Google doc. Name the Google doc your-name-git-reflection.\u003c/p\u003e\u003col\u003e\u003cli\u003eVersion control adds additional steps like creating a repo, commit, etc., and it slows me down from completing my work. Is that overhead worthwhile?\u003c/li\u003e\u003cli\u003eWhat is a good logical way to structure the commits when creating web pages?\u003c/li\u003e\u003cli\u003eIs it good to include assets like images and videos in the git repo or is it better to keep them outside the repo? What if there are videos on the web page? How do we ignore them from staging and committing to the repo?\u003c/li\u003e\u003cli\u003eIt looks like staging is not required before making a commits to the repository. Do you agree?\u003c/li\u003e\u003cli\u003eImagine a scenario where the old project files, that are previously in the version history, are deleted from the project folder and commits are done to the same repo. Will we lose the old files forever? How does this work?\u003c/li\u003e\u003cli\u003eI’m working on a data science project with the Google collab. Collab already maintains version control. How is this different from using git? Which one is better? Is it possible to maintain collab files on git?\u003c/li\u003e\u003c/ol\u003e"
+					}],
+					"question_id": "Q4"
+				}],
+				"title": "Version Control Reflection Assignment"
+			}],
+			"activity_id": "A3"
+		}]
+	}, {
+		"activities": ["Python/Flask", "Git Workflow", "LRU with OOP Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eThe focus of this week is to create dynamic web apps. In this module you will start with a recap of Python programming, learn OOP with Python and then Flask. Flask is a microframework to create python based web applications.\u003c/p\u003e\u003cp\u003eYou will be introduced to the Git workflows used in real projects. A task at the end will give you practice on Python with OOP and the Git workflow.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eRecall python programming concepts\u003c/li\u003e\u003cli\u003eWrite python programs using OOP\u003c/li\u003e\u003cli\u003eRecall HTTP\u003c/li\u003e\u003cli\u003eDefine concepts associated with dynamic web apps using Flask\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Server Side (Flask)",
+		"module_id": "SADWM6",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Python/Flask",
+				"text": "\u003cp\u003eThis video lecture from Harvard CS50 covers all the topics necessary to develop dynamic web applications. A quick refresher on Python programming, using OOP in Python, a recap of HTTP and then the use of Flask with an example of writing a small dynamic web content app.\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=j5wysXqaIV8\"\u003ehttps://www.youtube.com/watch?v=j5wysXqaIV8\u003c/a\u003e"
+			}],
+			"activity_name": "Python/Flask",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Git Workflow notes",
+				"text": "\u003cp\u003eThe tutorial below explains the Git Workflow used for projects. This workflow is applicable for the work you do in this course and also for the projects that follow. Review the tutorial and familiarize yourself with the workflow from now. For today’s task, I’ll leave some hints about how to use this workflow for that particular task and also for the reviews to be done by your Mentor and team mates.\u003c/p\u003e\u003ca href=\"https://guides.github.com/introduction/flow/\"\u003ehttps://guides.github.com/introduction/flow/\u003c/a\u003e"
+			}],
+			"activity_name": "Git Workflow",
+			"activity_id": "A2"
+		}, {
+			"activity_name": "LRU with OOP Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003eThere are a lot of topics covered in the harvard video lecture. Unless you do something those concepts won’t really make sense. So, here we go, let’s LxD. This task shouldn’t be too much for you to handle. Write python OOP code for implementing LRU. If you forgot what LRU is, here is a recap of LRU cache. An LRU cache is a type of cache in which we remove the least recently used entry when the cache memory reaches its limit. How would you design this data structure using OOP? Follow the step by step guide given below. This guide also has instructions to follow the Git Workflow.\u003c/p\u003e\u003cb\u003eStep by Step Guide\u003c/b\u003e\u003col\u003e\u003cli\u003eCreate a repo, with the README.md initialized on GitHub. Name the repo as toy-problems. Add your mentor to this repo as a collaborator. Any practice problems that you practice can be part of this repo.\u003c/li\u003e\u003cli\u003eNow create a branch lru-cache in the toy-problems repo. Start developing python code for the LRU cache problem.\u003c/li\u003e\u003cli\u003eBegin by creating a python class. The class should be a constructor to initialize the properties of the LRU object. Think about what properties are required. Then complete the constructor.\u003c/li\u003e\u003cli\u003eThis is a good time to commit and the commit message could be to “add constructor for LRU”.\u003c/li\u003e\u003cli\u003eNext, think about what public methods should be provided to anyone who is using your LRU object.\u003col type=\"a\"\u003e\u003cli\u003eI can think of 3 methods, put, get and get_cache (not really required but this is useful for testing as you will see below).\u003c/li\u003e\u003cli\u003eThink about the method signatures and then create blank methods. Don’t complete the method logic yet.\u003c/li\u003e\u003cli\u003eTo keep the program from failing with syntax errors, you could write a pass python statement after the method signature.\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eAnother good time to commit and I’ll let you decide the commit message.\u003c/li\u003e\u003cli\u003eNext step is to write a class for testing the LRU object.\u003col type=\"a\"\u003e\u003cli\u003eSo, a general convention is to write LRUTest. In this test class you will import LRU, set up test cases for all the public methods to ensure that they work as expected.\u003c/li\u003e\u003cli\u003eWriting the test cases before completing the logic for the put, get and get_cache methods. This is part of the test first development strategy.\u003c/li\u003e\u003cli\u003eIn the main method, create an object of LRU, and design test cases to verify the correctness of put, get and get_cache methods. Verify for all the test cases if the return values match with the expected results using assert.\u003c/li\u003e\u003cli\u003eIf your test program returns with no errors then your tests have passed otherwise you will see the error messages.\u003c/li\u003e\u003cli\u003eAt this stage, as there is no logic in LRU, your test cases will fail. Your strategy now is to write the logic so that the test cases pass.\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eYou may have guessed this step, commit!\u003c/li\u003e\u003cli\u003eNow write code for your put, get and get_cache methods.\u003col type=\"a\"\u003e\u003cli\u003eVerify if the LRU is working as expected by running the LRUTest.\u003c/li\u003e\u003cli\u003eCommit every bug fix and it will create a nice trace of what went wrong.\u003c/li\u003e\u003cli\u003eThis is not required in general on real projects but as it is your toy-problems repo it is useful to review the common mistakes that you make while programming.\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eNow that you have completed your task, create a pull request and ask your mentor to review your work.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eWrite down your experience from doing this task in google doc. Put a link to your repo and submit it on the LMS.\u003c/p\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "LRU with OOP Assignment"
+			}],
+			"activity_id": "A3"
+		}]
+	}, {
+		"activities": ["Project Description", "Reflection Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eIn module 6 you have reviewed the harvard video on Flask and you have practiced Python OOP with the Git workflow. In this module you will start with setting up the environment for the development of the dynamic web app.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eSetup the development environment for the project\u003c/li\u003e\u003cli\u003eInstall Postgresql on Heroku and Local machine\u003c/li\u003e\u003cli\u003eConfigure Python and Flask\u003c/li\u003e\u003cli\u003eSetup the Goodreads API\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Server Side LxD (Flask)",
+		"module_id": "SADWM7",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Project Description",
+				"text": "\u003cp\u003eHere is the link to Project one. (\u003ca href=\"https://docs.cs50.net/ocw/web/projects/1/project1.html\"\u003ehttps://docs.cs50.net/ocw/web/projects/1/project1.html\u003c/a\u003e) Review the project description. Two requirements, namely, Registration and Authentication (i.e., login) are scheduled for this week. These two requirements are to be implemented independently by you and not as a team.\u003c/p\u003e\u003cp\u003eToday’s goal is broken down into 3 tasks given below. Each task should take between 30 mins to 45 mins based on your prior knowledge. You have to submit notes on the 3 tasks given below as notes.md file and it should be in your Git repo.\u003c/p\u003e\u003cp\u003eWhat should be recorded as notes? Here are some ideas but anything else you feel is important should be recorded here.\u003c/p\u003e\u003col\u003e\u003cli\u003eAny questions that you have while doing the task. These questions should be discussed with your team or mentor or both.\u003c/li\u003e\u003cli\u003eList of online references you have used to complete the task along with how the reference was helpful.\u003c/li\u003e\u003cli\u003eNotes on the steps that are tricky, time-consuming or confusing.\u003c/li\u003e\u003cli\u003eTime elapsed to complete each task.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eRefer to the getting started section of project 1 and complete the three tasks given below.\u003c/p\u003e\u003cul\u003e\u003cli\u003eTask 1 - Postgresql\u003c/li\u003e\u003cli\u003eTask 2 - Python and Flask\u003c/li\u003e\u003cli\u003eTask 3 - Goodreads API\u003c/li\u003e\u003c/ul\u003e"
+			}],
+			"activity_name": "Project Description",
+			"activity_id": "A1"
+		}, {
+			"activity_name": "Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003e\u003ch3\u003eTask 1 Postgresql - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eWhat is the need for Add Ons in Heroku?\u003c/li\u003e\u003cli\u003eWhat exactly happens when you click on provision while configuring the Postgres addon?\u003c/li\u003e\u003cli\u003eWhat is the use of Adminer? How does it work?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 2 Python and Flask - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eHow do I manage to use python 3.6 if I already have python 2.7?\u003c/li\u003e\u003cli\u003eWhat is the role of pip and how does it work?\u003c/li\u003e\u003cli\u003eWhat is the role of requirements.txt and how does it work with pip?\u003c/li\u003e\u003cli\u003eWhich packages are installed and why are they required?\u003c/li\u003e\u003cli\u003eWhich environment variables set for Flask to work? What is the purpose of each variable?\u003c/li\u003e\u003cli\u003eWhat happens when the Flask run command is issued on the terminal?\u003c/li\u003e\u003cli\u003eOn which port is Flask running and can it be changed?\u003c/li\u003e\u003cli\u003eHow is Flask different from the tiny web server?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 3 Goodreads API - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eWhat are the various categories of web APIs available on good reads?\u003c/li\u003e\u003cli\u003eIs there a limit on the use of the web API? What are the limits?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eSubmit answers to the reflection questions in a Google document on the LMS.\u003c/p\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "Reflection Assignment"
+			}],
+			"activity_id": "A2"
+		}]
+	}, {
+		"activities": ["Lecture Link", "Registration", "Reflection Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eIn this module you will implement the Registration page of the project one. You will also put to practice the Git workflows that you learn in Module 6.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eCreate a flask web app\u003c/li\u003e\u003cli\u003eCreate web form using HTML, bootstrap, CSS\u003c/li\u003e\u003cli\u003eHandle server side requests with Flask\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Project 1 (Registration)",
+		"module_id": "SADWM8",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Lecture Link",
+				"text": "This video lecture from Harvard CS50 covers all the topics necessary to develop dynamic web applications. A quick refresher on Python programming, using OOP in Python, a recap of HTTP and then the use of Flask with an example of writing a small dynamic web content app.\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=j5wysXqaIV8\"\u003ehttps://www.youtube.com/watch?v=j5wysXqaIV8\u003c/a\u003e"
+			}],
+			"activity_name": "Lecture Link",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Registration notes",
+				"text": "\u003cp\u003eTo complete the first requirement “Registration” the Harvard CS50: Project 1 Reference: \u003ca href=\"https://docs.cs50.net/ocw/web/projects/1/project1.html\"\u003ehttps://docs.cs50.net/ocw/web/projects/1/project1.html\u003c/a\u003e\u003c/p\u003e\u003cp\u003eRegistration: Users should be able to register for your website, providing (at minimum) a username and password. Add additional fields Gender, Date of Birth, Address as a bonus to this requirement.\u003c/p\u003e\u003cp\u003e\u003cfont color=\"red\"\u003e\u003cb\u003eDon't forgot git repo, branches, commits and PR (pull request to your mentor to review the app and the code)\u003c/b\u003e\u003c/font\u003e\u003c/p\u003e\u003cp\u003e\u003ch4\u003eTask 1 - Create Registration Page\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eCreate a web page to register new users on your website. Use HTML, CSS, Bootstrap, to create a web form with a good layout. At the minimum, ask the user to provide a username and a password. Add a register button that will submit the form data to /register\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 2 - Add the Registration page to Flask app\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eCreate a new route in the flask application, /register, to show the registration web page created in the previous step when it is a GET request.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 3 - Submit Registration form data to the Flask app\u003c/h4\u003e\u003col\u003e\u003cli\u003eOn clicking submit on the registration page, send the data to the flask app to /register as a POST request. The flask app should obtain the registration data and display the values in the Flask console. Also pass the registration data back to the browser with the data that they have submitted.\u003cb\u003e Don’t display the password on the web page.\u003c/b\u003e\u003c/li\u003e\u003c/ol\u003e"
+			}],
+			"activity_name": "Registration",
+			"activity_id": "A2"
+		}, {
+			"activity_name": "Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003e\u003ch3\u003eTask 1 - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eWhat would be an ideal bootstrap grid for a web page that has a page title and a registration form?\u003c/li\u003e\u003cli\u003eWhich HTML tags are required for creating the registration web page?\u003c/li\u003e\u003cli\u003eDo we need CSS for this task?\u003c/li\u003e\u003cli\u003eDo we need JavaScript for this task?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 2 - Reflection\u003c/h3\u003e\u003cp\u003e\u003col\u003e\u003cli\u003eHow does app.route work?\u003c/li\u003e\u003cli\u003eWhich module in Flask is useful to render the HTML page created in the previous step?\u003c/li\u003e\u003cli\u003eWhere should we put the HTML file so that Flask can send it to the browser?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 3 - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eHow do we differentiate between GET and POST requests using app.route?\u003c/li\u003e\u003cli\u003eWhich object in Flask provides access to the form fields submitted from the browser?\u003c/li\u003e\u003cli\u003eHow to render the form data on the webpage that is sent as a response?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eSubmit answers to the reflection questions in a Google document on the LMS.\u003c/p\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "Reflection Assignment"
+			}],
+			"activity_id": "A3"
+		}]
+	}, {
+		"activities": ["Lecture Link", "Users Database", "Reflection Assignment"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eIn this module you will learn how to connect your server side programs to the database. A design pattern called Object Relationship Mapping is commonly used to connect server side programs especially which use OOP. You will use this concept to connect the server side to the database using a framework called SQLAlchemy to store and retrieve registration data.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning Objectives\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eExplain ORM and the concepts related to ORM\u003c/li\u003e\u003cli\u003eWrite python code to setup ORM using SQLAlchemy\u003c/li\u003e\u003c/ol\u003e",
+		"name": "ORM with SQLAlchemy",
+		"module_id": "SADWM9",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Lecture Link",
+				"text": "This lecture covers Databases and ORM. It also covers Web APIs in the second half of the lecture. You can do the web API in week 3 or week 4.\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=24Kf3v7kZyE\"\u003ehttps://www.youtube.com/watch?v=24Kf3v7kZyE\u003c/a\u003e"
+			}],
+			"activity_name": "Lecture Link",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Users Database notes",
+				"text": "\u003cp\u003e\u003ch4\u003eTask 1 - Create a database table\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eUse SQLAlchemy to create the USERS database table with the fields that are part of the registration form.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 2 - Insert records\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eUse SQLAlchemy to insert a new record in the USERS database table with the fields that are sent from the registration form.\u003col type=\"a\"\u003e\u003cli\u003eSend a success if the new record is inserted or error page if it failed\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 3 - Retrieve data from a database table\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eCreate a /admin page to show the list of all the users in the order of the creation timestamp. The USERS data should be displayed as a bootstrap table with three columns: username, password, creation timestamp.\u003c/li\u003e\u003c/ol\u003e"
+			}],
+			"activity_name": "Users Database",
+			"activity_id": "A2"
+		}, {
+			"activity_name": "Reflection Assignment",
+			"activity_json": [{
+				"activityType": "assignment",
+				"questions": [{
+					"questionType": "filesubmission",
+					"max_marks": 10,
+					"evaluate": true,
+					"questionText": [{
+						"text": "\u003cp\u003e\u003ch3\u003eTask 1 - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eHow is the ORM approach to storing data in databases more efficient than the conventional approach?\u003c/li\u003e\u003cli\u003eHow does SQLAlchemy handle when the schema changes from one version to the other?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 2 - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eWhich method in SQLAlchemy is used to save a record to the database?\u003c/li\u003e\u003cli\u003eHow does the database commit work with SQLAlchemy?\u003c/li\u003e\u003cli\u003eIs there a way to rollback? How?\u003c/li\u003e\u003cli\u003eOOPS, passwords are stored in plain text with the current approach, which clearly isn’t a secure practice. What are the best practices in storing passwords? Does SQLAlchemy provide any options to store passwords?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch3\u003eTask 3 - Reflection\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eHow does the querying work with SQLAlchemy?\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eSubmit answers to the reflection questions in a Google document on the LMS.\u003c/p\u003e"
+					}],
+					"question_id": "Q1"
+				}],
+				"title": "Reflection Assignment"
+			}],
+			"activity_id": "A3"
+		}]
+	}, {
+		"activities": ["Lecture Link", "Authentication", "Reflection"],
+		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eIn this module you will learn about authentication, i.e., a mechanism to identify users visiting your website and the mechanism to allow them to see the data that is related to only them and not to the other users.\u003c/p\u003e\u003cp\u003e\u003cb\u003eLearning Objectives\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module you will be able to:\u003c/p\u003e\u003col\u003e\u003cli\u003eImplement a username and password based authentication\u003c/li\u003e\u003cli\u003eUse sessions to keep track of the users\u003c/li\u003e\u003cli\u003eImplement logout to clear the sessions\u003c/li\u003e\u003c/ol\u003e",
+		"name": "Authentication",
+		"module_id": "SADWM10",
+		"content": [{
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Lecture Link",
+				"text": "This lecture covers Databases and ORM. It also covers Web APIs in the second half of the lecture. You can do the web API in week 3 or week 4.\u003cbr\u003e\u003ca href=\"https://www.youtube.com/watch?v=24Kf3v7kZyE\"\u003ehttps://www.youtube.com/watch?v=24Kf3v7kZyE\u003c/a\u003e"
+			}],
+			"activity_name": "Lecture Link",
+			"activity_id": "A1"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Authentication notes",
+				"text": "\u003cp\u003e\u003ch3\u003eGoal\u003c/h3\u003e\u003c/p\u003e\u003cp\u003eTo complete the Login and Logout for users and admin.\u003c/p\u003e\u003cp\u003e\u003ch4\u003eTask 1 - Authenticate user and show user home\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eOn the registration page, add a new button, Login, next to the Register button\u003c/li\u003e\u003cli\u003eOn clicking the Login button, post the username and password to /auth on the server and  validate the username and password \u003col type=\"a\"\u003e\u003cli\u003eValid users are shown the User Home\u003col type=\"i\"\u003e\u003cli\u003eThe user page should have a link to logout\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003cli\u003eInvalid users are shown the registration page with the error message\u003c/li\u003e\u003c/ol\u003e\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 2 - Allow authenticated user to home and logout\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eCreate a session variable for the authenticated user and store the user object\u003c/li\u003e\u003cli\u003eRedirect to the login page if the user home is accessed bypassing the authentication.\u003c/li\u003e\u003cli\u003eRemove the session variable when logout is clicked\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003ch4\u003eTask 3 - Import Books\u003c/h4\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eImport: Provided for you in this project is a file called books.csv, which is a spreadsheet in CSV format of 5000 different books. Each one has an ISBN number, a title, an author, and a publication year. In a Python file called import.py separate from your web application, write a program that will take the books and import them into your PostgreSQL database. You will first need to decide what table(s) to create, what columns those tables should have, and how they should relate to one another. Run this program by running python3 import.py to import the books into your database, and submit this program with the rest of your project code.\u003c/li\u003e\u003c/ol\u003e"
+			}],
+			"activity_name": "Authentication",
+			"activity_id": "A2"
+		}, {
+			"activity_json": [{
+				"activityType": "notes",
+				"title": "Reflection notes",
+				"text": "\u003cp\u003e\u003ch3\u003eSession Tracking\u003c/h3\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eWhat is the need for session tracking in HTTP?\u003c/li\u003e\u003cli\u003eHow does session tracking in HTTP work?\u003c/li\u003e\u003cli\u003eWhat are cookies and how are they related to session tracking?\u003c/li\u003e\u003c/ol\u003e"
+			}],
+			"activity_name": "Reflection",
+			"activity_id": "A3"
+		}]
+	}]
+}

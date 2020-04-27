@@ -1,0 +1,11 @@
+courseInstanceID	courseInstanceLabel	courseIncharge	isLive	enrollment	batches	numberOfCredits	isCourseRequired
+CIID1	Regular First Sem	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	2	true
+CIID2	Regular First Sem	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	true
+CIID3	Regular First Sem	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	true
+CIID4	Regular First Sem	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	true
+CIID5	Regular First Sem	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	true
+CIID6	Remedial - 1	[1]	false	[2,3,4,5]	[[1, [2,3,4,5]]]	4	true
+CIID7	Regular (Advanced Courses)	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	false
+CIID8	Regular (Advanced Courses)	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	2	false
+CIID9	Regular (Advanced Courses)	[1]	false	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	false
+CIID10	Regular (Breadth Courses)	[1]	true	[2,3,4,5,6,7,8,9,10,11]	[[1, [2,3,4,5,6,7,8,9,10,11]]]	4	false

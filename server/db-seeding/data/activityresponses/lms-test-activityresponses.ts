@@ -27,7 +27,7 @@ records.map(obj => {
         evaluationStatus = false;
         delete obj['evaluatedAt'];
     }
-    obj["response"] = new Object(obj["response"]);
+    obj['response'] = {"assignment" : obj["response"]};
     obj["maxMarks"] = Number(obj["maxMarks"]);
     obj["awardedMarks"] = Number(obj["awardedMarks"]);
     obj['evaluationStatus'] = evaluationStatus;

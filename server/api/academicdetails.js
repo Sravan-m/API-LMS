@@ -80,18 +80,21 @@ router.get("/required/courses/completion/", async (req, res) => {
 		var accessToken = req.query.token;
 	    var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
 	    var userID = await Users.findOne({"email":decoded.email});
+	    console.log("User ID : ", userID);
 	    if (userID === null) {
 	    	res.status(401).send({"error": "Invalid user, Please login again..."});
 	    }
 
 	    query =  {"userID" : userID  };
         var data = await acadDetails.findOne(query);
+        console.log("Data : ", data);
         console.log(data);
         if (data === null) {
         	res.status(401).send({"error":"Data is not available"});
         }
 
         var prog = await Programs.findOne(data.programID);
+        console.log("Program : ", prog);
         if (prog === null) {
         	res.status(401).send({"error":"Student not enrolled in any of the programs"});
         }

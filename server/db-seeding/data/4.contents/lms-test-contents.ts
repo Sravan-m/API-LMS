@@ -7,6 +7,7 @@ const fs = require('fs');
 const path =  require('path');
 
 const data = fs.readFileSync(path.join(__dirname, json), { encoding: 'utf8' });
-// console.log(data);
-const content: Content = data;
+const obj = JSON.parse(data)
+obj.id = getObjectId(obj.courseInstanceID);
+const content: Content = obj;
 export = content;

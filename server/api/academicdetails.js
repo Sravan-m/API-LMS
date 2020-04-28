@@ -11,38 +11,105 @@ const axios = require('axios');
 const jwt = require('../jwt').jwt;
 const verifyOptions = require('../jwt').jwt.verifyOptions;
 const publicKEY = require('../jwt').publicKEY;
-// const getId = require('./user');
+const getId = require('./user');
 // const winston = require('winston');
 // const assert = require('assert');
 const mongo = require('mongoose');
 var ObjectId = mongo.Types.ObjectId;
 
+/**
+ * The function getNumberOfRequiredCourses returns the number of 
+ * required courses based on the courses that are in the curriculum given a 
+ * program.
+ * @param programID: Program ID used for finding the number of required course.
+ * @return number of courses required. 
+ * returns 0 if the program id is invalid or there are no courses in the curriculum
+ */
+
+async function getNumberOfRequiredCourses(programID) {
+	var numberOfRequiredCourses = 0;
+	
+	const progData = await Programs.findOne(programID);
+	if (progData === null) {
+		return 0;
+	}
+
+	const curriculumData = progData.curriculum;
+	if (progData === null) {
+		return 0;
+	}
+
+	for (var i = 0; i < curriculumData.length; i++) {
+		if (curriculumData[i].courseInstances.length > 0) {
+			var courseInstanceData = await CourseInstances.findOne(curriculumData[i].courseInstances[0]);
+			if (courseInstanceData.isCourseRequired === true)
+				numberOfRequiredCourses += 1;
+		}
+	}
+
+	console.log("Number of required courses are:", numberOfRequiredCourses);
+	return numberOfRequiredCourses;
+};
+
+
+/**
+ * @api {get} /required/courses/completion/ Request user required course completion status.
+
+ * @apiName Required course completion status.
+ * @apiGroup Academic details.
+ *
+ * @apiParam {token} as part of request query parameter.
+ *
+ * @apiSuccess {String} courses, grades, status, isPromoted.
+ * @apiFailure {String} specific errors will be returned.
+ */
+
 router.get("/required/courses/completion/", async (req, res) => {
-	// // var hello = "Hello";
-	// res = await getId(req);
-	// // var userID = res["id"];
+	var userID;
+	// try {
+	// 	const idResponse = await getId();
+	// 	console.log(idResponse);
+	// 	userID = idResponse["id"];
+	// } catch (error) {
+	// 	console.log("Error.. in getID function....")
+	// }
+	
 	// console.log("Siva Sankar", res);
 	
 	try {
 		var accessToken = req.query.token;
 	    var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
-	    var userId = await Users.findOne({"email":decoded.email});
-	    if (userId === null) {
+	    var userID = await Users.findOne({"email":decoded.email});
+	    if (userID === null) {
 	    	res.status(401).send({"error": "Invalid user, Please login again..."});
 	    }
-	    query =  {"userID" : userId._id  };
-        var data = await acadDetails.findOne(query);
-        var prog = await Programs.findOne(data.programID);
 
-        var enrolments = data.enrollments;
+	    query =  {"userID" : userID  };
+        var data = await acadDetails.findOne(query);
+        console.log(data);
+        if (data === null) {
+        	res.status(401).send({"error":"Data is not available"});
+        }
+
+        var prog = await Programs.findOne(data.programID);
+        if (prog === null) {
+        	res.status(401).send({"error":"Student not enrolled in any of the programs"});
+        }
+
+        var enrollments = data.enrollments;
+        if (enrollments === null) {
+        	res.status(401).send({"error":"Student not enrolled into any of the courses"});
+        }
+
         result = "";
         courses = [];
         grades = [];
         status = [];
         points = [];
 
-        for (var i = 0; i < enrolments.length; i++) {
-            var courss = enrolments[i].courses;
+        const numberOfRequiredCourses = getNumberOfRequiredCourses(data.enrollments[0].programID);
+        for (var i = 0; i < enrollments.length; i++) {
+            var courss = enrollments[i].courses;
 			//	The size of the arrays of courseInstances, grades, status should be equal.
             for (var j = 0; j < courss.length; j++) {
             	if (courss[j].grades.length !== courss[j].status.length && courss[j].status.length !== courss[j].courseInstances.length) {

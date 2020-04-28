@@ -7,6 +7,8 @@ const Users = require('./models/userModel');
 const sah = require('./sah');
 var urlencode = require('urlencode');
 app.use(express.urlencoded({ extended: false }));
+const nodeApiDocGenerator = require('node-api-doc-generator')
+nodeApiDocGenerator(app,'locahost', 3000)
 
 // Updated by siva sankar
 // let csvToJson = require('convert-csv-to-json');

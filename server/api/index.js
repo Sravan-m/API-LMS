@@ -30,15 +30,12 @@ router.use('/auth',auth);
 
 function authenticateToken(req, res, next){
     try{
-
         if(req.url.startsWith('/auth') || req.url.startsWith('/invites') || req.url.startsWith('/registration') || req.url.startsWith('/user/read/verify-admin')) {
             next();
             return;
         }
         const accessToken = req.query.token;
-     
         if(jwt.verify(accessToken, publicKEY, verifyOptions)){
-            
             next();
             // res.status(200).send();
         }
@@ -52,9 +49,7 @@ function authenticateToken(req, res, next){
             // console.log("Error at verifying token ",err);
             res.status(401).send({"error":"Invalid Token"});
         }
-      
     }
-
 }
 // router.use('/activityresponse',require('../models/activityResponseModel'))
 

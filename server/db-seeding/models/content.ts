@@ -3,9 +3,8 @@ import {
     Entity as Collection,
     ObjectIdColumn
  } from "typeorm";
- import { ObjectId } from "mongodb";
+import { ObjectId } from "mongodb";
 import { CourseInstance } from "./course-instance";
-
 @Collection("contents")
 export class Content {
     @ObjectIdColumn() readonly id: ObjectId;

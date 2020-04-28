@@ -28,7 +28,8 @@ var ObjectId = mongo.Types.ObjectId;
 
 async function getNumberOfRequiredCourses(programID) {
 	var numberOfRequiredCourses = 0;
-	
+	// console.log("programID : ", programID);
+
 	const progData = await Programs.findOne(programID);
 	if (progData === null) {
 		return 0;
@@ -39,9 +40,12 @@ async function getNumberOfRequiredCourses(programID) {
 		return 0;
 	}
 
+	// console.log("curriculumData ", curriculumData);
 	for (var i = 0; i < curriculumData.length; i++) {
 		if (curriculumData[i].courseInstances.length > 0) {
+			console.log("cdata......", curriculumData[i].courseInstances[0]);
 			var courseInstanceData = await CourseInstances.findOne(curriculumData[i].courseInstances[0]);
+			console.log("courseInstanceData ", courseInstanceData);
 			if (courseInstanceData.isCourseRequired === true)
 				numberOfRequiredCourses += 1;
 		}
@@ -80,21 +84,21 @@ router.get("/required/courses/completion/", async (req, res) => {
 		var accessToken = req.query.token;
 	    var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
 	    var userID = await Users.findOne({"email":decoded.email});
-	    console.log("User ID : ", userID);
+	    // console.log("User ID : ", userID);
 	    if (userID === null) {
 	    	res.status(401).send({"error": "Invalid user, Please login again..."});
 	    }
 
-	    query =  {"userID" : userID  };
+	    query =  { "userID" : userID._id };
         var data = await acadDetails.findOne(query);
-        console.log("Data : ", data);
-        console.log(data);
+
+        // console.log("Data : ", data);
         if (data === null) {
         	res.status(401).send({"error":"Data is not available"});
         }
 
         var prog = await Programs.findOne(data.programID);
-        console.log("Program : ", prog);
+        // console.log("Program : ", prog);
         if (prog === null) {
         	res.status(401).send({"error":"Student not enrolled in any of the programs"});
         }

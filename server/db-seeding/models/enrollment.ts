@@ -4,5 +4,5 @@ import { CourseEnrollment } from "./course-enrollments";
 
 export class Enrollment {
     @Property() programID: Program;
-    @Property() courses: CourseEnrollment[]
+    @Property() courses: CourseEnrollment[];
 }

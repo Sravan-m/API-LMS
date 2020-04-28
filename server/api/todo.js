@@ -4,12 +4,15 @@ const bodyParser = require('body-parser');
 const mongo = require('mongoose');
 const fs=require("fs")
 var ObjectId = mongo.Types.ObjectId;
+const Users = require('../models/userModel');
 const acadDetails=require("../models/academicDetailsModel")
 const CourseInstances = require('../models/courseInstanceModel');
 const Content = require("../models/contentModel");
 const Programs = require('../models/programModel');
 const ActivityResponses = require('../models/activityResponseModel');
-
+const verifyOptions =  require('../jwt').jwt.verifyOptions;
+const jwt = require('../jwt').jwt;
+const publicKEY = require('../jwt').publicKEY;
 
 const jsonParser = bodyParser.json({ limit: '100mb' });
 const Courses = require('../models/courseModel');
@@ -18,14 +21,19 @@ var upload = multer({ dest: './tmp/' })
 
 
 
-router.get('/get-items/:user_id', async(req, res) => {
+router.get('/get-items/', async(req, res) => {
     try {
         console.log('dd');
-        var user = req.params.user_id;
+        var accessToken = req.query.token;
+        var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
+        var userId = await Users.findOne({"email":decoded.email});
+        var query =  {"userID" : userId._id  };
+        console.log(query);
+        // var user = req.params.user_id;
 
-        var query = {
-            "userID": new ObjectId(user)
-        };
+        // var query = {
+        //     "userID": new ObjectId(user)
+        // };
         var activities = []
         var data = await acadDetails.findOne(query);
         var enrolments = data.enrollments;
@@ -46,19 +54,23 @@ router.get('/get-items/:user_id', async(req, res) => {
 
         res.send({activities});
     } catch (error) {
-        console.log('error');
+        console.log(error);
         res.sendStatus(500);
     }
 });
 
-router.get('/todo-list/:user_id', async(req, res) => {
+router.get('/todo-list/', async(req, res) => {
     try {
         console.log('dd');
-        var user = req.params.user_id;
+        var accessToken = req.query.token;
+        var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
+        var userId = await Users.findOne({"email":decoded.email});
+        var query =  {"userID" : new ObjectId(userId._id)  };
+        var user = userId._id;
 
-        var query = {
-            "userID": new ObjectId(user)
-        };
+        // var query = {
+        //     "userID": new ObjectId(user)
+        // };
         var activities = []
         var data = await acadDetails.findOne(query);
         var enrolments = data.enrollments;

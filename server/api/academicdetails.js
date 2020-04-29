@@ -135,7 +135,6 @@ router.get("/required/courses/completion/", async (req, res) => {
 							courses.push(courseDetails.courseName);
 							grades.push(courss[j].grades[k].grade);
 							status.push(courss[j].status[k].status);
-
 							var idx = prog.gradeScale.findIndex(x => x.grade === courss[j].grades[k].grade);
 							var pts = prog.gradeScale[idx].points;
 							console.log(idx, prog.gradeScale[idx].points);

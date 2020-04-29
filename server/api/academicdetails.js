@@ -43,15 +43,15 @@ async function getNumberOfRequiredCourses(programID) {
 	// console.log("curriculumData ", curriculumData);
 	for (var i = 0; i < curriculumData.length; i++) {
 		if (curriculumData[i].courseInstances.length > 0) {
-			console.log("cdata......", curriculumData[i].courseInstances[0]);
+			// console.log("cdata......", curriculumData[i].courseInstances[0]);
 			var courseInstanceData = await CourseInstances.findOne(curriculumData[i].courseInstances[0]);
-			console.log("courseInstanceData ", courseInstanceData);
+			// console.log("courseInstanceData ", courseInstanceData);
 			if (courseInstanceData.isCourseRequired === true)
 				numberOfRequiredCourses += 1;
 		}
 	}
 
-	console.log("Number of required courses are:", numberOfRequiredCourses);
+	// console.log("Number of required courses are:", numberOfRequiredCourses);
 	return numberOfRequiredCourses;
 };
 
@@ -131,14 +131,18 @@ router.get("/required/courses/completion/", async (req, res) => {
 						// console.log(instance);
 						if (instance.isCourseRequired === true) {
 							var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
-							console.log(courseDetails.courseName, courss[j].grades[k].grade);
+							// console.log(courseDetails.courseName, courss[j].grades[k].grade);
 							courses.push(courseDetails.courseName);
 							grades.push(courss[j].grades[k].grade);
 							status.push(courss[j].status[k].status);
 							var idx = prog.gradeScale.findIndex(x => x.grade === courss[j].grades[k].grade);
-							var pts = prog.gradeScale[idx].points;
-							console.log(idx, prog.gradeScale[idx].points);
-							points.push(prog.gradeScale[idx].points);
+							if (idx === -1) {
+								points.push(-1);
+							} else {
+								var pts = prog.gradeScale[idx].points;
+								console.log(idx, prog.gradeScale[idx].points);
+								points.push(prog.gradeScale[idx].points);
+							}
 						} else {
 							break;
 						}
@@ -164,12 +168,15 @@ router.get("/required/courses/completion/", async (req, res) => {
         	if (flag) {
 	    		tmpCourses.push(courses[maxJ]);
 				tmpStatus.push(status[maxJ]);
-				if (grades[maxJ] === "Incomplete" || 
-						status[maxJ] === "Evaluations in-progress" || 
-	       				status[maxJ] === "Course in-progress" || 
-        				status[maxJ] === "Registered") {
-					tmpGrades.push("-");
+				if (grades[maxJ] === "Incomplete") {
+					tmpGrades.push("Incomplete");
 					incompleteCnt += 1;
+				} else if (grades[maxJ] === "none" || 
+							status[maxJ] === "Evaluations in-progress" || 
+		       				status[maxJ] === "Course in-progress" || 
+	        				status[maxJ] === "Registered") {
+						tmpGrades.push("-");
+						incompleteCnt += 1;
 				} else {
 					tmpGrades.push(grades[maxJ]);
 				}

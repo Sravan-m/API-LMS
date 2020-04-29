@@ -8,6 +8,6 @@ import { CourseInstance } from "./course-instance";
 @Collection("contents")
 export class Content {
     @ObjectIdColumn() readonly id: ObjectId;
-    @Property() courseInstanceID: CourseInstance;
+    @Property() courseInstanceID: String;
     @Property() contentJSON: Object[];
 }

@@ -117,7 +117,7 @@
                         ],
                         "status": [
                             {
-                                "status": "Evaluation in Progress",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID7"
                             }
                         ]
@@ -161,18 +161,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -299,7 +299,7 @@
                         ],
                         "status": [
                             {
-                                "status": "Evaluation in Progress",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID7"
                             }
                         ]
@@ -343,18 +343,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -472,7 +472,7 @@
                         ],
                         "status": [
                             {
-                                "status": "Evaluation in Progress",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID7"
                             }
                         ]
@@ -516,18 +516,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -646,7 +646,7 @@
                         ],
                         "status": [
                             {
-                                "status": "Evaluation in Progress",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID7"
                             }
                         ]
@@ -690,18 +690,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -801,7 +801,7 @@
                         ],
                         "status": [
                             {
-                                "status": "Course in-progress",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID11"
                             }
                         ]
@@ -1065,18 +1065,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -1238,18 +1238,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }
@@ -1411,18 +1411,18 @@
                     {
                         "courseID": "C1",
                         "courseInstances": [
-                            "CIID9"
+                            "CIID10"
                         ],
                         "grades": [
                             {
                                 "grade": "none",
-                                "courseInstance": "CIID9"
+                                "courseInstance": "CIID10"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course in Progress",
-                                "courseInstance": "CIID9"
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
                             }
                         ]
                     }

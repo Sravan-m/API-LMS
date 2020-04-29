@@ -61,66 +61,72 @@ router.get('/get-items/', async(req, res) => {
 
 router.get('/todo-list/', async(req, res) => {
     try {
-        console.log('dd');
+        // console.log('dd');
         var accessToken = req.query.token;
         var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
         var userId = await Users.findOne({"email":decoded.email});
+        // console.log(userId);
         var query =  {"userID" : new ObjectId(userId._id)  };
         var user = userId._id;
-
-        // var query = {
-        //     "userID": new ObjectId(user)
-        // };
         var activities = []
         var data = await acadDetails.findOne(query);
-        var enrolments = data.enrollments;
-        // console.log(enrolments);
-        for (var i = 0; i < enrolments.length; i++) {
-            var courses = enrolments[i].courses;
-            for (var j = 0; j < courses.length; j++) {
-                var cinstance = courses[j].courseInstances[0];
-                var coursename = await Courses.find({ _id: courses[j].courseID })
-                var courseName = coursename[0].courseName;
-                var instance = await CourseInstances.find({ _id: cinstance });
-                if (instance[0].isLive) {
-                    var data = await Content.findOne({"courseInstanceID": instance[0]._id })
-                    if (data != null) {
-                        var contentJSON = data.contentJSON;
-                        var courseInstanceID = data.courseInstanceID;
-                        for (var l = 0; l < contentJSON.length; l++) {
-                            var moduleName = contentJSON[l].name;
-                            var moduleId = contentJSON[l].module_id;
-                            var contents = contentJSON[l].content;
-                            // console.log(contents.length);
-                            if (contents != null) {
-                                for (var p = 0; p < contents.length; p++) {
-                                    var activityName = contents[p].activity_name;
-                                    var activityId = contents[p].activity_id;
-                                    var assignmentType = contents[p].activity_json[0].activityType;
-                                    if (assignmentType == "assignment") {
-                                        var assignments = {};
-                                        var qres =  {"userId" : user };
-                                        courseInstanceID ? qres["courseInstanceId"] = courseInstanceID:"";
-                                        moduleId ? qres["moduleId"] = moduleId:"";
-                                        activityId ? qres["activityId"] = activityId:"";
-                                        assignmentType ? qres["activityType"] = assignmentType:"";
+        // console.log(data);
+        if (data != null) {
+            var enrolments = data.enrollments;
+            // console.log(enrolments);
+            for (var i = 0; i < enrolments.length; i++) {
+                var courses = enrolments[i].courses;
+                // console.log(courses);
+                for (var j = 0; j < courses.length; j++) {
+                    var cinstance = courses[j].courseInstances[0];
+                    // console.log(cinstance);
+                    var coursename = await Courses.find({ _id: courses[j].courseID })
+                    var courseName = coursename[0].courseName;
+                    console.log(courseName);
+                    var instance = await CourseInstances.find({ _id: cinstance });
+                    if (instance[0].isLive) {
+                        console.log(instance);
+                        console.log(instance[0]._id);
+                        var data = await Content.findOne({"courseInstanceID": instance[0]._id })
+                        // console.log(data);
+                        if (data != null) {
+                            var contentJSON = data.contentJSON;
+                            var courseInstanceID = data.courseInstanceID;
+                            for (var l = 0; l < contentJSON.length; l++) {
+                                var moduleName = contentJSON[l].name;
+                                var moduleId = contentJSON[l].module_id;
+                                var contents = contentJSON[l].content;
+                                // console.log(contents.length);
+                                if (contents != null) {
+                                    for (var p = 0; p < contents.length; p++) {
+                                        var activityName = contents[p].activity_name;
+                                        var activityId = contents[p].activity_id;
+                                        var assignmentType = contents[p].activity_json[0].activityType;
+                                        if (assignmentType == "assignment") {
+                                            var assignments = {};
+                                            var qres =  {"userId" : user };
+                                            courseInstanceID ? qres["courseInstanceId"] = courseInstanceID:"";
+                                            moduleId ? qres["moduleId"] = moduleId:"";
+                                            activityId ? qres["activityId"] = activityId:"";
+                                            assignmentType ? qres["activityType"] = assignmentType:"";
 
-                                        const response = await ActivityResponses.find(qres);
-                                        // console.log(response);
-                                        if (response.length == 0) {
-                                            assignments["status"] = false;
-                                        } else {
-                                            assignments["status"] = true;
+                                            const response = await ActivityResponses.find(qres);
+                                            // console.log(response);
+                                            if (response.length == 0) {
+                                                assignments["status"] = false;
+                                            } else {
+                                                assignments["status"] = true;
+                                            }
+
+                                            // assignments["feedback"] = ;
+                                            assignments["courseName"] = courseName;
+                                            assignments["moduleName"] = moduleName;
+                                            assignments["moduleId"] = moduleId;
+                                            assignments["activityName"] = activityName;
+                                            assignments["activityId"] = activityId;
+                                            assignments["ETC"] = "2 days";
+                                            activities.push(assignments);
                                         }
-
-                                        // assignments["feedback"] = ;
-                                        assignments["courseName"] = courseName;
-                                        assignments["moduleName"] = moduleName;
-                                        assignments["moduleId"] = moduleId;
-                                        assignments["activityName"] = activityName;
-                                        assignments["activityId"] = activityId;
-                                        assignments["ETC"] = "2 days";
-                                        activities.push(assignments);
                                     }
                                 }
                             }

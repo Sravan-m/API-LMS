@@ -176,7 +176,7 @@ router.get("/required/courses/completion/", async (req, res) => {
 			}
         }
 
-        var status = (incompleteCnt) ? "Not promoted to second year" : "Promoted to second year";
+        var status = (incompleteCnt) ? false : true;
         
         console.log(tmpCourses);
         console.log(tmpGrades);

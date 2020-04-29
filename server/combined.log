@@ -1641,3 +1641,6 @@
 {"message":"Error in getting user's id -->Cannot read property 'query' of undefined","level":"error","service":"user-service","timestamp":"2020-04-25T09:35:33.938Z"}
 {"message":"Error in getting user's id -->Cannot read property 'query' of undefined","level":"error","service":"user-service","timestamp":"2020-04-25T10:54:10.776Z"}
 {"message":"Error in getting user's id -->Cannot read property 'query' of undefined","level":"error","service":"user-service","timestamp":"2020-04-25T10:54:29.804Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-29T04:59:14.965Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-29T05:00:14.162Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-29T05:01:06.893Z"}

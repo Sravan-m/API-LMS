@@ -55,12 +55,11 @@ router.get("/required/courses/completion/", async (req, res) => {
         	res.status(401).send({"error":"Student is not enrolled into any of the courses"});
         }
 
-        result = "";
-        courses = [];
-        grades = [];
-        status = [];
-        points = [];
-        credits = [];
+        let courses = [];
+        let grades = [];
+        let status = [];
+        let points = [];
+        let credits = [];
 
         // const numberOfRequiredCourses = getNumberOfRequiredCourses(data.enrollments[0].programID);
         for (var i = 0; i < enrollments.length; i++) {
@@ -99,12 +98,12 @@ router.get("/required/courses/completion/", async (req, res) => {
         		}
         	}
         }
-        var tmpCourses = [];
-        var tmpGrades = [];
-        var tmpStatus = [];
-        var tmpCredits = [];
-        var tmpPoints = [];
-        var incompleteCnt = 0;
+        let tmpCourses = [];
+        let tmpGrades = [];
+        let tmpStatus = [];
+        let tmpCredits = [];
+        let tmpPoints = [];
+        let incompleteCnt = 0;
         for (var i = 0; i < courses.length; i++) {
         	var prevPts = points[i];
         	var flag = true;
@@ -143,18 +142,14 @@ router.get("/required/courses/completion/", async (req, res) => {
         	totalCredits += tmpCredits[i];
         }
 
-        var status = (incompleteCnt) ? false : true;
+        const isPromoted = (incompleteCnt) ? false : true;
         
-        // console.log(tmpCourses);
-        // console.log(tmpGrades);
-        // console.log(tmpStatus);
-
-        var result = { 	"courses": tmpCourses,
+        let result = { 	"courses": tmpCourses,
         				"grades": tmpGrades,
         				"status": tmpStatus,
         				"points": tmpPoints,
         				"credits": tmpCredits,
-        				"isPromoted" : status,
+        				"isPromoted" : isPromoted,
         				"CGPA": score/totalCredits 	};
         res.status(200).json(result);
     } catch (error) {

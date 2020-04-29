@@ -12,49 +12,8 @@ const jwt = require('../jwt').jwt;
 const verifyOptions = require('../jwt').jwt.verifyOptions;
 const publicKEY = require('../jwt').publicKEY;
 const getId = require('./user');
-// const winston = require('winston');
-// const assert = require('assert');
 const mongo = require('mongoose');
 var ObjectId = mongo.Types.ObjectId;
-
-/**
- * The function getNumberOfRequiredCourses returns the number of 
- * required courses based on the courses that are in the curriculum given a 
- * program.
- * @param programID: Program ID used for finding the number of required course.
- * @return number of courses required. 
- * returns 0 if the program id is invalid or there are no courses in the curriculum
- */
-
-async function getNumberOfRequiredCourses(programID) {
-	var numberOfRequiredCourses = 0;
-	// console.log("programID : ", programID);
-
-	const progData = await Programs.findOne(programID);
-	if (progData === null) {
-		return 0;
-	}
-
-	const curriculumData = progData.curriculum;
-	if (progData === null) {
-		return 0;
-	}
-
-	// console.log("curriculumData ", curriculumData);
-	for (var i = 0; i < curriculumData.length; i++) {
-		if (curriculumData[i].courseInstances.length > 0) {
-			// console.log("cdata......", curriculumData[i].courseInstances[0]);
-			var courseInstanceData = await CourseInstances.findOne(curriculumData[i].courseInstances[0]);
-			// console.log("courseInstanceData ", courseInstanceData);
-			if (courseInstanceData.isCourseRequired === true)
-				numberOfRequiredCourses += 1;
-		}
-	}
-
-	// console.log("Number of required courses are:", numberOfRequiredCourses);
-	return numberOfRequiredCourses;
-};
-
 
 /**
  * @api {get} /required/courses/completion/ Request user required course completion status.
@@ -70,42 +29,30 @@ async function getNumberOfRequiredCourses(programID) {
 
 router.get("/required/courses/completion/", async (req, res) => {
 	var userID;
-	// try {
-	// 	const idResponse = await getId();
-	// 	console.log(idResponse);
-	// 	userID = idResponse["id"];
-	// } catch (error) {
-	// 	console.log("Error.. in getID function....")
-	// }
-	
-	// console.log("Siva Sankar", res);
 	
 	try {
 		var accessToken = req.query.token;
 	    var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
 	    var userID = await Users.findOne({"email":decoded.email});
-	    // console.log("User ID : ", userID);
 	    if (userID === null) {
 	    	res.status(401).send({"error": "Invalid user, Please login again..."});
 	    }
 
 	    query =  { "userID" : userID._id };
-        var data = await acadDetails.findOne(query);
 
-        // console.log("Data : ", data);
+        const data = await acadDetails.findOne(query);
         if (data === null) {
-        	res.status(401).send({"error":"Data is not available"});
+        	res.status(401).send({"error":"Student is not enrolled in any of the programs"});
         }
 
-        var prog = await Programs.findOne(data.programID);
-        // console.log("Program : ", prog);
+        const prog = await Programs.findOne(data.programID);
         if (prog === null) {
-        	res.status(401).send({"error":"Student not enrolled in any of the programs"});
+        	res.status(401).send({"error":"Student is not enrolled in any of the programs"});
         }
 
-        var enrollments = data.enrollments;
+        const enrollments = data.enrollments;
         if (enrollments === null) {
-        	res.status(401).send({"error":"Student not enrolled into any of the courses"});
+        	res.status(401).send({"error":"Student is not enrolled into any of the courses"});
         }
 
         result = "";
@@ -113,14 +60,15 @@ router.get("/required/courses/completion/", async (req, res) => {
         grades = [];
         status = [];
         points = [];
+        credits = [];
 
-        const numberOfRequiredCourses = getNumberOfRequiredCourses(data.enrollments[0].programID);
+        // const numberOfRequiredCourses = getNumberOfRequiredCourses(data.enrollments[0].programID);
         for (var i = 0; i < enrollments.length; i++) {
             var courss = enrollments[i].courses;
 			//	The size of the arrays of courseInstances, grades, status should be equal.
             for (var j = 0; j < courss.length; j++) {
             	if (courss[j].grades.length !== courss[j].status.length && courss[j].status.length !== courss[j].courseInstances.length) {
-					// res.status(401).send({"status": "Grades are not currently available."});
+					res.status(401).send({"error": "Grades are not currently available."});
 				} else {
 	            	var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
 					// console.log("Course Name : ", courseDetails.courseName);
@@ -132,15 +80,16 @@ router.get("/required/courses/completion/", async (req, res) => {
 						if (instance.isCourseRequired === true) {
 							var courseDetails = await CourseCatalog.findOne(courss[j].courseID);
 							// console.log(courseDetails.courseName, courss[j].grades[k].grade);
+							credits.push(instance.numberOfCredits);
 							courses.push(courseDetails.courseName);
 							grades.push(courss[j].grades[k].grade);
 							status.push(courss[j].status[k].status);
 							var idx = prog.gradeScale.findIndex(x => x.grade === courss[j].grades[k].grade);
 							if (idx === -1) {
-								points.push(-1);
+								points.push(0);
 							} else {
 								var pts = prog.gradeScale[idx].points;
-								console.log(idx, prog.gradeScale[idx].points);
+								// console.log(idx, prog.gradeScale[idx].points);
 								points.push(prog.gradeScale[idx].points);
 							}
 						} else {
@@ -153,6 +102,8 @@ router.get("/required/courses/completion/", async (req, res) => {
         var tmpCourses = [];
         var tmpGrades = [];
         var tmpStatus = [];
+        var tmpCredits = [];
+        var tmpPoints = [];
         var incompleteCnt = 0;
         for (var i = 0; i < courses.length; i++) {
         	var prevPts = points[i];
@@ -168,6 +119,8 @@ router.get("/required/courses/completion/", async (req, res) => {
         	if (flag) {
 	    		tmpCourses.push(courses[maxJ]);
 				tmpStatus.push(status[maxJ]);
+				tmpCredits.push(credits[maxJ]);
+				tmpPoints.push(points[maxJ]);
 				if (grades[maxJ] === "Incomplete") {
 					tmpGrades.push("Incomplete");
 					incompleteCnt += 1;
@@ -183,16 +136,26 @@ router.get("/required/courses/completion/", async (req, res) => {
 			}
         }
 
+        let totalCredits = 0;
+        let score = 0;
+        for (let i = 0; i < tmpPoints.length; i++) {
+        	score += tmpPoints[i] * tmpCredits[i];
+        	totalCredits += tmpCredits[i];
+        }
+
         var status = (incompleteCnt) ? false : true;
         
-        console.log(tmpCourses);
-        console.log(tmpGrades);
-        console.log(tmpStatus);
+        // console.log(tmpCourses);
+        // console.log(tmpGrades);
+        // console.log(tmpStatus);
 
         var result = { 	"courses": tmpCourses,
         				"grades": tmpGrades,
         				"status": tmpStatus,
-        				"isPromoted" : status 	};
+        				"points": tmpPoints,
+        				"credits": tmpCredits,
+        				"isPromoted" : status,
+        				"CGPA": score/totalCredits 	};
         res.status(200).json(result);
     } catch (error) {
     	console.log(error);

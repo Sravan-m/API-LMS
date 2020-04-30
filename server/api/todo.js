@@ -23,12 +23,12 @@ var upload = multer({ dest: './tmp/' })
 
 router.get('/get-items/', async(req, res) => {
     try {
-        console.log('dd');
+        // console.log('dd');
         var accessToken = req.query.token;
         var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
         var userId = await Users.findOne({"email":decoded.email});
         var query =  {"userID" : userId._id  };
-        console.log(query);
+        // console.log(query);
         // var user = req.params.user_id;
 
         // var query = {
@@ -59,6 +59,7 @@ router.get('/get-items/', async(req, res) => {
     }
 });
 
+// /api/todo/todo-list
 router.get('/todo-list/', async(req, res) => {
     try {
         // console.log('dd');
@@ -68,6 +69,10 @@ router.get('/todo-list/', async(req, res) => {
         // console.log(userId);
         var query =  {"userID" : new ObjectId(userId._id)  };
         var user = userId._id;
+
+        // var query = {
+        //     "userID": new ObjectId(user)
+        // };
         var activities = []
         var data = await acadDetails.findOne(query);
         // console.log(data);
@@ -82,11 +87,11 @@ router.get('/todo-list/', async(req, res) => {
                     // console.log(cinstance);
                     var coursename = await Courses.find({ _id: courses[j].courseID })
                     var courseName = coursename[0].courseName;
-                    console.log(courseName);
+                    // console.log(courseName);
                     var instance = await CourseInstances.find({ _id: cinstance });
                     if (instance[0].isLive) {
-                        console.log(instance);
-                        console.log(instance[0]._id);
+                        // console.log(instance);
+                        // console.log(instance[0]._id);
                         var data = await Content.findOne({"courseInstanceID": instance[0]._id })
                         // console.log(data);
                         if (data != null) {
@@ -102,8 +107,17 @@ router.get('/todo-list/', async(req, res) => {
                                         var activityName = contents[p].activity_name;
                                         var activityId = contents[p].activity_id;
                                         var assignmentType = contents[p].activity_json[0].activityType;
+
                                         if (assignmentType == "assignment") {
+                                            var etc = contents[p].activity_json[0].dueDate;
                                             var assignments = {};
+
+                                            console.log(activityName);
+                                            if (etc) {
+                                                assignments["ETC"] = etc;
+                                            } else {
+                                                assignments["ETC"] = "";
+                                            }
                                             var qres =  {"userId" : user };
                                             courseInstanceID ? qres["courseInstanceId"] = courseInstanceID:"";
                                             moduleId ? qres["moduleId"] = moduleId:"";
@@ -116,6 +130,8 @@ router.get('/todo-list/', async(req, res) => {
                                                 assignments["status"] = false;
                                             } else {
                                                 assignments["status"] = true;
+                                                // evaluation status 
+                                                // TODO
                                             }
 
                                             // assignments["feedback"] = ;
@@ -124,7 +140,6 @@ router.get('/todo-list/', async(req, res) => {
                                             assignments["moduleId"] = moduleId;
                                             assignments["activityName"] = activityName;
                                             assignments["activityId"] = activityId;
-                                            assignments["ETC"] = "2 days";
                                             activities.push(assignments);
                                         }
                                     }

@@ -40,7 +40,7 @@ const privateKEY = require('../jwt').privateKEY;
 const axios = require('axios');
 
 
-router.post('/mlogin', jsonParser, async (req, res) => {
+router.post('/mauth', jsonParser, async (req, res) => {
   let data;
   let payload;
   let token;

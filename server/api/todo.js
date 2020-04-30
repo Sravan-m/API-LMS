@@ -64,7 +64,7 @@ router.get('/todo-list/', async (req, res) => {
         var userId = await Users.findOne({ "email": decoded.email });
         // console.log(userId);
         if (userId == null) {
-        	res.sendStatus(401);
+            res.sendStatus(401);
         }
         var query = { "userID": new ObjectId(userId._id) };
         var user = userId._id;
@@ -88,73 +88,80 @@ router.get('/todo-list/', async (req, res) => {
                     var cinstances = courses[j].courseInstances; // array need to be iterated
                     // console.log(cinstance);
                     for(var a = 0; a < cinstances.length; a++) {
-	                    var instance = await CourseInstances.find({ _id: cinstances[a] }); // Iterate all the instances
-	                    // console.log(instance)
-	                    if (instance[0].isLive) {
-	                        // console.log(instance);
-	                        // console.log(instance[0]._id);
-	                        var data = await Content.findOne({ "courseInstanceID": instance[0]._id })
-	                        // console.log(data);
-	                        if (data != null) {
-	                            var contentJSON = data.contentJSON;
-	                            var courseInstanceID = data.courseInstanceID;
-	                            for (var l = 0; l < contentJSON.length; l++) {
-	                                var moduleName = contentJSON[l].name;
-	                                var moduleId = contentJSON[l].module_id;
-	                                var contents = contentJSON[l].content;
-	                                // console.log(contents.length);
-	                                if (contents != null) {
-	                                    for (var p = 0; p < contents.length; p++) {
-	                                        var activityName = contents[p].activity_name;
-	                                        var activityId = contents[p].activity_id;
-	                                        var assignmentType = contents[p].activity_json[0].activityType;
+                        var instance = await CourseInstances.find({ _id: cinstances[a] }); // Iterate all the instances
+                        // console.log(instance)
+                        if (instance[0].isLive) {
+                            // console.log(instance);
+                            // console.log(instance[0]._id);
+                            var data = await Content.findOne({ "courseInstanceID": instance[0]._id })
+                            // console.log(data);
+                            if (data != null) {
+                                var contentJSON = data.contentJSON;
+                                var courseInstanceID = data.courseInstanceID;
+                                for (var l = 0; l < contentJSON.length; l++) {
+                                    var moduleName = contentJSON[l].name;
+                                    var moduleId = contentJSON[l].module_id;
+                                    var contents = contentJSON[l].content;
+                                    // console.log(contents.length);
+                                    if (contents != null) {
+                                        for (var p = 0; p < contents.length; p++) {
+                                            var activityName = contents[p].activity_name;
+                                            var activityId = contents[p].activity_id;
+                                            var assignmentType = contents[p].activity_json[0].activityType;
 
-	                                        if (assignmentType == "assignment") {
-	                                            var etc = contents[p].activity_json[0].dueDate;
-	                                            var assignments = {};
+                                            if (assignmentType == "assignment") {
+                                                var etc = contents[p].activity_json[0].dueDate;
+                                                var assignments = {};
 
-	                                            if (etc) {
-	                                                assignments["ETC"] = etc;
-	                                            } else {
-	                                                assignments["ETC"] = "";
-	                                            }
-	                                            var qres = { "userId": user };
-	                                            courseInstanceID ? qres["courseInstanceId"] = courseInstanceID : "";
-	                                            moduleId ? qres["moduleId"] = moduleId : "";
-	                                            activityId ? qres["activityId"] = activityId : "";
-	                                            assignmentType ? qres["activityType"] = assignmentType : "";
+                                                if (etc) {
+                                                    assignments["ETC"] = etc;
+                                                } else {
+                                                    assignments["ETC"] = "";
+                                                }
+                                                var qres = { "userId": user };
+                                                courseInstanceID ? qres["courseInstanceId"] = courseInstanceID : "";
+                                                moduleId ? qres["moduleId"] = moduleId : "";
+                                                activityId ? qres["activityId"] = activityId : "";
+                                                assignmentType ? qres["activityType"] = assignmentType : "";
 
-	                                            // console.log(activityName);
-	                                            const response = await ActivityResponses.find(qres);
-	                                            // console.log(response);
-	                                            if (response.length == 0) {
-	                                                assignments["status"] = false;
-	                                            } else {
-	                                                assignments["status"] = true;
-	                                                // evaluation status 
-	                                                // TODO
-	                                            }
+                                                // console.log(activityName);
+                                                const response = await ActivityResponses.find(qres).sort({"timestamp":-1, "evaluatedAt":-1});
+                                                // console.log(response);
+                                                if (response.length == 0) {
+                                                    assignments["evaluationStatus"] = false;
+                                                    assignments["status"] = false;
+                                                    assignments["submittedAt"] = "";
+                                                    assignments["evaluatedAt"] = "";
+                                                } else {
+                                                    assignments["evaluationStatus"] = response[0].evaluationStatus;
+                                                    assignments["status"] = true;
+                                                    assignments["submittedAt"] = response[0].timestamp;
+                                                    if (response[0].evaluationStatus) {
+                                                        assignments["evaluatedAt"] = response[0].evaluatedAt;
+                                                    } else {
+                                                        assignments["evaluatedAt"] = "";
+                                                    }
+                                                }
 
-	                                            // assignments["feedback"] = ;
-	                                            assignments["courseName"] = courseName;
-	                                            assignments["moduleName"] = moduleName;
-	                                            assignments["moduleId"] = moduleId;
-	                                            assignments["activityName"] = activityName;
-	                                            assignments["activityId"] = activityId;
-	                                            activities.push(assignments);
-	                                        }
-	                                    }
-	                                }
-	                            }
-	                        }
-	                    }
-	                }
+                                                assignments["courseName"] = courseName;
+                                                assignments["moduleName"] = moduleName;
+                                                assignments["moduleId"] = moduleId;
+                                                assignments["activityName"] = activityName;
+                                                assignments["activityId"] = activityId;
+                                                activities.push(assignments);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
         res.send({ activities });
     } catch (error) {
-        console.log("API error");
+        console.log(error);
         res.sendStatus(500);
     }
 });

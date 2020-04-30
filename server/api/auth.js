@@ -58,6 +58,7 @@ router.post('/mauth', jsonParser, async (req, res) => {
           };
           token = jwt.sign(payload, privateKEY, signOptions);
           data = {
+            'email': req.body.email,
             'token': token,
             'valid': userdata.role
           };

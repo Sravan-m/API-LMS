@@ -1,6 +1,7 @@
 {
 	"courseInstanceID": "CIID10",
-	"contentJSON": [
+	"contentJSON": 
+	[
         {
 		"activities": ["Intro to Version Control", "Create a repo"],
 		"desc": "\u003cb\u003eModule Overview\u003c/b\u003e\u003cp\u003eVersion control is central to software engineers, especially when they engage as a team in developing sophisticated distributed and cloud-based software like web and mobile apps. The next 12 weeks require you to use git, and so I've scheduled a significant portion of the first three days to master git.\u003c/p\u003e\u003cp\u003eI found Udacity's course on version control with git to be the best available online course that is suitable for this class. Your goal by the end of this calendar event is to complete the first lesson titled \"What is version control?\"\u003c/p\u003e\u003cb\u003e\u003cp\u003eLearning objectives:\u003c/b\u003e\u003c/p\u003e\u003cp\u003eBy the end of this module, you will be able to\u003c/p\u003e\u003col\u003e\u003cli\u003eExplain the concept of version control\u003c/li\u003e\u003cli\u003eRecall the terminology associated with version control systems\u003c/li\u003e\u003cli\u003eSet up git on your laptop\u003c/li\u003e\u003cli\u003eConfigure your terminal to use git.\u003c/li\u003e\u003c/ol\u003e",
@@ -86,6 +87,8 @@
 			"activity_name": "My Journey Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-21T18:25:43.511Z",
+				"ETC" : "",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -108,6 +111,7 @@
 			"activity_name": "Code Time Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+				"dueDate" : "2020-04-22T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -140,6 +144,7 @@
 			"activity_name": "Project 0 Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-22T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -162,6 +167,7 @@
 			"activity_name": "Concept Map Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-23T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -178,6 +184,7 @@
 			"activity_name": "HTML Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-24T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -194,6 +201,7 @@
 			"activity_name": "CSS Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-25T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -210,6 +218,7 @@
 			"activity_name": "Version Control Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-25T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -248,6 +257,7 @@
 			"activity_name": "LRU with OOP Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-26T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -278,6 +288,7 @@
 			"activity_name": "Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-26T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -316,6 +327,7 @@
 			"activity_name": "Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-27T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,
@@ -354,6 +366,7 @@
 			"activity_name": "Reflection Assignment",
 			"activity_json": [{
 				"activityType": "assignment",
+ 				"dueDate" : "2020-04-28T18:25:43.511Z",
 				"questions": [{
 					"questionType": "filesubmission",
 					"max_marks": 10,

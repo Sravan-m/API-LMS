@@ -13,6 +13,17 @@ const mongo = require('mongoose');
 let ObjectId = mongo.Types.ObjectId;
 
 
+//  Getting the user based on access token.
+async function getUser(accessToken) {
+    try {
+        const decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
+        const user = await Users.findOne({ "email": decoded.email });
+        return user;
+    } catch(error) {
+        console.log("error: Invalid token");
+    }
+}
+
 /**
  * @api {get} /required/courses/completion/ Request user required course completion status.
 
@@ -24,19 +35,6 @@ let ObjectId = mongo.Types.ObjectId;
  * @apiSuccess {String} courses, grades, status, isPromoted.
  * @apiFailure {String} specific errors will be returned.
  */
-
-//  Getting the user based on access token.
-async function getUser(accessToken) {
-    try {
-        console.log(accessToken);
-        const decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
-        const user = await Users.findOne({ "email": decoded.email });
-        return user;
-    } catch(error) {
-        console.log("error: Invalid token");
-    }
-}
-
 router.get("/required/courses/completion/", async (req, res, next) => {
 
     try {
@@ -88,10 +86,11 @@ router.get("/required/courses/completion/", async (req, res, next) => {
         for (let i = 0; i < enrollments.length; i++) {
             let courss = enrollments[i].courses;
             for (let j = 0; j < courss.length; j++) {
+                console.log(courss[j]);
                 if (courss[j].grades.length !== courss[j].status.length && 
                     courss[j].status.length !== courss[j].courseInstances.length) {
-                    res.status(401).send(
-                        {"status": "Grades are not currently available."});
+                    return res.status(401).send(
+                        {"error": "Grades are not currently available."});
                 } else {
                     let courseDetails = await CCatalog.findOne(courss[j].courseID);
                     for (let k = 0; k < courss[j].grades.length; k++) {
@@ -167,8 +166,8 @@ router.get("/required/courses/completion/", async (req, res, next) => {
                 results.push(obj);
             }
         }
-
-        const cstatus = (incompleteCnt) ? false : true;
+        console.log(results.length);
+        const cstatus = (results.length) ? ((incompleteCnt)? false : true) : false;
 
         res.status(200).json({
             result: results,

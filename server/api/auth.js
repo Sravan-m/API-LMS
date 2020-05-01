@@ -60,7 +60,7 @@ router.post('/mauth', jsonParser, async (req, res) => {
           data = {
             'email': req.body.email,
             'token': token,
-            'valid': userdata.role
+            'role': userdata.role
           };
           logger.info("User logged in successfully");
           res.status(200).send(data);

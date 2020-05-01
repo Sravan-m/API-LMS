@@ -1726,13 +1726,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID2"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Course in-progress",
                                 "courseInstance": "CIID2"
                             }
                         ]
@@ -1744,13 +1744,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID3"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID3"
                             }
                         ]
@@ -1798,7 +1798,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "C",
                                 "courseInstance": "CIID11"
                             }
                         ],
@@ -1827,13 +1827,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "none",
                                 "courseInstance": "CIID1"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Course in-progress",
                                 "courseInstance": "CIID1"
                             }
                         ]
@@ -1845,13 +1845,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "none",
                                 "courseInstance": "CIID2"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Course in-progress",
                                 "courseInstance": "CIID2"
                             }
                         ]
@@ -1863,13 +1863,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "none",
                                 "courseInstance": "CIID3"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Course in-progress",
                                 "courseInstance": "CIID3"
                             }
                         ]
@@ -1881,13 +1881,13 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "none",
                                 "courseInstance": "CIID4"
                             }
                         ],
                         "status": [
                             {
-                                "status": "Course Completed",
+                                "status": "Evaluation in-progress",
                                 "courseInstance": "CIID4"
                             }
                         ]
@@ -1946,7 +1946,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID1"
                             }
                         ],
@@ -1964,7 +1964,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID2"
                             }
                         ],
@@ -1982,7 +1982,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID3"
                             }
                         ],
@@ -2000,7 +2000,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID4"
                             }
                         ],
@@ -2036,7 +2036,7 @@
                         ],
                         "grades": [
                             {
-                                "grade": "Ex",
+                                "grade": "Incomplete",
                                 "courseInstance": "CIID11"
                             }
                         ],

@@ -170,7 +170,7 @@ router.get("/required/courses/completion/", async (req, res, next) => {
                     status[maxJ] === "Evaluations in-progress" ||
                     status[maxJ] === "Course in-progress" ||
                     status[maxJ] === "Registered") {
-                    obj.grade = "-";
+                    obj.grade = "On-going";
                     incompleteCnt += 1;
                 } else {
                     obj.grade = grades[maxJ];

@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const user = require('./user');
+const notifications = require('./notifications');
 const academicdetails = require('./academicdetails');
 const activityresponse = require('./activityResponse');
 const registration = require('./registration');
@@ -18,6 +19,7 @@ const publicKEY = require('../jwt').publicKEY;
 
 router.use(authenticateToken);
 router.use('/user', user);
+router.use('/notifications', notifications);
 router.use('/academicdetails', academicdetails);
 router.use('/activityresponse', activityresponse);
 router.use('/registration', registration);

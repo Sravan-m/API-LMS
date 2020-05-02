@@ -1656,3 +1656,6 @@
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T10:42:36.388Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T10:51:52.413Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T11:03:17.985Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:13:38.145Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:15:31.611Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:29:18.509Z"}

@@ -86,7 +86,11 @@ router.get("/required/courses/completion/", async (req, res, next) => {
         for (let i = 0; i < enrollments.length; i++) {
             let courss = enrollments[i].courses;
             for (let j = 0; j < courss.length; j++) {
-                console.log(courss[j]);
+                // console.log(courss[j]);
+                if (!("grades" in courss[j]) || !("status" in courss[j])) {
+                    return res.status(401).send(
+                        {"error": "Grades are yet to be udpated."});
+                }
                 if (courss[j].grades.length !== courss[j].status.length && 
                     courss[j].status.length !== courss[j].courseInstances.length) {
                     return res.status(401).send(
@@ -95,8 +99,16 @@ router.get("/required/courses/completion/", async (req, res, next) => {
                     let courseDetails = await CCatalog.findOne(courss[j].courseID);
                     for (let k = 0; k < courss[j].grades.length; k++) {
                         let instance = await CInstances.findOne({ _id: courss[j].grades[k].courseInstance });
+                        if (!("isCourseRequired" in instance)) {
+                            return res.status(401).send(
+                                {"error": "Grades are yet to be udpated."});
+                        }
                         if (instance.isCourseRequired === true) {
                             let courseDetails = await CCatalog.findOne(courss[j].courseID);
+                            if (!("numberOfCredits" in instance)) {
+                                return res.status(401).send(
+                                    {"error": "Grades are yet to be udpated."});
+                            }
                             credits.push(instance.numberOfCredits);
                             courses.push(courseDetails.courseName);
                             grades.push(courss[j].grades[k].grade);
@@ -166,7 +178,7 @@ router.get("/required/courses/completion/", async (req, res, next) => {
                 results.push(obj);
             }
         }
-        console.log(results.length);
+        // console.log(results.length);
         const cstatus = (results.length) ? ((incompleteCnt)? false : true) : false;
 
         res.status(200).json({
@@ -178,7 +190,8 @@ router.get("/required/courses/completion/", async (req, res, next) => {
         console.log("Sent the Response");
     } catch (error) {
         console.log(error);
-        res.sendStatus(500);
+        return res.status(401).send(
+                {"error": "Grades are yet to be updated."});
     }
 });
 

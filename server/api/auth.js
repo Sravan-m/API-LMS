@@ -37,6 +37,46 @@ const logger = winston.createLogger({
 
 const privateKEY = require('../jwt').privateKEY;
 
+const axios = require('axios');
+
+
+router.post('/mauth', jsonParser, async (req, res) => {
+  let data;
+  let payload;
+  let token;
+  try{
+    accessToken = req.body.accessToken;
+    googleAuthAPI = "https://www.googleapis.com/oauth2/v1/tokeninfo?access_token="+ accessToken;
+
+    axios.get(googleAuthAPI)
+      .then(async response =>{
+        if(response.data.email === req.body.email){
+          userdata = await Users.findOne({email: req.body.email});
+          assert(userdata, 'wrong email');
+          payload = {
+            'email': req.body.email,
+          };
+          token = jwt.sign(payload, privateKEY, signOptions);
+          data = {
+            'email': req.body.email,
+            'token': token,
+            'role': userdata.role
+          };
+          logger.info("User logged in successfully");
+          res.status(200).send(data);
+        } else {
+          res.status(401).json({error: "Invalid user"});
+        }
+      })
+      .catch(error => {
+        res.status(401).json({error: "Invalid user"});
+    });
+  }
+  catch(e){
+    res.status(401).json({error: e.message});
+  }
+})
+
 router.post('/login', jsonParser, async (req, res) => {
   let data;
   let payload;
@@ -46,7 +86,6 @@ router.post('/login', jsonParser, async (req, res) => {
     // console.log("await after data -->",data);
     assert(data, 'wrong email');
     // assert(data.password.hash === sah.sha256(req.body.password, data.password.salt).hash, "wrong password");
-
     payload = {
       'email': req.body.email,
     };
@@ -58,7 +97,7 @@ router.post('/login', jsonParser, async (req, res) => {
     logger.info("User logged in successfully");
     res.send(data);
   } catch (e) {
-    logger.error("User not able to log in due to" + e.message);
+    logger.error("User not able to log in due to " + e.message);
     res.status(401).json({error: e.message});
   }
 });

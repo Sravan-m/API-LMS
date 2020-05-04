@@ -1559,6 +1559,73 @@
 {"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:51.654Z"}
 {"message":"User's role sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:53.880Z"}
 {"message":"User details sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:53.886Z"}
+<<<<<<< HEAD
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-15T07:29:45.343Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-15T08:42:46.351Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-15T08:43:42.296Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-15T16:03:01.833Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:14:53.815Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:17:41.748Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:19:05.697Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:22:58.815Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:25:22.501Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:25:57.698Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T06:26:36.435Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T07:03:46.455Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T07:11:10.462Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T08:50:07.653Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T08:53:13.893Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T08:54:02.092Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T08:56:11.269Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T09:02:02.034Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T09:06:33.857Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T11:00:56.183Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T11:05:58.096Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T11:15:37.784Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-16T11:19:51.099Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:43:14.581Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:46:06.670Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:48:40.117Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:50:29.298Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:54:18.623Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:55:32.095Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:56:38.219Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T06:58:08.219Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:00:40.188Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:01:39.018Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:04:08.024Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:06:23.800Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:07:56.845Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:10:22.765Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:13:36.332Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:14:37.887Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:16:00.989Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:17:54.201Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:20:31.228Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:21:24.175Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:23:39.817Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:24:41.988Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:25:18.754Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:26:15.178Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:26:51.295Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:28:01.949Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:28:49.941Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:29:34.264Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:30:52.185Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:34:59.640Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:36:11.955Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:37:18.840Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T07:38:16.452Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T08:48:26.117Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T08:50:03.191Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:01:09.826Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:03:31.255Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:05:01.064Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:12:23.097Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:16:29.450Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-22T09:21:19.007Z"}
+=======
+<<<<<<< HEAD
 {"message":"User not able to log in due towrong email","level":"error","service":"auth-service","timestamp":"2020-04-21T07:00:13.170Z"}
 {"message":"User not able to log in due towrong email","level":"error","service":"auth-service","timestamp":"2020-04-21T07:00:37.090Z"}
 {"message":"User not able to log in due towrong email","level":"error","service":"auth-service","timestamp":"2020-04-21T07:02:19.420Z"}
@@ -1659,4 +1726,16 @@
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:13:38.145Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:15:31.611Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:29:18.509Z"}
+<<<<<<< HEAD
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-02T11:30:25.283Z"}
+=======
+=======
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:12:25.342Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:13:07.282Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:14:51.325Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:17:22.372Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T15:18:41.821Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T18:00:05.316Z"}
+>>>>>>> staging
+>>>>>>> staging
+>>>>>>> staging

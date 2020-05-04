@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const user = require('./user');
+const academicdetails = require('./academicdetails');
 const activityresponse = require('./activityResponse');
 const registration = require('./registration');
 const content = require('./content');
@@ -9,6 +10,7 @@ const course = require('./course');
 const program = require('./program');
 const courseInstance = require('./courseInstance')
 const auth = require('./auth');
+const todo = require('./todo');
 const fs = require('fs');
 const path = require("path");
 const jwt = require('../jwt').jwt;
@@ -17,6 +19,7 @@ const publicKEY = require('../jwt').publicKEY;
 
 router.use(authenticateToken);
 router.use('/user', user);
+router.use('/academicdetails', academicdetails);
 router.use('/activityresponse', activityresponse);
 router.use('/registration', registration);
 router.use('/content',content);
@@ -25,18 +28,16 @@ router.use('/course', course);
 router.use('/program', program);
 router.use('/course-instance', courseInstance);
 router.use('/auth',auth);
+router.use('/todo',todo);
 
 function authenticateToken(req, res, next){
     try{
-
         if(req.url.startsWith('/auth') || req.url.startsWith('/invites') || req.url.startsWith('/registration') || req.url.startsWith('/user/read/verify-admin')) {
             next();
             return;
         }
         const accessToken = req.query.token;
-     
         if(jwt.verify(accessToken, publicKEY, verifyOptions)){
-            
             next();
             // res.status(200).send();
         }
@@ -50,9 +51,7 @@ function authenticateToken(req, res, next){
             // console.log("Error at verifying token ",err);
             res.status(401).send({"error":"Invalid Token"});
         }
-      
     }
-
 }
 // router.use('/activityresponse',require('../models/activityResponseModel'))
 

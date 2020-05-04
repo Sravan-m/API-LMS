@@ -9,23 +9,25 @@ const acadDetails=require("../models/academicDetailsModel")
 const jsonParser = bodyParser.json({ limit: '100mb' });
 const Courses = require('../models/courseModel');
 var multer  = require('multer')
-var upload = multer({ dest: './uploads/' })
+var upload = multer({ dest: process.env.UPLOADS_DIR })
 
 router.post("/create", upload.single('image'), (req, res) => {
     try {
         var img=fs.readFileSync(req.file.path)
+        console.log(img)
         var encode_image = img.toString('base64');
         var finalImg = {
             contentType: req.file.mimetype,
             image:  new Buffer(encode_image, 'base64')
-         };
+        };
         data = req.body;
         data.image=finalImg
         data.isAlive = true;
         Courses(data).save();   
         res.send(true);
-
+        
     } catch (error) {
+        console.log(error);
         res.sendStatus(500);
     }
 });

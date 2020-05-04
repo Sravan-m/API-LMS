@@ -3,7 +3,7 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json({ limit: '100mb' });
 const multer = require('multer');
-const upload = multer({ dest: './uploads/' });
+const upload = multer({ dest: process.env.UPLOADS_DIR });
 const csv = require('csv-parser');
 const fs = require('fs');
 
@@ -86,6 +86,7 @@ router.post("/status/update", jsonParser, async (req, res) => {
         res.sendStatus(500);
     }
 });
+
 router.get("/status/isLive/:courseInstanceID", async (req, res) => {
     try {
         let courseInstanceID = req.params.courseInstanceID;
@@ -97,6 +98,7 @@ router.get("/status/isLive/:courseInstanceID", async (req, res) => {
         res.sendStatus(500);
     }
 });
+
 router.post("/update/batch/:programID/:courseID/:courseInstanceID", upload.array("csv[]", 2), async (req, res) => {
     console.log(req.params.programID);
     console.log(req.params.courseID);
@@ -147,7 +149,6 @@ router.post("/update/batch/:programID/:courseID/:courseInstanceID", upload.array
                         
                         console.log("this is jai fasak");
                         // console.log(acadDetailsExists);
-                        
 
                         let acads = await AcademicDetails.findOne({ "userID": students[row.studentEmail] }, { "enrollments": { $elemMatch: { programID: req.params.programID } } })
 

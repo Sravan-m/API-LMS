@@ -1559,3 +1559,9 @@
 {"message":"User's id sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:51.654Z"}
 {"message":"User's role sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:53.880Z"}
 {"message":"User details sent successfully","level":"info","service":"user-service","timestamp":"2019-06-08T20:07:53.886Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:12:25.342Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:13:07.282Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:14:51.325Z"}
+{"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:17:22.372Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T15:18:41.821Z"}
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T18:00:05.316Z"}

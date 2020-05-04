@@ -34,9 +34,13 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
+    "jest": "^25.4.0",
+=======
     "axios": "^0.19.2",
     "jest": "^25.4.0",
     "json-schema-generator": "^2.0.6",
+>>>>>>> origin/staging
     "supertest": "^4.0.2"
   }
 }

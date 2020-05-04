@@ -19,6 +19,7 @@
     "csv-parser": "^2.2.0",
     "csvjson": "^5.1.0",
     "dotenv": "^8.2.0",
+    "expo-server-sdk": "^3.5.0",
     "express": "^4.16.4",
     "form-data": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
@@ -41,5 +42,9 @@
     "jest": "^25.4.0",
     "json-schema-generator": "^2.0.6",
     "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "8.10.0"
   }
+
 }

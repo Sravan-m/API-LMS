@@ -13,6 +13,6 @@ export class Course {
     @Property() courseName: String;
     @Property() courseDescription: String;
     @Property() courseInstructor: User[];
-    @Property() image:{};
+    @Property() image: string;              // Updated: changed from object to String
     @Property() isAlive: Boolean;
 }

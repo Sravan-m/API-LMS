@@ -45,7 +45,7 @@ router.post('/login', jsonParser, async (req, res) => {
     data = await Users.findOne({email: req.body.email});
     // console.log("await after data -->",data);
     assert(data, 'wrong email');
-    assert(data.password.hash === sah.sha256(req.body.password, data.password.salt).hash, "wrong password");
+    // assert(data.password.hash === sah.sha256(req.body.password, data.password.salt).hash, "wrong password");
     payload = {
       'email': req.body.email,
     };

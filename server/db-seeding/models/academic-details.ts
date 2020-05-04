@@ -6,7 +6,7 @@ import {
 import { User } from "./user";
 import { Enrollment } from "./enrollment";
 
-@Collection("")
+@Collection("academicdetails")
 export class AcademicDetails {
     @Property() userID: User;
     @Property() enrollments: Enrollment[];

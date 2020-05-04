@@ -1726,6 +1726,9 @@
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:13:38.145Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:15:31.611Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-01T14:29:18.509Z"}
+<<<<<<< HEAD
+{"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-05-02T11:30:25.283Z"}
+=======
 =======
 {"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:12:25.342Z"}
 {"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:13:07.282Z"}
@@ -1733,5 +1736,6 @@
 {"message":"User not able to log in due to Key must be a buffer","level":"error","service":"auth-service","timestamp":"2020-04-28T15:17:22.372Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T15:18:41.821Z"}
 {"message":"User logged in successfully","level":"info","service":"auth-service","timestamp":"2020-04-28T18:00:05.316Z"}
+>>>>>>> staging
 >>>>>>> staging
 >>>>>>> staging

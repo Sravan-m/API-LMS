@@ -1,7 +1,13 @@
-import { Column as Property } from "typeorm";
+import { 
+    Column as Property,
+    Entity as Collection,
+    ObjectIdColumn
+ } from "typeorm";
+import { ObjectId } from "mongodb";
 import { CourseInstance } from "./course-instance";
-
+@Collection("contents")
 export class Content {
-    @Property() courseInstanceID: CourseInstance;
-    @Property() contentJSON: {};
+    @ObjectIdColumn() readonly id: ObjectId;
+    @Property() courseInstanceID: String;
+    @Property() contentJSON: Object[];
 }

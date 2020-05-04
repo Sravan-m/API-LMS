@@ -4,7 +4,7 @@ import {
     ObjectIdColumn,
 } from 'typeorm';
 import { ObjectId } from "mongodb";
-import { User } from "./user";
+import { User } from './user';
 
 @Collection("coursecatalog")
 export class Course {

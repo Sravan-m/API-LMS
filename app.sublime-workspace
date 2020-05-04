@@ -1,0 +1,852 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"activity"
+			],
+			[
+				"conte",
+				"contentJSON"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"par",
+				"parseData"
+			],
+			[
+				"courseIns",
+				"courseInstanceID"
+			],
+			[
+				"get",
+				"getAssignments"
+			],
+			[
+				"inst",
+				"instance"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"bo",
+				"books_detail"
+			],
+			[
+				"rute",
+				"route"
+			],
+			[
+				"metho",
+				"method"
+			],
+			[
+				"se",
+				"search_text"
+			],
+			[
+				"re",
+				"render_template"
+			],
+			[
+				"corr",
+				"correctAnswer"
+			],
+			[
+				"next",
+				"nextLine"
+			],
+			[
+				"Arrs",
+				"Arrays"
+			],
+			[
+				"sta",
+				"startQuiz"
+			],
+			[
+				"Q",
+				"Question"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"use",
+				"user_email"
+			],
+			[
+				"In",
+				"IntegrityError"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"child",
+				"childStdin"
+			],
+			[
+				"pare",
+				"parentStdin"
+			],
+			[
+				"submitted",
+				"submitted_at"
+			],
+			[
+				"c",
+				"contestsr"
+			],
+			[
+				"num",
+				"numberofguesses"
+			],
+			[
+				"req",
+				"request_data"
+			],
+			[
+				"Test",
+				"TestCase-1"
+			],
+			[
+				"Pi",
+				"Point"
+			],
+			[
+				"Compara",
+				"Comparator"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"dis",
+				"distanceSlides"
+			],
+			[
+				"html",
+				"htmlString"
+			],
+			[
+				"htm",
+				"htmlString"
+			],
+			[
+				"http",
+				"http_response"
+			],
+			[
+				"request",
+				"request_header"
+			],
+			[
+				"serve",
+				"serve_clients"
+			],
+			[
+				"stri",
+				"String"
+			],
+			[
+				"lin",
+				"line_count"
+			],
+			[
+				"int",
+				"Integer"
+			],
+			[
+				"emails",
+				"emailsData"
+			],
+			[
+				"emaisl",
+				"emailsData"
+			],
+			[
+				"sup",
+				"superTest"
+			],
+			[
+				"ema",
+				"emailsCount"
+			],
+			[
+				"parse",
+				"parseEmailConnections"
+			],
+			[
+				"ve",
+				"VERTICAL"
+			],
+			[
+				"Ver",
+				"VERTICAL"
+			],
+			[
+				"ads",
+				"ads1_activities"
+			],
+			[
+				"asse",
+				"assertEquals"
+			],
+			[
+				"sea",
+				"searchNode"
+			],
+			[
+				"Lin",
+				"LinkedList"
+			],
+			[
+				"cop",
+				"copyOfTiles"
+			],
+			[
+				"rea",
+				"readInputFromConsole"
+			],
+			[
+				"pay",
+				"payAmount"
+			],
+			[
+				"chec",
+				"checkBalance"
+			],
+			[
+				"pa",
+				"payAmount"
+			],
+			[
+				"add",
+				"addAmount"
+			],
+			[
+				"de",
+				"deleted"
+			],
+			[
+				"node",
+				"nodeDeleted"
+			],
+			[
+				"neg",
+				"neighbours"
+			],
+			[
+				"min",
+				"minPq"
+			],
+			[
+				"is",
+				"isSolvable"
+			],
+			[
+				"out",
+				"outputNum"
+			],
+			[
+				"den",
+				"denominator"
+			],
+			[
+				"game",
+				"gamesWon"
+			],
+			[
+				"g",
+				"gPlayed"
+			],
+			[
+				"games",
+				"gamesWon"
+			],
+			[
+				"studen",
+				"studentMarks"
+			],
+			[
+				"roll",
+				"rollNumber"
+			],
+			[
+				"blank",
+				"blankRow"
+			],
+			[
+				"merc",
+				"merchantName"
+			],
+			[
+				"trans",
+				"transactions"
+			],
+			[
+				"ln",
+				"linkedlist"
+			],
+			[
+				"M",
+				"MyLinkedList"
+			],
+			[
+				"ls",
+				"listCount"
+			],
+			[
+				"con",
+				"contains"
+			],
+			[
+				"seac",
+				"searchUser"
+			],
+			[
+				"conne",
+				"connections"
+			],
+			[
+				"conn",
+				"connectionstokens"
+			],
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"ne",
+				"network"
+			],
+			[
+				"cot",
+				"country1"
+			],
+			[
+				"rer",
+				"return"
+			],
+			[
+				"Conta",
+				"contact"
+			],
+			[
+				"fre",
+				"friendsCount"
+			],
+			[
+				"Contac",
+				"ContactManager"
+			],
+			[
+				"frie",
+				"friendsCount"
+			],
+			[
+				"Com",
+				"ComplexNumber"
+			],
+			[
+				"std",
+				"stdio.h\tstandard header"
+			],
+			[
+				"Ho",
+				"HOURS_PER_DAY"
+			],
+			[
+				"Hour",
+				"hours"
+			],
+			[
+				"H",
+				"HOURS_PER_DAY"
+			],
+			[
+				"hor",
+				"HOURS_PER_DAY"
+			],
+			[
+				"set",
+				"setHour"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"Ille",
+				"IllegalArgumentException"
+			],
+			[
+				"prin",
+				"printScoreSheet"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"fr",
+				"fromIndex"
+			],
+			[
+				"Stri",
+				"StringTokenizer"
+			],
+			[
+				"pr",
+				"printScoreSheet"
+			],
+			[
+				"csv",
+				"csv_file"
+			],
+			[
+				"act",
+				"activityType"
+			],
+			[
+				"js",
+				"jsonstring"
+			],
+			[
+				"json",
+				"jsonstring"
+			],
+			[
+				"jso",
+				"json_object"
+			],
+			[
+				"fil",
+				"file_list"
+			],
+			[
+				"even",
+				"evenBits"
+			],
+			[
+				"au",
+				"authRole"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"you",
+				"youtubevideo"
+			],
+			[
+				"And",
+				"Android"
+			],
+			[
+				"on",
+				"onStack"
+			],
+			[
+				"ma",
+				"marked"
+			],
+			[
+				"Te",
+				"TestMurthy"
+			],
+			[
+				"Res",
+				"HospitalResident"
+			],
+			[
+				"comp",
+				"compareTo"
+			],
+			[
+				"frien",
+				"friends"
+			],
+			[
+				"pla",
+				"playersCount"
+			],
+			[
+				"pl",
+				"pl\tprintln"
+			],
+			[
+				"err",
+				"errorterm"
+			],
+			[
+				"oper",
+				"operand1"
+			],
+			[
+				"er",
+				"errorTerm"
+			],
+			[
+				"ope",
+				"operand"
+			],
+			[
+				"wa",
+				"wallets"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"code Time ",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"code time",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"regex",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Packae",
+				"Package Control: Install Package"
+			],
+			[
+				"install Package Git",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"Set Syntax: Git Log"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 202.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cihl-132/Desktop/mobile-api/lms-api/server/db.js",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/templates/register.html",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/application.py",
+		"/home/cihl-132/Desktop/mobile-api/lms-api/server/final.js",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/invitations.txt",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/IDS.csv",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/LMS.txt",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/imp",
+		"/home/cihl-132/Downloads/NgLMS-2020-04-19-1330/lms/invites.json",
+		"/home/cihl-132/Downloads/NgLMS-2020-04-19-1330/lms/academicdetails.bson",
+		"/home/cihl-132/Downloads/NgLMS-2020-04-19-1330/lms/users.metadata.json",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/OOP.txt",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/minutes.txt",
+		"/home/cihl-132/Desktop/Desktop/Before Bhutan/out.txt",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/import.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/import.py",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/books.csv",
+		"/home/cihl-132/Desktop/mobile-api/lms-api/server/test.js",
+		"/home/cihl-132/Documents/WPTasks/WPTasks/Project1/application.py",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/create-users-table.sql",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/create-books-table.sql",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/index.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/layout.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/requirements.txt",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/create-reviews-table.sql",
+		"/home/cihl-132/Desktop/out.txt",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/results.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/register.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/login.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/error.html",
+		"/home/cihl-132/Documents/Wp-project-books/books-appdev/templates/book.html",
+		"/home/cihl-132/Desktop/CT.json",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/todo.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/user.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/auth.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/registration.js",
+		"/home/cihl-132/Downloads/DBBackUp-4thSep2019/contents.json",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/content.js",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/models.py",
+		"/home/cihl-132/.software/CodeTime.txt",
+		"/home/cihl-132/Downloads/lms-api-findbugs/server/package.json",
+		"/home/cihl-132/Desktop/data.json",
+		"/home/cihl-132/Downloads/lms-api-findbugs/server/api/courseInstance.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/program.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/models/academicDetailsModel.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/models/programModel.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/models/courseModel.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/models/activityResponseModel.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/app.js",
+		"/home/cihl-132/Downloads/DBBackUp-4thSep2019/activityresponses1.json",
+		"/home/cihl-132/Downloads/DBBackUp-4thSep2019/activityresponses.json",
+		"/home/cihl-132/Desktop/todo.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/models/courseInstanceModel.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/courseInstance.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/course.js",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/api/index.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/course.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/activityResponse.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/courseInstance.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/todo.js",
+		"/home/cihl-132/Desktop/in.txt",
+		"/home/cihl-132/Downloads/Ng_LMS-master/server/package.json",
+		"/home/cihl-132/Documents/NG/bsit/package.json",
+		"/home/cihl-132/Documents/NG/bsit/Procfile",
+		"/home/cihl-132/Documents/NG/bsit/server.js",
+		"/home/cihl-132/Documents/Ng_LMS_master/Ng_LMS/server/test/courseInstanceTest.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/program.js",
+		"/home/cihl-132/Documents/Ng_LMS_master/Ng_LMS/server/test/programTest.js",
+		"/home/cihl-132/Documents/Ng_LMS_master/Ng_LMS/server/test/courseTest.js",
+		"/home/cihl-132/Documents/Ng_LMS_master/Ng_LMS/server/app.js",
+		"/home/cihl-132/Downloads/DBBackUp-4thSep2019/users.json",
+		"/home/cihl-132/Documents/Ng_LMS/server/app.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/package.json",
+		"/home/cihl-132/Documents/Ng_LMS/server/api/user.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/api/user.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/app.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/db.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/package-lock.json",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/output.json",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/server/logger.js",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/admin/package.json",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/admin/package-lock.json",
+		"/home/cihl-132/Documents/LMS/Ng_LMS/lms/package.json",
+		"/home/cihl-132/Downloads/DBBackUp-4thSep2019/academicdetails.json",
+		"/home/cihl-132/Desktop/api-deploy/Ng_LMS/server/app.js",
+		"/home/cihl-132/Desktop/api-deploy/Ng_LMS/server/Procfile",
+		"/home/cihl-132/iiitdev/package.json",
+		"/home/cihl-132/iiitdev/server.js",
+		"/home/cihl-132/iiitdev/Procfile",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/content.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/user.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/auth.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/program.js",
+		"/home/cihl-132/Desktop/heroku deploy/books-appdev/requirements.txt",
+		"/home/cihl-132/Desktop/heroku deploy/books-appdev/Procfile",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/course.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/registration.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/index.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/courseInstance.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/invites.js",
+		"/home/cihl-132/Desktop/nglms/Ng_LMS/server/api/activityResponse.js",
+		"/home/cihl-132/Documents/Downloads ISO/Microsoft Windows 10 Home and Pro x64 Clean ISO/ReadMe.txt",
+		"/home/cihl-132/Documents/Downloads ISO/Microsoft Windows 10 Home and Pro x64 Clean ISO/Support Us.txt",
+		"/home/cihl-132/Downloads/embed.txt",
+		"/home/cihl-132/Downloads/_Oceanofgames.com_Cricket_2007/Cricket_2007/Desktop.ini",
+		"/home/cihl-132/Downloads/LMS - appdev.csv",
+		"/home/cihl-132/Downloads/_Oceanofgames.com_Cricket_2007/Cricket_2007/Support/en-uk_eula.txt",
+		"/home/cihl-132/Desktop/Important.txt",
+		"/home/cihl-132/Downloads/Copy of Sw-App-Dev_ Web/CopyofSwAppDevWeb.html",
+		"/home/cihl-132/Desktop/data.html",
+		"/home/cihl-132/Documents/Solution.cpp",
+		"/home/cihl-132/Documents/WP_Heroku/WP_Mentor_training_2020/Procfile",
+		"/home/cihl-132/Documents/WP_Heroku/WP_Mentor_training_2020/requirements.txt",
+		"/home/cihl-132/Documents/WP_Heroku/WP_Mentor_training_2020/templates/home.html",
+		"/home/cihl-132/Documents/WP_Heroku/WP_Mentor_training_2020/application.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/goodreads_api.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/logger.log",
+		"/home/cihl-132/Documents/WPTasks/WPTasks/Project1/logger.log",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/query_user.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/search.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/book_details.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/goodRead.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/test_basic.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/templates/home.html",
+		"/home/cihl-132/Desktop/out1.txt",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/templates/book_detail.html",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/tests/test_basic.py",
+		"/home/cihl-132/Documents/Deepak_WPTasks/WP_Mentor_training_2020/WP/Project 1/Test/project1/templates/search.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 562.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

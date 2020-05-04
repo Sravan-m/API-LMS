@@ -1,0 +1,2173 @@
+[
+    {
+        "userID": "2",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2",
+                            "CIID6"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "grade": "B+",
+                                "courseInstance": "CIID6"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID6"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "3",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2",
+                            "CIID6"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID6"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID6"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "4",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "5",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2",
+                            "CIID6"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID6"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            },
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID6"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "6",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "8",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A+",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A+",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "9",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A+",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "10",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A+",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "11",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A+",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C5",
+                        "courseInstances": [
+                            "CIID7"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID7"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID7"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C3",
+                        "courseInstances": [
+                            "CIID8"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID8"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C2",
+                        "courseInstances": [
+                            "CIID9"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID9"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID9"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "12",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "B",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Registered",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "13",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "A",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Registered",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "14",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "C",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "15",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Evaluation in-progress",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "userID": "16",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Incomplete",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "userID": "17",
+        "enrollments": [
+            {
+                "programID": "MSIT Co2021",
+                "courses": [
+                    {
+                        "courseID": "C9",
+                        "courseInstances": [
+                            "CIID1"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID1"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID1"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C8",
+                        "courseInstances": [
+                            "CIID2"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID2"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID2"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C7",
+                        "courseInstances": [
+                            "CIID3"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID3"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID3"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C6",
+                        "courseInstances": [
+                            "CIID4"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID4"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID4"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C1",
+                        "courseInstances": [
+                            "CIID10"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "none",
+                                "courseInstance": "CIID10"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course in-progress",
+                                "courseInstance": "CIID10"
+                            }
+                        ]
+                    },
+                    {
+                        "courseID": "C4",
+                        "courseInstances": [
+                            "CIID11"
+                        ],
+                        "grades": [
+                            {
+                                "grade": "Ex",
+                                "courseInstance": "CIID11"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "status": "Course Completed",
+                                "courseInstance": "CIID11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }   
+]

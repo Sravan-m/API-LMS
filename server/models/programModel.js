@@ -9,7 +9,12 @@ var CreateProgramSchema = new mongo.Schema({
     batch:[],
     mentors:[],
     programDescription:String,
-    calendar: String
+    calendar: String,
+    // added by siva after discussed with the team.
+    gradeScale: [{
+        grade: String,
+        points: Number
+    }]
 });
 
 Programs = mongo.model('Programs', CreateProgramSchema);

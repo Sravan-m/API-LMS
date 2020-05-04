@@ -1,40 +1,46 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
-  "description": "to test the modularity",
+  "name": "lms-api-dev",
+  "version": "0.0.1",
+  "description": "dev docker image for lms-api",
   "main": "app.js",
   "scripts": {
-    "test": "jest --testTimeout=10000 --detectOpenHandles",
-    "start": "nodemon -r dotenv/config app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
-  "jest": {
-    "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ]
-  },
-  "author": "manikanta",
-  "license": "ISC",
+  "author": "Praveen Garimella",
+  "license": "CIHL",
   "dependencies": {
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "cors": "^2.8.5",
     "csv-parser": "^2.2.0",
-    "dotenv": "^8.0.0",
+    "csvjson": "^5.1.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
+    "form-data": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
     "mailgun-js": "^0.22.0",
+    "mongo-seeding": "^3.4.1",
     "mongoose": "^5.5.2",
     "multer": "^1.4.1",
     "nodegit": "^0.24.3",
     "nodemon": "^1.18.11",
     "rimraf": "^2.6.3",
+    "ts-node": "^8.9.0",
+    "typeorm": "^0.2.24",
+    "typescript": "^3.8.3",
     "urlencode": "^1.1.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "jest": "^25.4.0",
+=======
+    "axios": "^0.19.2",
+    "jest": "^25.4.0",
+    "json-schema-generator": "^2.0.6",
+>>>>>>> origin/staging
     "supertest": "^4.0.2"
   }
 }

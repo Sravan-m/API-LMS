@@ -10,6 +10,7 @@ const course = require('./course');
 const program = require('./program');
 const courseInstance = require('./courseInstance')
 const auth = require('./auth');
+const todo = require('./todo');
 const fs = require('fs');
 const path = require("path");
 const jwt = require('../jwt').jwt;
@@ -27,6 +28,7 @@ router.use('/course', course);
 router.use('/program', program);
 router.use('/course-instance', courseInstance);
 router.use('/auth',auth);
+router.use('/todo',todo);
 
 function authenticateToken(req, res, next){
     try{

@@ -124,7 +124,7 @@ user.get("/get/user-list", async (req, res) => {
   try {
     var users = await Users.find({});
     users.map(user => {
-      var path = `./uploads/${user.firstName}${user.lastName}.txt`;
+      var path = process.env.UPLOADS_DIR + `${user.firstName}${user.lastName}.txt`;
       if (fs.existsSync(path)) {
         user.image = fs.readFileSync(path, 'utf-8');
       }else{

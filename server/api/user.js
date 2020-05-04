@@ -89,7 +89,7 @@ async function getId(req, res) {
   try {
     // console.log("Insise Get Role");
     var accessToken = req.query.token;
-    // console.log(accessToken);
+    console.log(accessToken);
     var decoded = jwt.verify(accessToken, publicKEY, verifyOptions);
     // console.log("token verify--->", decoded);
     // console.log(await Users.find({"email":decoded.email}))
@@ -97,7 +97,6 @@ async function getId(req, res) {
     assert(user, "Not Found");
     logger.info("User's id sent successfully");
     res.json({ 'id': user._id });
-
   }
   catch (err) {
     if (err instanceof jwt.JsonWebTokenError) {
@@ -216,4 +215,5 @@ user.post("/post/student-list/:role/:programID", jsonParser, async (req, res) =>
 });
 
 
-module.exports = user;
+module.exports = user
+module.exports = getId

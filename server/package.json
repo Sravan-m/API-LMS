@@ -10,9 +10,11 @@
   "author": "Praveen Garimella",
   "license": "CIHL",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
+    "convert-csv-to-json": "0.0.15",
     "cors": "^2.8.5",
     "csv-parser": "^2.2.0",
     "csvjson": "^5.1.0",
@@ -24,7 +26,7 @@
     "mongo-seeding": "^3.4.1",
     "mongoose": "^5.5.2",
     "multer": "^1.4.1",
-    "nodegit": "^0.24.3",
+    "nodegit": "^0.26.1",
     "nodemon": "^1.18.11",
     "rimraf": "^2.6.3",
     "ts-node": "^8.9.0",
@@ -34,13 +36,10 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "jest": "^25.4.0",
-=======
     "axios": "^0.19.2",
     "jest": "^25.4.0",
     "json-schema-generator": "^2.0.6",
->>>>>>> origin/staging
     "supertest": "^4.0.2"
   }
 }

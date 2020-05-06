@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#As per murthy's command
+.env
+
 # compiled output
 /dist
 /tmp
@@ -7,6 +10,7 @@
 
 # dependencies
 /node_modules
+/uploads
 
 # profiling files
 chrome-profiler-events.json
@@ -40,7 +44,7 @@ testem.log
 /typings
 info.log
 error.log
-cobined.log
+combined.log
 # System Files
 .DS_Store
 Thumbs.db

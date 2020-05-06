@@ -1,0 +1,175 @@
+[{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on Exceptional Control Flow - Signals (Part - 1)",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-22.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-15-0-pdf-22.pdf"
+
+		}],
+		"activity_name": "Video on Exceptional Control Flow - Signals (Part - 1)",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Exceptional Control Flow - Signals (Part - 1) Reading",
+			"text": "Refer to the sections of 8.3"
+		}],
+		"activity_name": "Exceptional Control Flow - Signals (Part - 1) Reading",
+		"module_id": 15
+	},
+		{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "execve(char *filename, char *environ[], char *argv[])"
+						},
+						{
+							"correct": true,
+							"option": "execve(char *filename, char *argv[], char *environ[])"
+						},
+						{
+							"correct": false,
+							"option": "execve(char *environ[], char *argv[], char *filename)"
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following is the valid syntax for the execve function"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "wait or waitpid"
+						},
+						{
+							"correct": false,
+							"option": "sleep()"
+						},
+						{
+							"correct": false,
+							"option": "suspend()"
+						},
+						{
+							"correct": false,
+							"option": "execve()"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are the functions used to reap the process"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "execve()"
+						},
+						{
+							"correct": false,
+							"option": "wait()"
+						},
+						{
+							"correct": false,
+							"option": "fork()"
+						},
+						{
+							"correct": true,
+							"option": "exec()"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following function is used to load and run the new programs. (Check all that apply)"
+					}],
+					"questionType": "Checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Exceptional Control Flow - Signals (Part - 1)"
+		}],
+		"activity_name": "Quiz on Exceptional Control Flow - Signals (Part - 1)",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Shell Lab - Code part 2",
+			"text": "<ol><li>Walk through the rest of the functions defined in tsh.c such as<br>a. fgpid()<br>b. getjobpid()<br>c. getjobjid()<br>d. pid2jid()<br>e. unix_error()<br>f. app_error()<br>g. Signal()<br>h. sigquit_handler()</li><li>Feel free to meet your respective mentor in clarifying your questions.<br><b>Note:</b> Get ready for the viva by this weekend which carries 10 marks.</li></ol>"
+		}],
+		"activity_name": "Shell Lab - Code part 2",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Activity - 5",
+			"text": "<ol><li>Start implementing the code for eval() function builtin_command() in your shell lab. (tsh.c)</li><li>Check your solution against the following test cases. Run the following commands and observe the output. If there is a change in the output, go back change your simple shell (tsh). (tshref is an executable file of the official solution).<br>a. ./sdriver.pl -t trace01.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace01.txt -s ./tsh -a \"-p\"<br><br>b. ./sdriver.pl -t trace02.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace02.txt -s ./tsh -a \"-p\"<br><br>c. ./sdriver.pl -t trace03.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace03.txt -s ./tsh -a \"-p\"<br><br>d. ./sdriver.pl -t trace04.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace04.txt -s ./tsh -a \"-p\""
+		}],
+		"activity_name": "Activity - 5",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write a C Program that create 10 children processes that prints their process id and the parent has to reap all the child processes by printing their exit status of the children."
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-1"
+		}],
+		"activity_name": "Assignment-1",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Run and understand the code given in Figure: 8.28 Write a description of each and every line as comments."
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-2"
+		}],
+		"activity_name": "Assignment-2",
+		"module_id": 15
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write the summary of the group discussion and submit the Google doc link"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-3"
+		}],
+		"activity_name": "Assignment-3",
+		"module_id": 15
+	}
+]

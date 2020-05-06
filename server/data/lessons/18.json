@@ -1,0 +1,303 @@
+[
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Virtual Memory",
+			"text": "Read the textbook Chapter - 9 Virtual Memory."
+		}],
+		"activity_name": "Virtual Memory",
+		"module_id": 18
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "involves the separation of physical memory as perceived by users from virtual memory"
+						},
+						{
+							"correct": false,
+							"option": "involves the separation of logical memory as perceived by users from cache memory"
+						},
+						{
+							"correct": true,
+							"option": "involves the separation of logical memory as perceived by users from physical memory"
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Virtual memory is:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "A process that refers to logical (virtual) view of how a process is stored in memory."
+						},
+						{
+							"correct": false,
+							"option": "A process that refers to physical view of how a process is stored in memory."
+						},
+						{
+							"correct": false,
+							"option": "A process that refers to physical view of how a process is stored in virtual memory."
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Virtual address space is:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "If the process tries to access the page that was not brought into the memory"
+						},
+						{
+							"correct": false,
+							"option": "If the process tries to access the page which is not loaded into the memory and then loads into memory"
+						},
+						{
+							"correct": false,
+							"option": "If the process tries to access the page which is available in the memory."
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Page Fault:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Virtual memory"
+						},
+						{
+							"correct": false,
+							"option": "Page fault"
+						},
+						{
+							"correct": true,
+							"option": "Demand paging"
+						},
+						{
+							"correct": false,
+							"option": "Virtual address space"
+						}
+					],
+					"questionText": [{
+						"text": "The strategy is to load pages only as they are needed is called:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "This has an ability to mark an entry invalid through a valid-invalid bit or a special value of protection hits."
+						},
+						{
+							"correct": false,
+							"option": "This has no ability to mark an entry invalid through a valid-invalid bit or a special value of protection hits."
+						},
+						{
+							"correct": false,
+							"option": "It keeps track of only valid pages in the memory."
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "Page table is:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "c, b a"
+						},
+						{
+							"correct": false,
+							"option": "a, b, c"
+						},
+						{
+							"correct": false,
+							"option": "c, a, b"
+						},
+						{
+							"correct": false,
+							"option": "b, c, a"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following steps will occur in sequence when the page fault service time:<br>a. Restart the process<br>b. Read in the page<br>c. Service the page fault interrupt"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Mark the page as dirty so that this page can be replaced if page fault occurs during the execution of the process."
+						},
+						{
+							"correct": false,
+							"option": "Won’t mark the page as it was modified during the execution of the process."
+						},
+						{
+							"correct": false,
+							"option": "Whether the page is modified since it was read in from the memory during the execution of the process, so that it has to be written back to the memory again when it needs to get replaced by some other page."
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "The dirty bit or modify bit is used to keep track of:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "The number of page faults occurs having high number of page frames is less than the number of page faults occurs having less number of page frames"
+						},
+						{
+							"correct": false,
+							"option": "The number of page faults occurs having less number of page frames is greater than the number of page faults occurs having high number of page frames"
+						},
+						{
+							"correct": true,
+							"option": "The number of page faults occurs having high number of page frames is greater than the number of page faults occurs having less number of page frames"
+						},
+						{
+							"correct": false,
+							"option": "The number of page faults occurs having less number of page frames is less than the number of page faults occurs having high number of page frames"
+						}
+					],
+					"questionText": [{
+						"text": "Belady’s anomaly occurs when:"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "First In First Out (FIFO)"
+						},
+						{
+							"correct": false,
+							"option": "Optimal page replacement"
+						},
+						{
+							"correct": true,
+							"option": "Least Frequently Used (LFU)"
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following is a counting based page replacement algorithms"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Virtual Memory"
+		}],
+		"activity_name": "Quiz on Virtual Memory",
+		"module_id": 18
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 50,
+				"questionText": [{
+					"text": "<ol><li>Calculate the total number of page faults and page hits using the FIFO page replacement algorithms, given the following reference string and memory with 4 frames.<br>0, 2, 1, 6, 4, 0, 1, 0, 3, 1, 2, 1.</li><li>Calculate the total number of page faults and page hits using the Optimal page replacement algorithms, given the following reference string and memory with 4 frames.<br>0, 2, 1, 6, 4, 0, 1, 0, 3, 1, 2, 1.</li><li>Calculate the total number of page faults and page hits using the LRU (Least Recently Used) page replacement algorithms, given the following reference string and memory with 4 frames.<br>0, 2, 1, 6, 4, 0, 1, 0, 3, 1, 2, 1.</li><li>Calculate the total number of page faults and page hits using the Least frequently used (LFU) page replacement algorithms, given the following reference string and memory with 4 frames.<br>0, 2, 1, 6, 4, 0, 1, 0, 3, 1, 2, 1.</li><li>Analyze which of the above algorithms is the best and why?</ol></li>"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-1"
+		}],
+		"activity_name": "Assignment-1",
+		"module_id": 18
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Submit the shell lab that contains the code for eval() and builtin_cmd() and the comments for all the functions which are by default given by the instructor. There will be a viva once you are done with this submission."
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-2"
+		}],
+		"activity_name": "Assignment-2",
+		"module_id": 18
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write the summary of the group discussion and submit the Google doc link"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-3"
+		}],
+		"activity_name": "Assignment-3",
+		"module_id": 18
+	}
+]

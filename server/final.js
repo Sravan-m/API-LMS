@@ -4,15 +4,12 @@ const app = express();
 const cors = require('cors');
 const { startDb } = require('./db');
 const Users = require('./models/userModel');
+const fs = require('fs');
 const sah = require('./sah');
 var urlencode = require('urlencode');
 const https = require('https');
-//const http = require('http');
+const http = require('http');
 
-//https.createServer(options, app).listen(443);
-//var express = require('express');
-//var app = express();
-const fs = require('fs');
 const key = fs.readFileSync('/etc/ssl/lmscerts/angularapi.msitprogram.net.key');
 const cert = fs.readFileSync( '/etc/ssl/lmscerts/angularapi.crt' );
 const ca = fs.readFileSync( '/etc/ssl/lmscerts/angularapi-gd_bundle-g2-g1.crt' );
@@ -21,26 +18,11 @@ const options = {
   cert: cert,
   ca: ca
 };
-https.createServer(options, (req, res) => {
-  res.writeHead(200);
-  res.end('hello world\n');
-}).listen(8080);
+
 
 // Starting both http & https servers
-//const httpServer = http.createServer(app);
-const httpsServer = https.createServer(app);
 
-//httpServer.listen(80, () => {
-//	console.log('HTTP Server running on port 80');
-//});
-
-//httpsServer.listen(443, () => {
-//	console.log('HTTPS Server running on port 443');
-//});
 app.use(express.urlencoded({ extended: false }));
-
-// const routes = require('./routes');
-
 app.use(cors());
 app.use("/api", api);
 
@@ -52,7 +34,7 @@ startDb()
       var adminExists=await Users.findOne({"role":"admin"})
       if(adminExists==null){
         let admin={email:"admin@network.net",role:"admin"}
-      	admin['password'] = sah.saltHashPassword("admin")
+        admin['password'] = sah.saltHashPassword("admin")
         Users(admin).save()
 
       }
@@ -60,5 +42,7 @@ startDb()
     });
   });
 
+var httpsServer = https.createServer(options, app).listen(8080);
+var httpServer = http.createServer(app);
   // to run --> nodemon -r dotenv/config app.js
 module.exports = app;

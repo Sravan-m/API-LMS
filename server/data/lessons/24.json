@@ -1,0 +1,63 @@
+[
+{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Threads",
+			"text": "Refer to the textbook,Operating systems Concepts  -Galvin, 9th Edition, for Threads - Chapter - 04 <a href=\"https://drive.google.com/file/d/1NmNrJgAENuvH2BdDdfihZPOhdbCcCzxS/view?usp=sharing\"> here</a> <br>Download the powerpoint slides  from <a href=\"https://drive.google.com/file/d/1jlIN33UPRFL9CU5A7x_gHgyZLUPYNETL/view?usp=sharing\"> here</a>"
+		}],
+		"activity_name": "Threads",
+		"module_id": 24
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Deadlocks",
+			"text": "Refer to the textbook,Operating systems Concepts  -Galvin, 9th Edition, for Threads - Chapter - 0 <a href=\"https://drive.google.com/file/d/1NmNrJgAENuvH2BdDdfihZPOhdbCcCzxS/view?usp=sharing\"> here</a> <br>Download the powerpoint slides  from <a href=\"https://drive.google.com/file/d/1jlIN33UPRFL9CU5A7x_gHgyZLUPYNETL/view?usp=sharing\"> here</a>"
+		}],
+		"activity_name": "Deadlocks",
+		"module_id": 24
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "To illustrate the use of the banker’s algorithm, consider a system with five processes P0 through P4 and three resource types A, B, and C. Resource type A has ten instances, resource type B has five instances, and resource type C has seven instances. Suppose that, at time T0, the following snapshot of the system has been taken:"
+				},
+				{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-75.png"
+							}
+						},
+						{
+					"text": "a. What is the sequence of the processes so that it satisfies the safety criteria.<br><br>b. Suppose P1 requests one additional instance of resource type A and two instances of resource type C, so Request1 = (1,0,2). Is this request be immediately granted or should be delayed."
+				}
+
+			],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-1"
+		}],
+		"activity_name": "Assignment-1",
+		"module_id": 24
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write the summary of the group discussion and submit the Google doc link"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-2"
+		}],
+		"activity_name": "Assignment-2",
+		"module_id": 24
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Shlab Coding",
+			"text": "<ol><li>If you are not done implementing the code for eval and builtin_cmd(), please finish by this time.</li><li>If you are done with the code for the first one. Start writing the code for do_bgfg() and waitfg()</li><li>Write the comments clearly for each and every line that you write in the code.</li><li>Run your solution against the test cases and observe the output of your solution with the output of the reference solution.<ol type=\"a\"><b><li>./sdriver.pl -t trace03.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace03.txt -s ./tsh -a \"-p\"</li><li>./sdriver.pl -t trace05.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace05.txt -s ./tsh -a \"-p\"</li></b></ol><li>Observe the output and there will be changes. Think of what to do and in the sequence which of the functions needs to be implemented or which of the signals need to be installed or handled in the eval() function.</li></ol>"
+		}],
+		"activity_name": "Shlab Coding",
+		"module_id": 17
+	}
+]

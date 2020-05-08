@@ -1,0 +1,28 @@
+[
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Activity 1",
+			"text": "Implement the code for sigtstp_handler and check your solution’s output with the reference solution. Write comments for each line you are writing so that it will be helpful for future use.<ol><li>./sdriver.pl -t trace08.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace08.txt -s ./tsh -a \"-p\"</li><li>./sdriver.pl -t trace09.txt -s ./tshref -a \"-p\"<br>./sdriver.pl -t trace09.txt -s ./tsh -a \"-p\"</li></ol>Hope by this time, you have passed 7 test cases. Good. Keep going."
+
+		}],
+		"activity_name": "Activity 1",
+		"module_id": 21
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write the summary of the group discussion and submit the Google doc link"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-1"
+		}],
+		"activity_name": "Assignment-1",
+		"module_id": 21
+	}
+]

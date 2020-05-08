@@ -1,0 +1,826 @@
+[{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Basics of Structures",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number:127 to 129)"
+		}],
+		"activity_name": "Basics of Structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "struct"
+						},
+						{
+							"correct": false,
+							"option": "union"
+						},
+						{
+							"correct": false,
+							"option": "array"
+						},
+						{
+							"correct": false,
+							"option": "Define"
+						}
+					],
+					"questionText": [{
+						"text": "What is the keyword that can be used to declare a structure?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Members"
+						},
+						{
+							"correct": true,
+							"option": "Properties"
+						},
+						{
+							"correct": false,
+							"option": "Variables"
+						},
+						{
+							"correct": false,
+							"option": "Attributes"
+						}
+					],
+					"questionText": [{
+						"text": "What are the variables called that are defined inside the structure?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Compiler error, Can’t assign values to the structure members."
+						},
+						{
+							"correct": true,
+							"option": "p is a type of struct pixel and assigns values of 255, 0, 0 to red, green, blue."
+						},
+						{
+							"correct": false,
+							"option": "p is a type struct pixel and assigns the values of 255, 0, 0 to blue, green, red."
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+							"text": "What does the code do in line number 7?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-52.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": ". (dot operator)"
+						},
+						{
+							"correct": false,
+							"option": "&"
+						},
+						{
+							"correct": false,
+							"option": "~"
+						},
+						{
+							"correct": false,
+							"option": ", (comma)"
+						}
+					],
+					"questionText": [{
+						"text": "Which operator is used to access the members of the structure?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Garbage value"
+						},
+						{
+							"correct": false,
+							"option": "30"
+						},
+						{
+							"correct": true,
+							"option": "1234"
+						},
+						{
+							"correct": false,
+							"option": "The compiler throws an error message"
+						}
+					],
+					"questionText": [{
+							"text": "What value will be stored in student’s id based on the following code snippet?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-53.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "True"
+						},
+						{
+							"correct": true,
+							"option": "False"
+						}
+					],
+					"questionText": [{
+						"text": "(T/F) The structures can’t be nested"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Basics of Structures"
+		}],
+		"activity_name": "Quiz on Basics of Structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Structures and Functions",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number:129 to 132)"
+		}],
+		"activity_name": "Structures and Functions",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "It creates a complex object of struct complex type and returns that object after assigning the values of parameters to the structure members."
+						},
+						{
+							"correct": false,
+							"option": "The compiler throws an error message as the function can’t return structure types."
+						},
+						{
+							"correct": false,
+							"option": "The compiler throws an error message as the variables names of the parameters and the variables names of the structure members are same."
+						},
+						{
+							"correct": false,
+							"option": "Whenever you call the makeComplexNumber(), it always returns the object that it been created at the first time without changing its values"
+						}
+					],
+					"questionText": [{
+							"text": "In the following code snippet, what does makeComplexNumber() function return?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-54.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Takes two complex objects of type struct complex and returns the addition of those two complex objects."
+						},
+						{
+							"correct": true,
+							"option": "The compiler will throw an error message to the user."
+						},
+						{
+							"correct": true,
+							"option": "To call this function, use  c1.fun(c2);"
+						},
+						{
+							"correct": true,
+							"option": "It stores the resultant value in c1 after adding c1 and c2."
+						}
+					],
+					"questionText": [{
+							"text": "Which of the following are false with the code snippet? (Consider the code snippet in problem 1 and ignore if any errors are there)?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-55.png"
+							}
+						}
+					],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "The compiler throws an error message to the user."
+						},
+						{
+							"correct": true,
+							"option": "The . operator has a high precedence when compared to *."
+						},
+						{
+							"correct": true,
+							"option": "The correct syntax is (*cp).a and (*cp).b"
+						},
+						{
+							"correct": false,
+							"option": "No parentheses are required in representing *cp.a and *cp.b"
+						}
+					],
+					"questionText": [{
+							"text": "Which of the following options are true with respect to the following code snippet? (in continuation with the code used in question 1)"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-56.png"
+							}
+						}
+					],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "* and ."
+						},
+						{
+							"correct": true,
+							"option": "->"
+						},
+						{
+							"correct": false,
+							"option": "+>"
+						},
+						{
+							"correct": false,
+							"option": "_>"
+						}
+					],
+					"questionText": [{
+						"text": "In order to access the members of the structures using pointers to structure, which of the following operator is used?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Structures and Functions"
+		}],
+		"activity_name": "Quiz on Structures and Functions",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Arrays of Structures",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number:132  to 136)"
+		}],
+		"activity_name": "Arrays of Structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Defines an array of type struct Map that holds 10 structure objects"
+						},
+						{
+							"correct": false,
+							"option": "Compiler error"
+						},
+						{
+							"correct": false,
+							"option": "Define an array which contains a pointer and an integer."
+						},
+						{
+							"correct": false,
+							"option": " None of the above."
+						}
+					],
+					"questionText": [{
+							"text": "What does the following code snippet do?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-57.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Compiler error at line number 14, 17, 19"
+						},
+						{
+							"correct": true,
+							"option": "Defines 3 student records and prints all of its values respectively."
+						},
+						{
+							"correct": false,
+							"option": "There was a problem assigning floating point values."
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+							"text": "What does the following code snippet do??"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-58.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Arrays of Structures"
+		}],
+		"activity_name": "Quiz on Arrays of Structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Pointers to structures",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number:136 to 138)"
+		}],
+		"activity_name": "Pointers to structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "It iterates all the objects of map and prints its address"
+						},
+						{
+							"correct": false,
+							"option": "There was a compiler error in the line number 6."
+						},
+						{
+							"correct": true,
+							"option": "The base address of the map is assigned to i and then iterates for 10 times that prints its address."
+						},
+						{
+							"correct": true,
+							"option": "When you i++, it points to the next object’s address."
+						}
+					],
+					"questionText": [{
+							"text": "Which of the following is true about the code snippet?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-68.png"
+							}
+						}
+					],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Prints the values of the structure and the memory allocated to the structure."
+						},
+						{
+							"correct": true,
+							"option": "Prints the values name and roll number of the student stored in the structure"
+						},
+						{
+							"correct": true,
+							"option": "Prints the memory allocated to the structure variable."
+						},
+						{
+							"correct": false,
+							"option": "There was a compiler error in the program."
+						}
+					],
+					"questionText": [{
+							"text": "What does the following code snippet do?"
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-60.png"
+							}
+						}
+					],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Pointers to structures"
+		}],
+		"activity_name": "Quiz on Pointers to structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Self referential structures",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number:139 to 143)"
+		}],
+		"activity_name": "Self referential structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "1"
+						},
+						{
+							"correct": false,
+							"option": "2"
+						},
+						{
+							"correct": true,
+							"option": "3"
+						},
+						{
+							"correct": false,
+							"option": "There was no compiler error."
+						}
+					],
+					"questionText": [{
+							"text": "There was a compiler error in the following code snippet? Point the line number."
+						},
+						{
+							"image": {
+								"imagename": "",
+								"imageSRC": "http://iiitdev.msitprogram.net/images/ics-61.png"
+							}
+						}
+					],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "A Pointer variable inside the structure pointing to the same structure."
+						},
+						{
+							"correct": false,
+							"option": "A variable (object) of type struct with some tag defined inside the structure."
+						},
+						{
+							"correct": false,
+							"option": "A Pointer variable inside the structure pointing to the some other structure."
+						},
+						{
+							"correct": false,
+							"option": "A variable (object) of type struct with some tag defined in some other structure."
+						}
+					],
+					"questionText": [{
+						"text": "Self referential structures can only be created based on"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Self referential structures"
+		}],
+		"activity_name": "Quiz on Self referential structures",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Typedef",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number: 146 to 147)"
+		}],
+		"activity_name": "Typedef",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Creating new data type names"
+						},
+						{
+							"correct": true,
+							"option": "Making an alias for the existing types"
+						},
+						{
+							"correct": false,
+							"option": "typedef cannot be used for structures."
+						},
+						{
+							"correct": true,
+							"option": "Tag name is optional if typedef is used with struct keyword."
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are true about typedef?"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Parameterize a program portability problems."
+						},
+						{
+							"correct": true,
+							"option": "Provide better documentation."
+						},
+						{
+							"correct": false,
+							"option": "No better reasons to use typedef."
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "The two main reasons that we use typedef are?"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "The tag_name is optional"
+						},
+						{
+							"correct": true,
+							"option": "We can directly create structure objects based on the new type without using the struct keyword."
+						},
+						{
+							"correct": false,
+							"option": "The tag_name is compulsory"
+						},
+						{
+							"correct": false,
+							"option": "The memory allocated to the structure objects using typedef will be efficient."
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are true when typedef is used with the structure."
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Typedef"
+		}],
+		"activity_name": "Quiz on Typedef",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Unions and Bit fields",
+			"text": "Read the Chapter - 6 from the textbook The C Programming Language - Second Edition (Page Number: 147 to 150)"
+		}],
+		"activity_name": "Unions and Bit fields",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Sum of the sizes of all the members in the union"
+						},
+						{
+							"correct": true,
+							"option": "The size depends on the size of the variable which has the highest type.(Biggest members)"
+						},
+						{
+							"correct": false,
+							"option": "The first member in the union"
+						},
+						{
+							"correct": false,
+							"option": "The last member in the union"
+						}
+					],
+					"questionText": [{
+						"text": "The size of the union is determined by _______"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Just like the structure members are accessed."
+						},
+						{
+							"correct": true,
+							"option": "union_tag_variable. Member"
+						},
+						{
+							"correct": true,
+							"option": "union_tag_pointer_variable->member"
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Members of the union are accessed using ___ (Check all that apply)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Unions"
+						},
+						{
+							"correct": false,
+							"option": "Structures"
+						},
+						{
+							"correct": true,
+							"option": "unsigned int"
+						},
+						{
+							"correct": false,
+							"option": "char"
+						}
+					],
+					"questionText": [{
+						"text": "To create a bit fields in C, which of the _______ to be used. (Check all that apply)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on Unions and Bit fields"
+		}],
+		"activity_name": "Quiz on Unions and Bit fields",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+						"text": "Write a cross-referencer that prints a list of all words in a document, and, for each word, a list of the line numbers on which it occurs. Remove stop words like \"the,\" \"and,\" and so on.<br><br>Download stopwords.txt from here"
+					},
+					{
+						"attachment": "http://iiitdev.msitprogram.net/attachments/ics-8-15-stopwords.txt"
+					},
+					{
+						"text": "Download the document here"
+					},
+					{
+						"attachment": "http://iiitdev.msitprogram.net/attachments/ics-8-15-sample.txt"
+					}
+				],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-1"
+		}],
+		"activity_name": "Assignment-1",
+		"module_id": 8
+	},
+	{
+		"activity_json": [{
+			"activityType": "assignment",
+			"questions": [{
+				"evaluate": true,
+				"max_marks": 10,
+				"questionText": [{
+					"text": "Write a program that prints the distinct words in its input sorted into decreasing order of frequency of occurrence. Precede each word by its count"
+				}],
+				"questionType": "filesubmission"
+			}],
+			"title": "Assignment-2"
+		}],
+		"activity_name": "Assignment-2",
+		"module_id": 8
+	},
+	{
+  "activity_json": [{
+    "activityType": "assignment",
+    "questions": [{
+      "evaluate": true,
+      "max_marks": 10,
+      "questionText": [{
+        "text": "Write the summary of the group discussion and submit the Google doc link"
+      }],
+      "questionType": "filesubmission"
+    }],
+    "title": "Assignment-3"
+  }],
+  "activity_name": "Assignment-3",
+  "module_id": 8
+}
+]

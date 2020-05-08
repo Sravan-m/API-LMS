@@ -1,0 +1,878 @@
+[{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on The Memory Hierarchy - Part 1",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-10.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-9-0-pdf-10.pdf"
+
+		}],
+		"activity_name": "Video on The Memory Hierarchy - Part 1",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "DRAM"
+						},
+						{
+							"correct": false,
+							"option": "PROM"
+						},
+						{
+							"correct": true,
+							"option": "SRAM"
+						},
+						{
+							"correct": false,
+							"option": "ROM"
+						},
+						{
+							"correct": false,
+							"option": "EPROM"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are the volatile memories?"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "ROM"
+						},
+						{
+							"correct": false,
+							"option": "EPROM"
+						},
+						{
+							"correct": false,
+							"option": "SRAM"
+						},
+						{
+							"correct": false,
+							"option": "DRAM"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following memories are programmed during production."
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Data"
+						},
+						{
+							"correct": true,
+							"option": "Control"
+						},
+						{
+							"correct": false,
+							"option": "Public"
+						},
+						{
+							"correct": true,
+							"option": "Address"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are generally carried by bus (In Computer Hardware)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "4 GB"
+						},
+						{
+							"correct": false,
+							"option": "32.246 GB"
+						},
+						{
+							"correct": true,
+							"option": "8.192 GB"
+						},
+						{
+							"correct": false,
+							"option": "16 GB"
+						}
+					],
+					"questionText": [{
+						"text": "What is the capacity of a disk with two platters, 10,000 cylinders, an average of 400 sectors per track, and 512 bytes per sector? (answer in Gigabytes.)"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "10^12 bytes"
+						},
+						{
+							"correct": false,
+							"option": "10^6 bytes"
+						},
+						{
+							"correct": true,
+							"option": "10^9 bytes"
+						},
+						{
+							"correct": false,
+							"option": "2^20 bytes"
+						}
+					],
+					"questionText": [{
+						"text": "1GB = _______"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Sectors"
+						},
+						{
+							"correct": false,
+							"option": "Platters"
+						},
+						{
+							"correct": false,
+							"option": "Surfaces"
+						},
+						{
+							"correct": false,
+							"option": "Bytes"
+						}
+					],
+					"questionText": [{
+						"text": "Tracks are divided into _______"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "The bus that carries data"
+						},
+						{
+							"correct": false,
+							"option": "The bus that carries addresses"
+						},
+						{
+							"correct": true,
+							"option": "The bus that carries control signals"
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "Which one of the following is called as control bus."
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Time to position heads over cylinder containing target sector."
+						},
+						{
+							"correct": true,
+							"option": "Time waiting for first bit of target sector to pass under r/w head."
+						},
+						{
+							"correct": false,
+							"option": "Time to read the bits in the target sector."
+						},
+						{
+							"correct": false,
+							"option": "Average time to access some target sector."
+						}
+					],
+					"questionText": [{
+						"text": "Seek time is ________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Solid State Disk"
+						},
+						{
+							"correct": false,
+							"option": "Sequential Storage Device"
+						},
+						{
+							"correct": false,
+							"option": "Solid State Device"
+						},
+						{
+							"correct": false,
+							"option": "Solid Storage Device."
+						}
+					],
+					"questionText": [{
+						"text": "SSD stands for ________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Cloud Storages"
+						},
+						{
+							"correct": false,
+							"option": "Secondary Storages"
+						},
+						{
+							"correct": false,
+							"option": "Flash Drives"
+						},
+						{
+							"correct": true,
+							"option": "SSD"
+						}
+					],
+					"questionText": [{
+						"text": "Which one of the following has the highest performance in accessing (r/w) data."
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on The Memory Hierarchy - Part 1"
+		}],
+		"activity_name": "Quiz on The Memory Hierarchy - Part 1",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on The Memory Hierarchy - Part 2",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-11.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-9-2-pdf-11.pdf"
+
+		}],
+		"activity_name": "Video on The Memory Hierarchy - Part 2",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Recently referenced items are likely to be referenced again in the near future."
+						},
+						{
+							"correct": false,
+							"option": "Items with nearby addresses tend to be referenced close together in time"
+						},
+						{
+							"correct": false,
+							"option": "Items with far addresses tend to be referenced close together in time"
+						},
+						{
+							"correct": false,
+							"option": "Recently referenced items are not likely to be referenced again in the near future."
+						}
+					],
+					"questionText": [{
+						"text": "Temporal Locality is ____________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "SRAM"
+						},
+						{
+							"correct": true,
+							"option": "Cache memory"
+						},
+						{
+							"correct": false,
+							"option": "SSD"
+						},
+						{
+							"correct": false,
+							"option": "PROM"
+						}
+					],
+					"questionText": [{
+						"text": "Which  one of the following acts as a staging area for a subset of the data in a larger slower device."
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "The cache memory is empty."
+						},
+						{
+							"correct": false,
+							"option": "The cache memory is full"
+						},
+						{
+							"correct": false,
+							"option": "The data that is required is in the cache memory"
+						},
+						{
+							"correct": false,
+							"option": "None of the above."
+						}
+					],
+					"questionText": [{
+						"text": "Cold misses occurs because of "
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "This will occur when there is a cache miss."
+						},
+						{
+							"correct": false,
+							"option": "When all the data objects are pointing to different levels blocks"
+						},
+						{
+							"correct": true,
+							"option": "When multiple data objects are pointing to the same level k block."
+						},
+						{
+							"correct": false,
+							"option": "This will never be occur."
+						}
+					],
+					"questionText": [{
+						"text": "Conflict misses are __________ (Check all that apply)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on The Memory Hierarchy - Part 2"
+		}],
+		"activity_name": "Quiz on The Memory Hierarchy - Part 2",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on The Cache Memories - Part 1 (Direct Mapped Caches)",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-12.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-9-4-pdf-12.pdf"
+
+		}],
+		"activity_name": "Video on The Cache Memories - Part 1 (Direct Mapped Caches)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "Registers, Cache, RAM, Secondary storage."
+						},
+						{
+							"correct": true,
+							"option": "Registers, L1 Cache, L2 Cache, L3 Cache, RAM, Secondary storage, Cloud Storage."
+						},
+						{
+							"correct": false,
+							"option": "Registers, L1 Cache, L2 Cache, L3 Cache, Cloud Storage, RAM, Secondary storage"
+						},
+						{
+							"correct": false,
+							"option": "Registers, L1 Cache, L2 Cache, L3 Cache, RAM, Cloud Storage, Secondary storage"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following follows the memory hierarchy?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "When a program needs a particular object and found cache memory"
+						},
+						{
+							"correct": false,
+							"option": "When a program needs a particular object and doesn’t found cache memory"
+						},
+						{
+							"correct": false,
+							"option": "When a program needs a particular object and found in main memory (DRAM)"
+						},
+						{
+							"correct": false,
+							"option": "When a program needs a particular object and doesn’t found in one of the registers in the CPU."
+						}
+					],
+					"questionText": [{
+						"text": "Cache hit ________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "When a program needs a particular object and found cache memory"
+						},
+						{
+							"correct": true,
+							"option": "When a program needs a particular object and doesn’t found in the cache memory"
+						},
+						{
+							"correct": false,
+							"option": "When a program needs a particular object and found in main memory (DRAM)"
+						},
+						{
+							"correct": false,
+							"option": "When a program needs a particular object and doesn’t found in the registers in the CPU."
+						}
+					],
+					"questionText": [{
+						"text": "Cache Miss _________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "If there is a cache miss and the data will be loaded from the lower memory (in hierarchy)."
+						},
+						{
+							"correct": false,
+							"option": "It's a cache miss"
+						},
+						{
+							"correct": false,
+							"option": "It's a cache hit"
+						},
+						{
+							"correct": true,
+							"option": "If there is a cache miss and the data will be loaded from the lower memory (in hierarchy) and possibly replaces one of the block."
+						}
+					],
+					"questionText": [{
+						"text": "Cache Eviction is _______"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "SRAM"
+						},
+						{
+							"correct": false,
+							"option": "Secondary Storage"
+						},
+						{
+							"correct": false,
+							"option": "Its a separate storage device"
+						},
+						{
+							"correct": true,
+							"option": "CPU"
+						},
+						{
+							"correct": false,
+							"option": "PROM"
+						}
+					],
+					"questionText": [{
+						"text": "Generally the cache memory will reside in __________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Set Associative Cache"
+						},
+						{
+							"correct": true,
+							"option": "Direct mapped cache"
+						},
+						{
+							"correct": true,
+							"option": "Full Associative cache."
+						},
+						{
+							"correct": false,
+							"option": "None of the above"
+						}
+					],
+					"questionText": [{
+						"text": "Which of the following are the valid cache mappings. (Check all that apply)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "C = S * E * B data bytes"
+						},
+						{
+							"correct": false,
+							"option": "C = S * E * 2 ^b data bytes"
+						},
+						{
+							"correct": false,
+							"option": "C = S * E * 2 ^B data bytes"
+						},
+						{
+							"correct": false,
+							"option": "C = S * 2^E * 2 ^b data bytes"
+						}
+					],
+					"questionText": [{
+						"text": "Generally the cache size will be defined by ________"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "256, 22, 8, 2"
+						},
+						{
+							"correct": false,
+							"option": "256, 21, 16, 1"
+						},
+						{
+							"correct": false,
+							"option": "256, 21, 16, 4"
+						},
+						{
+							"correct": false,
+							"option": "256, 21, 16, 2"
+						}
+					],
+					"questionText": [{
+						"text": "For each cache, determine the number of cache sets (S), tag bits (t), set index bits (s), and block offset bits (b). Where m = 32, C = 1024, B = 4 and E = 1"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "32, 24, 5, 3"
+						},
+						{
+							"correct": false,
+							"option": "16, 24, 5, 3"
+						},
+						{
+							"correct": false,
+							"option": "64, 24, 5, 3"
+						},
+						{
+							"correct": true,
+							"option": "32, 24, 5, 3"
+						}
+					],
+					"questionText": [{
+						"text": "For each cache, determine the number of cache sets (S), tag bits (t), set index bits (s), and block offset bits (b). Where m = 32, C = 1024, B = 8 and E = 4"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "3"
+						},
+						{
+							"correct": false,
+							"option": "2"
+						},
+						{
+							"correct": true,
+							"option": "1"
+						},
+						{
+							"correct": false,
+							"option": "E (2^e) number of lines."
+						}
+					],
+					"questionText": [{
+						"text": "How many lines (e)  per set (s) will be there in a direct mapped cache?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+			],
+			"title": "Quiz on The Cache Memories - Part 1 (Direct Mapped Caches)"
+		}],
+		"activity_name": "Quiz on The Cache Memories - Part 1 (Direct Mapped Caches)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on The Cache Memories - Part 2 (E way Set Associative Cache)",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-13.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-9-6-pdf-13.pdf"
+
+		}],
+		"activity_name": "Video on The Cache Memories - Part 2 (E way Set Associative Cache)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Set selection is identical to a direct-mapped cache, with the set index bits identifying the set."
+						},
+						{
+							"correct": false,
+							"option": "Set selection is identical to a direct-mapped cache, with the valid bits identifying the set."
+						},
+						{
+							"correct": false,
+							"option": "Set selection is identical to a direct-mapped cache, with the block bits identifying the set."
+						},
+						{
+							"correct": false,
+							"option": "Set selection is identical to a direct-mapped cache, with the tag bits identifying the set."
+						}
+					],
+					"questionText": [{
+						"text": "How the set selection will be made in set associative cache."
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "it must check the tags and block bits of multiple lines in order to determine if the requested word is in the set"
+						},
+						{
+							"correct": false,
+							"option": "it must check the tags and set bits of multiple lines in order to determine if the requested word is in the set"
+						},
+						{
+							"correct": false,
+							"option": "it must check the tags and valid bits of first lines in order to determine if the requested word is in the set"
+						},
+						{
+							"correct": true,
+							"option": "it must check the tags and valid bits of multiple lines in order to determine if the requested word is in the set"
+						}
+					],
+					"questionText": [{
+						"text": "How the line matching and word selection will happen in set associative cache ?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				}
+
+			],
+			"title": "Quiz on The Cache Memories - Part 2 (E way Set Associative Cache)"
+		}],
+		"activity_name": "Quiz on The Cache Memories - Part 2 (E way Set Associative Cache)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "video",
+			"title": "Video on The Cache Memories - Part 2 (Performance impacts of caches)",
+			"videoURL": "http://iiitdev.msitprogram.net/videos/ics-lecture-14.mp4",
+			"videoResources": "http://iiitdev.msitprogram.net/attachments/ics-9-8-pdf-14.pdf"
+
+		}],
+		"activity_name": "Video on The Cache Memories - Part 2 (Performance impacts of caches)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "quiz",
+			"evaluate": false,
+			"questions": [{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": false,
+							"option": "It's the number of bytes read from cache per second"
+						},
+						{
+							"correct": true,
+							"option": "It's the number of bytes read from memory per second."
+						},
+						{
+							"correct": false,
+							"option": "It's the number of mega bytes read from memory per second."
+						},
+						{
+							"correct": false,
+							"option": "It's the number of bytes write to memory per second."
+						}
+					],
+					"questionText": [{
+						"text": "What is read throughput?"
+					}],
+					"questionType": "mcq",
+					"wrong_feedback": "Incorrect"
+				},
+				{
+					"correct_feedback": "Correct",
+					"max_marks": "1",
+					"options": [{
+							"correct": true,
+							"option": "Accessing elements by column wise."
+						},
+						{
+							"correct": false,
+							"option": "Accessing elements by row wise"
+						},
+						{
+							"correct": true,
+							"option": "Accessing elements in diagonal order"
+						},
+						{
+							"correct": false,
+							"option": "None of the cases described above"
+						}
+					],
+					"questionText": [{
+						"text": "In which case the miss rate will be high in adding all the elements from 2-D array? (Check all that apply)"
+					}],
+					"questionType": "checkbox",
+					"wrong_feedback": "Incorrect"
+				}
+
+			],
+			"title": "Quiz on The Cache Memories - Part 2 (Performance impacts of caches)"
+		}],
+		"activity_name": "Quiz on The Cache Memories - Part 2 (Performance impacts of caches)",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"title": "Skim the text book for cache memories",
+			"text": "Read the textbook for Cache Memories from Introduction to Computer Systems Page Number 596 to 609"
+		}],
+		"activity_name": "Skim the text book for cache memories",
+		"module_id": 9
+	},
+	{
+		"activity_json": [{
+			"activityType": "notes",
+			"text": "Download the cache-lab handout from <a href=\"https://drive.google.com/file/d/1UM891r-qh1Zd7NzHeVTE3g5N-DEOPOz4/view?usp=sharing\">here</a>and start doing the lab. If you have any questions please don’t hesitate in asking your mentors for clarifications.<ol><li>Extract the cachelab-handout.zip and check for the cachelab.pdf. Go through the instructions given in handout pdf and then start doing the lab.</li><li>Define the data structure to handle the cache memory</li><li>Look at the test cases.</li><li>Make a plan (todo list) how you are going to implement the cache lab.</li></ol>",
+			"title": "Cache Lab Handout - Coding"
+		}],
+		"activity_name": "Cache Lab Handout - Coding",
+		"module_id": 9
+	},
+	{
+  "activity_json": [{
+    "activityType": "assignment",
+    "questions": [{
+      "evaluate": true,
+      "max_marks": 10,
+      "questionText": [{
+        "text": "Write the summary of the group discussion and submit the Google doc link"
+      }],
+      "questionType": "filesubmission"
+    }],
+    "title": "Assignment-1"
+  }],
+  "activity_name": "Assignment-1",
+  "module_id": 9
+}
+]

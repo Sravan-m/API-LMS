@@ -73,10 +73,9 @@ router.post('/forgot-password', jsonParser, async (req, res) => {
 		// let url = 'http://localhost:4200/auth/reset-password/' + token
 		var data = {
 			from: mailgunConfig.to_who,
-			// to: 'akhil.dh2@gmail.com',
 			to: user.email,
 			subject: 'LMS Password Reset',
-			text: 'Hey,\nPlease click on the following link to reset your password.\n\nhttps://calm-dawn-53560.herokuapp.com/auth/reset-password/'+token
+			text: 'Hey,\nPlease click on the following link to reset your password.\n\nhttps://nodelms.msitprogram.net/auth/reset-password/'+token
 			// html: "<a href=" + url + "> Reset</a>"
 		};
 		mailgun.messages().send(data, (err, body) => {

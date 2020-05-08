@@ -11,9 +11,7 @@ const ObjectId = mongo.Types.ObjectId;
 const assert = require('assert');
 const winston = require('winston');
 const Programs = require('../models/programModel');
-const Acaddetails = require("../models/academicDetailsModel");
-const fs = require('fs');
-const path = require('path');
+const Acaddetails = require("../models/academicDetailsModel")
 
 const logger = winston.createLogger({
   level: 'info',

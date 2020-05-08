@@ -5,8 +5,8 @@ const jsonParser = bodyParser.json({ limit: '100mb' });
 const Invites = require('../models/invitesModel');
 
 const mailgun = require("mailgun-js");
-const DOMAIN = 'sandboxd08e333394eb48cc83ca0979a9c21660.mailgun.org';
-const mg = mailgun({ apiKey: '60de8469912d17f137c706506a193bd6-acb0b40c-35529a48', domain: DOMAIN });
+const DOMAIN = 'msitprogram.net';
+const mg = mailgun({apiKey: 'key-671c95b8e6393df44c5dbb57abeca495', domain: DOMAIN});
 
 router.post('/bulk-invite', jsonParser, async (req, res) => {
     var cnt = 0;
@@ -22,11 +22,12 @@ router.post('/bulk-invite', jsonParser, async (req, res) => {
             result = await Invites.findOne({ 'email': element.email });
             uniqueID = result._id;            
         }
-        data = {
-            from: 'Innosential <noreply@innosential.com>',
-            to: 'akhil.dh2@gmail.com',
-            subject: 'Invitation to Innosential LMS',
-            text: 'Hello\nWe welcome you to the Innosential LMS. Please click on the link below to continue with the registration process.\n\nhttps://calm-dawn-53560.herokuapp.com/signup/' + uniqueID
+        
+	data = {
+            from: 'LMS <lms@msitprogram.net>',
+            to: element.email,
+            subject: 'Invitation to MSIT LMS',
+            text: 'Hello\nWe welcome you to the MSIT LMS. Please click on the link below to continue with the registration process.\n\nhttp://nodelms.msitprogram.net:8000/signup/' + uniqueID
         };
 
         try {

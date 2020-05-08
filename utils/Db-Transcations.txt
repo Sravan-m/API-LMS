@@ -1,0 +1,27 @@
+create-users /api/registration/register
+create-courses /api/course/create
+create-programs /api/program/create
+create-curriculum /api/program/update/:program_id
+create-batch
+create-mentors
+create-courseInstances /api/courseInstance/create
+create-contents /api/contents/post/content-json
+submit-quiz /api/activityResponse/insert
+submit-assignment /api/activityResponse/insert
+eval-assignment /api/activityResponse/updatemarks
+close-courseInstances /api/courseInstance/status/update
+award-grade
+
+
+write a script
+    that takes
+        Db-Trasactions.txt as input, 
+        json format for each API call, 
+        csv data to upload
+    to
+        load to mongodb
+
+to run the script
+    depends on
+        lms-api
+        mongodb

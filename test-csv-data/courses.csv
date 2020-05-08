@@ -1,0 +1,12 @@
+firstName,lastName,userID,email,password,phoneNo,dateOfBirth,gender,image,resetToken,role
+Deepak,Bhimavarapu,1,deepakbhimavarapu@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,mentor
+Siva,Natukula,2,sivashankar@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Eric,Grimpson,3,email@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Bob,Sedgewick,4,email@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Edge,Case,5,email@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Simple,Case,6,email@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Praveen,Garimella,7,pg@fju.us,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Lynn,Carter,8,email@msitprogram.net,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Vipul,Chakravarthy,9,saivipul15@msitprogram.net ,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Rishika,Haritha,10,rishikaharitha@msitprogram.net ,x,phoneNo,4/16/2020 21:47:42,male,,,student
+Test,Case,11,testcase@msitprogram.net,testcase,9876543210,4/19/1922,female,,,admin

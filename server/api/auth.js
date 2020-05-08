@@ -57,7 +57,7 @@ router.post('/login', jsonParser, async (req, res) => {
     logger.info("User logged in successfully");
     res.send(data);
   } catch (e) {
-    logger.error("User not able to log in due to" + e.message);
+    logger.error("User not able to log in due to " + e.message);
     res.status(401).json({error: e.message});
   }
 });

@@ -18,7 +18,7 @@ registration.post("/register", jsonParser, postRegister);
 function postRegister(req, res) {
 
 	try{
-		var path1 = "./uploads/";
+		var path1 = process.env.UPLOADS_DIR;
 		// console.log(req.body);
 		fs.writeFile(path1 + req.body.firstName + req.body.lastName + '.txt', req.body.image, function (err, data) {
 			if (err) console.log(err);

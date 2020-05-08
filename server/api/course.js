@@ -9,7 +9,7 @@ const acadDetails=require("../models/academicDetailsModel")
 const jsonParser = bodyParser.json({ limit: '100mb' });
 const Courses = require('../models/courseModel');
 var multer  = require('multer')
-var upload = multer({ dest: './uploads/' })
+var upload = multer({ dest: process.env.UPLOADS_DIR })
 
 router.post("/create", upload.single('image'), (req, res) => {
     try {

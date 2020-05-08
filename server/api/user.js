@@ -119,6 +119,25 @@ user.get("/get/student-list", async (req, res) => {
 
 
 
+user.get("/get/user-list", async (req, res) => {
+  try {
+    var users = await Users.find({});
+    users.map(user => {
+      var path = process.env.UPLOADS_DIR + `${user.firstName}${user.lastName}.txt`;
+      if (fs.existsSync(path)) {
+        user.image = fs.readFileSync(path, 'utf-8');
+      }else{
+        user.image = ""
+        console.log(`path not exist: ${path}`);
+      }
+    })
+    res.send(users);
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+});
+
 user.get("/read/verify-admin/", jsonParser, async (req, res) => {
 
   try {

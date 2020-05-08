@@ -39,12 +39,10 @@
   "devDependencies": {
     "jest": "^25.4.0",
     "axios": "^0.19.2",
-    "jest": "^25.4.0",
     "json-schema-generator": "^2.0.6",
     "supertest": "^4.0.2"
   },
   "engines": {
     "node": "8.10.0"
   }
-
 }

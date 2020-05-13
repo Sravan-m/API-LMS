@@ -39,32 +39,37 @@ router.get("/required/courses/completion/", async (req, res, next) => {
 
     try {
         const user = await getUser(req.query.token);
+        if (user === null) {
+            throw new Error("Invalid user, Please login again...");
+            // return res.status(401).send(
+            //     { "error": "Invalid user, Please login again..." });
+        }
 
         query = { "userID": user._id };
-        if (user === null) {
-            return res.status(401).send(
-                { "error": "Invalid user, Please login again..." });
-        }
+        
 
         //  Getting the students academic details
         const acadDetails = await AcadDetails.findOne(query);
         if (acadDetails === null) {
-            return res.status(401).send(
-                { "error": "Student not enrolled in any of the programs" });
-        }
-
-        //  Getting the programs details. This will be used for getting the grade scale.
-        const program = await Program.findOne(acadDetails.programID);
-        if (program === null) {
-            return res.status(401).send(
-                { "error": "Student not enrolled in any of the programs" });
+            throw new Error("Student not enrolled in any of the programs");
+            // return res.status(401).send(
+            //     { "error": "Student not enrolled in any of the programs" });
         }
 
         //  Getting the students course enrollments of a program
         const enrollments = acadDetails.enrollments;
         if (enrollments === null) {
-            return res.status(401).send(
-                { "error": "Student not enrolled into any of the courses" });
+            throw new Error("Student not enrolled into any of the courses");
+            // return res.status(401).send(
+            //     { "error": "Student not enrolled into any of the courses" });
+        }
+
+        //  Getting the programs details. This will be used for getting the grade scale.
+        const program = await Program.findOne(enrollments[0].programID);
+        if (program === null) {
+            throw new Error("Student not enrolled in any of the programs");
+            // return res.status(401).send(
+            //     { "error": "Student not enrolled in any of the programs" });
         }
 
         //  Used to store the course names 
@@ -88,26 +93,30 @@ router.get("/required/courses/completion/", async (req, res, next) => {
             for (let j = 0; j < courss.length; j++) {
                 // console.log(courss[j]);
                 if (!("grades" in courss[j]) || !("status" in courss[j])) {
-                    return res.status(401).send(
-                        {"error": "Grades are yet to be udpated."});
+                    throw new Error("Grades are yet to be updated.");
+                    // return res.status(401).send(
+                    //     {"error": "Grades are yet to be updated."});
                 }
                 if (courss[j].grades.length !== courss[j].status.length && 
                     courss[j].status.length !== courss[j].courseInstances.length) {
-                    return res.status(401).send(
-                        {"error": "Grades are not currently available."});
+                    throw new Error("Grades are not currently available.");
+                    // return res.status(401).send(
+                    //     {"error": "Grades are not currently available."});
                 } else {
                     let courseDetails = await CCatalog.findOne(courss[j].courseID);
                     for (let k = 0; k < courss[j].grades.length; k++) {
                         let instance = await CInstances.findOne({ _id: courss[j].grades[k].courseInstance });
                         if (!("isCourseRequired" in instance)) {
-                            return res.status(401).send(
-                                {"error": "Grades are yet to be udpated."});
+                            throw new Error("Grades are yet to be updated.");
+                            // return res.status(401).send(
+                            //     {"error": "Grades are yet to be updated."});
                         }
                         if (instance.isCourseRequired === true) {
                             let courseDetails = await CCatalog.findOne(courss[j].courseID);
                             if (!("numberOfCredits" in instance)) {
-                                return res.status(401).send(
-                                    {"error": "Grades are yet to be udpated."});
+                                throw new Error("Grades are yet to be updated.");
+                                // return res.status(401).send(
+                                //     {"error": "Grades are yet to be updated."});
                             }
                             credits.push(instance.numberOfCredits);
                             courses.push(courseDetails.courseName);
@@ -180,18 +189,15 @@ router.get("/required/courses/completion/", async (req, res, next) => {
         }
         // console.log(results.length);
         const cstatus = (results.length) ? ((incompleteCnt)? false : true) : false;
-
+        console.log("Sent the Response");
         res.status(200).json({
             result: results,
             isPromoted: cstatus,
             CGPA: score/totalCredits
         });
-
-        console.log("Sent the Response");
     } catch (error) {
-        console.log(error);
-        return res.status(401).send(
-                {"error": "Grades are yet to be updated."});
+        console.log(error.message);
+        return res.status(401).send({"error": error.message});
     }
 });
 

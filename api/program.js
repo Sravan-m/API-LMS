@@ -55,8 +55,8 @@ router.post("/update/:program_id", jsonParser, async (req, res) => {
          flag=true;
         for(let j=0;j<program1[0].curriculum.length;j++){
             if(data[index]._id==program1[0].curriculum[j]._id){
-                flag=false;               
-            }   
+                flag=false;
+            }
         }
         flag2=true;
         if(flag){
@@ -66,12 +66,12 @@ router.post("/update/:program_id", jsonParser, async (req, res) => {
             }
             curriculum.push(temp)
         }
-        
+
     }
     console.log(curriculum)
     console.log(program1);
     await Programs.update({ "_id": code}, {$set:{"curriculum":curriculum}} );
-    
+
     res.send(true);}
     catch(err){
         res.send(err)
@@ -90,13 +90,13 @@ router.get("/get/curriculum/:program_id", async (req, res) => {
             console.log(courseID)
             var data1 = await Courses.find({ _id: courseID }, { courseName: 1 });
             coursesNames.push(data1[0]);
-            
+
             if (data[0].curriculum.length - 1 == index) {
                 console.log(coursesNames);
                 res.send(coursesNames);
             }
         }
-        
+
     } catch (error) {
         res.sendStatus(500);
     }
@@ -110,9 +110,9 @@ router.get("/get/enrolled_programs/:userID", async (req, res) => {
             "userID": new ObjectId(id)
         };
         console.log(query);
-        
-        
-        var data = await acadDetails.find(query,{"enrollments.program_id":1}).populate({path: "enrollments.programID",model: 'Programs',select:'programName programDescription'})
+
+
+        var data = await acadDetails.find(query,{"enrollments.program_id":1}).populate({path: "enrollments.programID",model: 'Programs',select:'programName programDescription programImage'})
         // .populate({path: "enrollments.courses.courseID",model: 'CourseCatalog'}).populate({path: "enrollments.courses.courseInstances",model: 'CourseInstances'});
         console.log(data);
         res.send(data);
@@ -127,7 +127,7 @@ router.get("/get/program-name/:programID",  async (req, res) =>{
         var query = {_id: req.params.programID};
         console.log("Inside  program-name");
         console.log(query);
-        
+
         var queryResult = await Programs.findOne(query);
         console.log(queryResult);
         res.send({"programName":queryResult.programName});

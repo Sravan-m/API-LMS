@@ -6,6 +6,7 @@ const { startDb } = require('./db');
 const Users = require('./models/userModel');
 const sah = require('./sah');
 var urlencode = require('urlencode');
+require('dotenv').config()
 app.use(express.urlencoded({ extended: false }));
 // const nodeApiDocGenerator = require('node-api-doc-generator')
 // nodeApiDocGenerator(app,'locahost', 3000)
@@ -20,7 +21,7 @@ app.use("/api", api);
 
 // function insertValuesToDb() {
 //   console.log("Here..... Siva Sankar")
-//   let fileInputName = './test-csv-data/courses.csv'; 
+//   let fileInputName = './test-csv-data/courses.csv';
 //   let fileOutputName = 'myOutputFile.json';
 
 //   csvToJson.generateJsonFileFromCsv(fileInputName,fileOutputName);

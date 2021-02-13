@@ -50,7 +50,7 @@ function authenticateToken(req, res, next){
     }
     catch(err){
         if(err instanceof jwt.JsonWebTokenError){
-            // console.log("Error at verifying token ",err);
+            console.log("Error at verifying token ",err);
             res.status(401).send({"error":"Invalid Token"});
         }
     }

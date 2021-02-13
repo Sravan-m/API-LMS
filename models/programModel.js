@@ -14,10 +14,10 @@ var CreateProgramSchema = new mongo.Schema({
     gradeScale: [{
         grade: String,
         points: Number
-    }]
+    }],
+    programImage: { type: String, default: process.env.server }
 });
 
 Programs = mongo.model('Programs', CreateProgramSchema);
 
 module.exports = Programs;
-

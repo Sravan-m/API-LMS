@@ -10,20 +10,21 @@ var urlencode = require('urlencode');
 const https = require('https');
 const http = require('http');
 
-const key = fs.readFileSync('/etc/ssl/lmscerts/angularapi.msitprogram.net.key');
-const cert = fs.readFileSync( '/etc/ssl/lmscerts/angularapi.crt' );
-const ca = fs.readFileSync( '/etc/ssl/lmscerts/angularapi-gd_bundle-g2-g1.crt' );
-const options = {
-  key: key,
-  cert: cert,
-  ca: ca
-};
+// const key = fs.readFileSync('/etc/ssl/lmscerts/angularapi.msitprogram.net.key');
+// const cert = fs.readFileSync( '/etc/ssl/lmscerts/angularapi.crt' );
+// const ca = fs.readFileSync( '/etc/ssl/lmscerts/angularapi-gd_bundle-g2-g1.crt' );
+// const options = {
+//   key: key,
+//   cert: cert,
+//   ca: ca
+// };
 
 
 // Starting both http & https servers
 
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
+app.use(express.static('utils/images'));
 app.use("/api", api);
 
 startDb()
@@ -33,16 +34,32 @@ startDb()
 
       var adminExists=await Users.findOne({"role":"admin"})
       if(adminExists==null){
-        let admin={email:"admin@network.net",role:"admin"}
+        let admin={email:"admin@network.net",
+                   role:"admin",
+                   gender:"Male",
+                   dateOfBirth: "01-01-2021",
+                   phoneNo: "000000000000",
+                   password: {
+                 		salt: "salted",
+                 		hash: "hashed"},
+                   firstName: "admin",
+                	 lastName: "admin",
+                   userID: "admin"
+                   }
         admin['password'] = sah.saltHashPassword("admin")
         Users(admin).save()
 
       }
-      
+
     });
   });
 
-var httpsServer = https.createServer(options, app).listen(8080);
+// var httpsServer = https.createServer(options, app).listen(8080);
 var httpServer = http.createServer(app);
+const host = process.env.host;
+const port = 8000;
+httpServer.listen(port, host, () => {
+    console.log(`Server is running on http://${host}:${port}`);
+});
   // to run --> nodemon -r dotenv/config app.js
 module.exports = app;

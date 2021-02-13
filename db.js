@@ -1,4 +1,6 @@
 const mongo = require('mongoose');
+require('dotenv').config()
+
 function startDb() {
   mongo.connect(process.env.MONGO_ATLAS_URL, {
     useNewUrlParser: true

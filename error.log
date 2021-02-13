@@ -1,0 +1,4 @@
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-01-19T05:39:42.328Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-01-19T05:41:00.930Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-01-19T05:41:51.946Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-02-03T06:38:31.361Z"}

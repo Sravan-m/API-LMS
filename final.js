@@ -62,4 +62,5 @@ httpServer.listen(port, host, () => {
     console.log(`Server is running on http://${host}:${port}`);
 });
   // to run --> nodemon -r dotenv/config app.js
+
 module.exports = app;

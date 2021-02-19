@@ -2,3 +2,6 @@
 {"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-01-19T05:41:00.930Z"}
 {"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-01-19T05:41:51.946Z"}
 {"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-02-03T06:38:31.361Z"}
+{"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:26:57.579Z"}
+{"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:27:19.517Z"}
+{"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:27:28.327Z"}

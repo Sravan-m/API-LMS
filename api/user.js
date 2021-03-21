@@ -44,7 +44,8 @@ async function getUser(req, res) {
   try {
     console.log("Inside Get User "+req.query.id);
     assert(mongo.Types.ObjectId.isValid(req.query.id), "Invalid Object ID");
-    const user = await Users.findOne({ "_id": new ObjectId(req.query.id) }).select({firstName:1,lastName:1,userID:1,image:1,role:1});
+    // const user = await Users.findOne({ "_id": new ObjectId(req.query.id) }).select({firstName:1,lastName:1,userID:1,image:1,role:1});
+    const user = await Users.findOne({ "_id": new ObjectId(req.query.id) });
     // console.log(user);
     assert(user, "Not Found");
     logger.info('User details sent successfully');
@@ -184,20 +185,20 @@ user.post("/post/student-list/:role/:programID", jsonParser, async (req, res) =>
       console.log(details)
 
       if (details == null) {
-        
+
         let progInfo = {
           programID: req.params.programID,
           courses: []
         }
-        
-        
+
+
         if (user) {
           console.log("yolo")
           user.enrollments.push(progInfo)
           var updatedData = await Acaddetails.update({userID:req.body[i]},{ enrollments: user.enrollments });
         }
         else {
-       
+
           var acadStudent = { userID: req.body[i], enrollments: [{ programID: req.params.programID }] };
           await Acaddetails(acadStudent).save();
         }
@@ -216,4 +217,4 @@ user.post("/post/student-list/:role/:programID", jsonParser, async (req, res) =>
 
 
 module.exports = user
-module.exports = getId
+// module.exports = getId

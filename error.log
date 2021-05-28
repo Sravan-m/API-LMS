@@ -5,3 +5,34 @@
 {"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:26:57.579Z"}
 {"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:27:19.517Z"}
 {"message":"User not able to log in due to The \"key\" argument must be one of type string, TypedArray, or DataView. Received type undefined","level":"error","service":"auth-service","timestamp":"2021-02-18T09:27:28.327Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:11:44.252Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:12:18.001Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:06.612Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:08.405Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:09.850Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:10.145Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:10.169Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:10.507Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:13:54.888Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:14:58.288Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:14:59.286Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:14:59.296Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:14:59.629Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:15:41.218Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:15:41.229Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:15:41.579Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:15:41.593Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:16:20.363Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:12.667Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:13.892Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:13.901Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:14.101Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:14.104Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:14.439Z"}
+{"message":"User not able to log in due to wrong password","level":"error","service":"auth-service","timestamp":"2021-05-28T11:17:14.466Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:13.621Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:25.174Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:25.869Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:25.875Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:26.183Z"}
+{"message":"User not able to log in due to wrong email","level":"error","service":"auth-service","timestamp":"2021-05-28T11:18:26.189Z"}
